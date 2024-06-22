@@ -80,8 +80,8 @@ class flexres:
         cmd.delete("all")
         cmd.load(self.receptor, "rec")
         cmd.load(self.ligand, "lig")
-        # only heavy 
-        cmd.remove('h.')
+        # only heavy
+        cmd.remove("h.")
         cmd.select(
             "flexres",
             f"byres ((rec and polymer.protein and sc.) within {contact_dist} of (lig &! h.) )",
@@ -108,7 +108,7 @@ class flexres:
 
     def call_adt_preparation(
         self,
-        PATH="/home/ayahc/Flex/MGLTools/MGLTools-1.5.7/MGLToolsPckgs/AutoDockTools/Utilities24/",
+        PATH="~/Flex/MGLTools/MGLTools-1.5.7/MGLToolsPckgs/AutoDockTools/Utilities24/",
         output_name="receptor.pdbqt",
         add_hydrogens=False,
     ):

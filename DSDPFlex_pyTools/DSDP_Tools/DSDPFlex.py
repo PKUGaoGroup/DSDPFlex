@@ -11,8 +11,8 @@ class DSDPFlex:
         self.config = dict()  # config of DSDP task
         self.dsdp_cmd = ""
         self.pose_record = []
-        self.temp_top_n = 10 # can change
-        self.final_top_n = 10
+        self.temp_top_n = 20  # can change
+        self.final_top_n = 20
         self.verbose = False
 
     def build_config(self, args: dict):
