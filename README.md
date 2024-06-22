@@ -1,7 +1,5 @@
 # DSDPFlex: Flexible-Receptor Docking with GPU Acceleration
 
-## Introduction
-
 DSDPFlex is a GPU-accelerated flexible-receptor docking program derived from [DSDP (**D**eep **S**ite and **D**ocking **P**ose)](https://github.com/PKUGaoGroup/DSDP). Similar to AutoDock Vina, it supports selective side-chain flexibility during docking. A flexible docking process can be done in ~1 s with DSDPFlex. Learn more in our [*preprint*](https://doi.org/10.26434/chemrxiv-2023-bcw0g-v2).
 
 ## Installation
