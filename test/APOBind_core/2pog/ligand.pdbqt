@@ -1,0 +1,37 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  O3_3 
+REMARK    2  A    between atoms: C9_9  and  C18_15 
+REMARK    3  A    between atoms: C21_18  and  O22_19 
+ROOT
+ATOM      1  C1  LIG d   1      14.505  51.083  58.995  0.00  0.00     0.013 A 
+ATOM      2  C2  LIG d   1      15.890  50.866  58.604  0.00  0.00     0.075 A 
+ATOM      3  C4  LIG d   1      16.076  50.067  57.422  0.00  0.00     0.037 A 
+ATOM      4  C5  LIG d   1      15.001  49.508  56.668  0.00  0.00     0.005 A 
+ATOM      5  C6  LIG d   1      13.670  49.732  57.074  0.00  0.00     0.037 A 
+ATOM      6  C7  LIG d   1      13.423  50.510  58.225  0.00  0.00     0.079 A 
+ATOM      7  O8  LIG d   1      12.097  50.677  58.554  0.00  0.00    -0.340 OA
+ATOM      8  C9  LIG d   1      11.764  51.960  59.155  0.00  0.00     0.166 C 
+ATOM      9  C11 LIG d   1      12.645  52.265  60.420  0.00  0.00     0.028 C 
+ATOM     10  C13 LIG d   1      14.154  51.921  60.237  0.00  0.00     0.031 C 
+ATOM     11  C15 LIG d   1      14.579  51.241  61.560  0.00  0.00     0.010 C 
+ATOM     12  C16 LIG d   1      13.498  51.596  62.559  0.00  0.00     0.001 C 
+ATOM     13  C17 LIG d   1      12.237  51.552  61.722  0.00  0.00     0.008 C 
+ENDROOT
+BRANCH   8  14
+ATOM     14  C18 LIG d   1      10.258  52.045  59.431  0.00  0.00    -0.028 A 
+ATOM     15  C19 LIG d   1       9.458  50.866  59.306  0.00  0.00     0.012 A 
+ATOM     16  C20 LIG d   1       8.067  50.900  59.558  0.00  0.00     0.037 A 
+ATOM     17  C21 LIG d   1       7.375  52.094  59.947  0.00  0.00     0.065 A 
+ATOM     18  C23 LIG d   1       8.201  53.263  60.064  0.00  0.00     0.037 A 
+ATOM     19  C24 LIG d   1       9.607  53.255  59.817  0.00  0.00     0.012 A 
+BRANCH  17  20
+ATOM     20  O22 LIG d   1       6.126  52.110  60.173  0.00  0.00    -0.361 OA
+ATOM     21 2HO2 LIG d   1       5.799  52.968  60.398  0.00  0.00     0.217 HD
+ENDBRANCH  17  20
+ENDBRANCH   8  14
+BRANCH   2  22
+ATOM     22  O3  LIG d   1      16.902  51.338  59.237  0.00  0.00    -0.360 OA
+ATOM     23  HO3 LIG d   1      17.742  51.011  58.937  0.00  0.00     0.217 HD
+ENDBRANCH   2  22
+TORSDOF 3

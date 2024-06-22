@@ -1,0 +1,35 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: OH_1  and  CZ3_2 
+REMARK    2  A    between atoms: CG_8  and  CB_11 
+REMARK    3  A    between atoms: CB_11  and  CA_12 
+REMARK    4  A    between atoms: CA_12  and  NZ_13 
+ROOT
+ATOM      1  CZ3 LIG d   1      13.431   9.882   9.861  0.00  0.00     0.066 A 
+ATOM      2  CH2 LIG d   1      14.446  10.426   9.057  0.00  0.00     0.039 A 
+ATOM      3  CZ2 LIG d   1      14.495  10.157   7.689  0.00  0.00     0.033 A 
+ATOM      4  CE2 LIG d   1      13.505   9.339   7.096  0.00  0.00     0.043 A 
+ATOM      5  NE1 LIG d   1      13.317   8.913   5.790  0.00  0.00    -0.365 N 
+ATOM      6  CD1 LIG d   1      12.218   8.131   5.733  0.00  0.00     0.096 A 
+ATOM      7  CG  LIG d   1      11.690   8.039   7.020  0.00  0.00    -0.029 A 
+ATOM      8  CD2 LIG d   1      12.513   8.802   7.881  0.00  0.00     0.001 A 
+ATOM      9  CE3 LIG d   1      12.467   9.066   9.271  0.00  0.00     0.050 A 
+ATOM     10 1HNE LIG d   1      13.912   9.095   4.992  0.00  0.00     0.165 HD
+ENDROOT
+BRANCH   7  11
+ATOM     11  CB  LIG d   1      10.480   7.287   7.457  0.00  0.00     0.068 C 
+BRANCH  11  12
+ATOM     12  CA  LIG d   1      10.430   5.830   7.178  0.00  0.00     0.234 C 
+BRANCH  12  13
+ATOM     13  NZ  LIG d   1      11.469   5.027   7.746  0.00  0.00    -0.079 N 
+ATOM     14  HZ1 LIG d   1      11.426   4.081   7.387  0.00  0.00     0.274 HD
+ATOM     15  HZ2 LIG d   1      12.374   5.421   7.512  0.00  0.00     0.274 HD
+ATOM     16  HZ3 LIG d   1      11.375   5.010   8.752  0.00  0.00     0.274 HD
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH   7  11
+BRANCH   1  17
+ATOM     17  OH  LIG d   1      13.378  10.135  11.225  0.00  0.00    -0.361 OA
+ATOM     18  HOH LIG d   1      14.199  10.466  11.572  0.00  0.00     0.217 HD
+ENDBRANCH   1  17
+TORSDOF 4

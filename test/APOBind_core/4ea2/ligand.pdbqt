@@ -1,0 +1,60 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAD_4  and  CAF_6 
+REMARK    2  A    between atoms: CAE_5  and  CAG_7 
+REMARK    3  A    between atoms: CAF_6  and  CAJ_10 
+REMARK    4  A    between atoms: CAG_7  and  NAP_16 
+REMARK    5  A    between atoms: CAH_8  and  CAI_9 
+REMARK    6  A    between atoms: CAH_8  and  NAP_16 
+REMARK    7  A    between atoms: CAI_9  and  NAQ_17 
+REMARK    8  A    between atoms: CAJ_10  and  CAS_19 
+REMARK    9  A    between atoms: NAQ_17  and  CAX_24 
+ROOT
+ATOM      1  CAH LIG d   1     -20.121 -15.631  -8.275  0.00  0.00     0.260 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CAI LIG d   1     -21.315 -16.398  -7.814  0.00  0.00     0.260 C 
+BRANCH   2   3
+ATOM      3  NAQ LIG d   1     -21.698 -17.276  -8.897  0.00  0.00    -0.069 N 
+ATOM      4 1HAQ LIG d   1     -20.999 -17.994  -9.020  0.00  0.00     0.277 HD
+ATOM      5 2HAQ LIG d   1     -21.823 -16.771  -9.763  0.00  0.00     0.277 HD
+BRANCH   3   6
+ATOM      6  CAX LIG d   1     -22.947 -17.878  -8.497  0.00  0.00     0.194 C 
+ATOM      7  CAV LIG d   1     -22.853 -19.372  -8.710  0.00  0.00     0.017 C 
+ATOM      8  CAL LIG d   1     -21.711 -19.943  -7.903  0.00  0.00     0.011 C 
+ATOM      9  CAM LIG d   1     -24.102 -20.031  -8.194  0.00  0.00     0.011 C 
+ATOM     10  CAT LIG d   1     -21.884 -19.583  -6.435  0.00  0.00    -0.013 C 
+ATOM     11  CAK LIG d   1     -23.140 -20.218  -5.924  0.00  0.00     0.009 C 
+ATOM     12  CAN LIG d   1     -21.971 -18.074  -6.248  0.00  0.00     0.011 C 
+ATOM     13  CAU LIG d   1     -24.299 -19.698  -6.729  0.00  0.00    -0.013 C 
+ATOM     14  CAO LIG d   1     -24.389 -18.213  -6.492  0.00  0.00     0.011 C 
+ATOM     15  CAW LIG d   1     -23.145 -17.545  -7.031  0.00  0.00     0.017 C 
+ENDBRANCH   3   6
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1  16
+ATOM     16  NAP LIG d   1     -20.352 -14.220  -8.031  0.00  0.00    -0.070 N 
+ATOM     17 1HAP LIG d   1     -20.563 -14.099  -7.051  0.00  0.00     0.277 HD
+ATOM     18 2HAP LIG d   1     -19.520 -13.688  -8.251  0.00  0.00     0.277 HD
+BRANCH  16  19
+ATOM     19  CAG LIG d   1     -21.468 -13.722  -8.820  0.00  0.00     0.260 C 
+BRANCH  19  20
+ATOM     20  CAE LIG d   1     -22.424 -14.693  -8.884  0.00  0.00     0.003 C 
+ATOM     21  CAS LIG d   1     -23.775 -14.532  -8.717  0.00  0.00    -0.086 C 
+ATOM     22  CAC LIG d   1     -24.653 -15.733  -8.815  0.00  0.00     0.043 C 
+BRANCH  21  23
+ATOM     23  CAJ LIG d   1     -24.435 -13.216  -8.424  0.00  0.00     0.037 C 
+BRANCH  23  24
+ATOM     24  CAF LIG d   1     -25.723 -13.457  -7.663  0.00  0.00     0.031 C 
+BRANCH  24  25
+ATOM     25  CAD LIG d   1     -26.743 -12.627  -8.054  0.00  0.00    -0.024 C 
+ATOM     26  CAR LIG d   1     -27.042 -11.449  -7.437  0.00  0.00    -0.091 C 
+ATOM     27  CAA LIG d   1     -28.177 -10.554  -7.890  0.00  0.00     0.042 C 
+ATOM     28  CAB LIG d   1     -26.173 -11.039  -6.292  0.00  0.00     0.042 C 
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH  21  23
+ENDBRANCH  19  20
+ENDBRANCH  16  19
+ENDBRANCH   1  16
+TORSDOF 9

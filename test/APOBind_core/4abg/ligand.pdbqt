@@ -1,0 +1,33 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C9_5  and  C13_12 
+REMARK    2  A    between atoms: C7_6  and  N4_13 
+REMARK    3  A    between atoms: C13_12  and  N14_15 
+ROOT
+ATOM      1  C11 LIG d   1     -21.694   1.693  14.207  0.00  0.00     0.003 A 
+ATOM      2  C10 LIG d   1     -20.780   1.324  15.161  0.00  0.00     0.009 A 
+ATOM      3  C12 LIG d   1     -22.658   2.640  14.499  0.00  0.00     0.029 A 
+ATOM      4  C8  LIG d   1     -21.744   2.833  16.688  0.00  0.00     0.038 A 
+ATOM      5  C9  LIG d   1     -20.793   1.855  16.436  0.00  0.00    -0.031 A 
+ATOM      6  C7  LIG d   1     -22.674   3.234  15.755  0.00  0.00     0.030 A 
+ENDROOT
+BRANCH   6   7
+ATOM      7  N4  LIG d   1     -23.668   4.193  16.049  0.00  0.00    -0.378 N 
+ATOM      8  C3  LIG d   1     -23.461   4.840  17.373  0.00  0.00     0.150 C 
+ATOM      9  C2  LIG d   1     -24.706   5.700  17.653  0.00  0.00     0.254 C 
+ATOM     10  N1  LIG d   1     -25.134   6.500  16.475  0.00  0.00    -0.072 N 
+ATOM     11  C6  LIG d   1     -25.414   5.639  15.301  0.00  0.00     0.254 C 
+ATOM     12  C15 LIG d   1     -26.242   7.398  16.824  0.00  0.00     0.269 C 
+ATOM     13  HN1 LIG d   1     -24.354   7.089  16.221  0.00  0.00     0.279 HD
+ATOM     14  C5  LIG d   1     -24.109   5.000  14.884  0.00  0.00     0.150 C 
+ENDBRANCH   6   7
+BRANCH   5  15
+ATOM     15  C13 LIG d   1     -19.727   1.353  17.408  0.00  0.00     0.268 C 
+BRANCH  15  16
+ATOM     16  N14 LIG d   1     -19.205   2.461  18.226  0.00  0.00    -0.075 N 
+ATOM     17 1H14 LIG d   1     -18.540   2.113  18.910  0.00  0.00     0.274 HD
+ATOM     18 2H14 LIG d   1     -18.718   3.104  17.615  0.00  0.00     0.274 HD
+ATOM     19 3H14 LIG d   1     -19.955   2.945  18.702  0.00  0.00     0.274 HD
+ENDBRANCH  15  16
+ENDBRANCH   5  15
+TORSDOF 3

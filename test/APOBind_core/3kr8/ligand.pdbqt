@@ -1,0 +1,33 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  CAP_19 
+REMARK    2  A    between atoms: CAQ_20  and  CAU_21 
+ROOT
+ATOM      1  N1  LIG d   1      37.936 -11.102 -12.915  0.00  0.00    -0.318 N 
+ATOM      2  C2  LIG d   1      38.766 -11.747 -12.114  0.00  0.00     0.140 A 
+ATOM      3  N3  LIG d   1      39.563 -12.685 -12.642  0.00  0.00    -0.234 NA
+ATOM      4  C4  LIG d   1      39.625 -12.979 -13.921  0.00  0.00     0.049 A 
+ATOM      5  C5  LIG d   1      38.800 -12.304 -14.806  0.00  0.00     0.030 A 
+ATOM      6  C6  LIG d   1      37.938 -11.360 -14.241  0.00  0.00     0.189 A 
+ATOM      7  O6  LIG d   1      37.081 -10.729 -15.073  0.00  0.00    -0.171 OA
+ATOM      8  CAI LIG d   1      40.219 -14.732 -15.587  0.00  0.00     0.080 C 
+ATOM      9  CAJ LIG d   1      40.610 -14.085 -14.285  0.00  0.00     0.070 C 
+ATOM     10  CAK LIG d   1      38.754 -12.586 -16.277  0.00  0.00     0.119 C 
+ATOM     11  SAN LIG d   1      40.259 -13.430 -16.853  0.00  0.00    -0.164 SA
+ATOM     12  HN1 LIG d   1      37.279 -10.431 -12.535  0.00  0.00     0.169 HD
+ENDROOT
+BRANCH   2  13
+ATOM     13  CAP LIG d   1      38.814 -11.498 -10.729  0.00  0.00     0.010 A 
+ATOM     14  CAE LIG d   1      38.196 -10.386 -10.195  0.00  0.00     0.016 A 
+ATOM     15  CAG LIG d   1      38.242 -10.068  -8.836  0.00  0.00     0.017 A 
+ATOM     16  CAQ LIG d   1      38.885 -10.906  -7.962  0.00  0.00     0.048 A 
+ATOM     17  CAH LIG d   1      39.509 -12.045  -8.462  0.00  0.00     0.017 A 
+ATOM     18  CAF LIG d   1      39.498 -12.347  -9.834  0.00  0.00     0.016 A 
+BRANCH  16  19
+ATOM     19  CAU LIG d   1      38.883 -10.526  -6.461  0.00  0.00     0.417 C 
+ATOM     20  FAB LIG d   1      39.700 -11.300  -5.784  0.00  0.00    -0.166 F 
+ATOM     21  FAC LIG d   1      39.293  -9.268  -6.328  0.00  0.00    -0.166 F 
+ATOM     22  FAD LIG d   1      37.665 -10.674  -5.945  0.00  0.00    -0.166 F 
+ENDBRANCH  16  19
+ENDBRANCH   2  13
+TORSDOF 2

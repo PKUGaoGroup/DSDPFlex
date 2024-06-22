@@ -1,0 +1,23 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C04_4  and  S07_7 
+REMARK    2  A    between atoms: S07_7  and  NP0_10 
+ROOT
+ATOM      1  C01 LIG d   1      34.869  -2.135  10.878  0.00  0.00     0.000 A 
+ATOM      2  C02 LIG d   1      34.300  -3.081  11.728  0.00  0.00     0.002 A 
+ATOM      3  C03 LIG d   1      33.350  -2.690  12.690  0.00  0.00     0.025 A 
+ATOM      4  C04 LIG d   1      33.001  -1.319  12.821  0.00  0.00     0.074 A 
+ATOM      5  C05 LIG d   1      33.563  -0.367  11.965  0.00  0.00     0.025 A 
+ATOM      6  C06 LIG d   1      34.479  -0.789  10.982  0.00  0.00     0.002 A 
+ENDROOT
+BRANCH   4   7
+ATOM      7  S07 LIG d   1      31.732  -0.853  14.103  0.00  0.00     0.239 S 
+ATOM      8  O09 LIG d   1      31.026   0.395  13.675  0.00  0.00    -0.206 OA
+ATOM      9  O08 LIG d   1      32.453  -0.646  15.491  0.00  0.00    -0.206 OA
+BRANCH   7  10
+ATOM     10  NP0 LIG d   1      30.847  -2.146  14.095  0.00  0.00    -0.225 NA
+ATOM     11 1HP0 LIG d   1      30.212  -2.163  14.892  0.00  0.00     0.136 HD
+ATOM     12 2HP0 LIG d   1      30.326  -2.233  13.223  0.00  0.00     0.136 HD
+ENDBRANCH   7  10
+ENDBRANCH   4   7
+TORSDOF 2

@@ -1,0 +1,33 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C10_7  and  C_8 
+REMARK    2  A    between atoms: C_8  and  O_9 
+ROOT
+ATOM      1  C   LIG d   1     103.510  22.459  35.262  0.00  0.00     0.194 A 
+ATOM      2  C5  LIG d   1     102.635  23.489  35.967  0.00  0.00     0.016 A 
+ATOM      3  C6  LIG d   1     101.745  24.401  35.400  0.00  0.00     0.013 A 
+ATOM      4  C7  LIG d   1     101.029  25.316  36.199  0.00  0.00     0.001 A 
+ATOM      5  C8  LIG d   1     101.209  25.322  37.583  0.00  0.00     0.001 A 
+ATOM      6  C9  LIG d   1     102.123  24.415  38.184  0.00  0.00     0.016 A 
+ATOM      7  C4  LIG d   1     102.801  23.526  37.355  0.00  0.00     0.019 A 
+ATOM      8  C1  LIG d   1     103.800  22.438  37.539  0.00  0.00     0.113 A 
+ATOM      9  N   LIG d   1     104.154  21.827  36.434  0.00  0.00    -0.325 N 
+ATOM     10  C3  LIG d   1     105.135  20.793  36.488  0.00  0.00     0.148 A 
+ATOM     11  C2  LIG d   1     105.303  20.765  38.034  0.00  0.00     0.141 A 
+ATOM     12  N1  LIG d   1     104.469  21.859  38.579  0.00  0.00    -0.374 N 
+ATOM     13  HN1 LIG d   1     104.428  22.145  39.549  0.00  0.00     0.161 HD
+ENDROOT
+BRANCH   1  14
+ATOM     14  C10 LIG d   1     102.695  21.683  34.258  0.00  0.00     0.002 A 
+ATOM     15  C11 LIG d   1     101.527  20.988  34.556  0.00  0.00     0.014 A 
+ATOM     16  C12 LIG d   1     100.819  20.351  33.513  0.00  0.00     0.024 A 
+ATOM     17  C13 LIG d   1     101.271  20.426  32.185  0.00  0.00     0.034 A 
+ATOM     18 CL   LIG d   1     100.379  19.642  30.816  0.00  0.00    -0.084 Cl
+ATOM     19  C14 LIG d   1     102.403  21.129  31.896  0.00  0.00     0.024 A 
+ATOM     20  C15 LIG d   1     103.101  21.759  32.933  0.00  0.00     0.014 A 
+ENDBRANCH   1  14
+BRANCH   1  21
+ATOM     21  O   LIG d   1     104.573  23.117  34.547  0.00  0.00    -0.362 OA
+ATOM     22  HO  LIG d   1     105.133  23.556  35.177  0.00  0.00     0.213 HD
+ENDBRANCH   1  21
+TORSDOF 2

@@ -1,0 +1,54 @@
+BEGIN_RES MET B  86
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  CG  
+REMARK    3  A    between atoms: CG   and  SD  
+ROOT
+ATOM      1  CA  MET B  86     -10.791 -23.686   2.789  1.00 20.37     0.177 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  MET B  86     -11.016 -24.483   4.091  1.00 19.56     0.045 C 
+BRANCH   2   3
+ATOM      3  CG  MET B  86     -10.139 -24.011   5.256  1.00 21.56     0.076 C 
+BRANCH   3   4
+ATOM      4  SD  MET B  86     -10.535 -24.776   6.853  1.00 28.42    -0.173 SA
+ATOM      5  CE  MET B  86      -9.803 -26.419   6.627  1.00 26.05     0.089 C 
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES MET B  86
+BEGIN_RES ARG B 193
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    4  A    between atoms: CA   and  CB  
+REMARK    5  A    between atoms: CB   and  CG  
+REMARK    6  A    between atoms: CG   and  CD  
+REMARK    7  A    between atoms: CD   and  NE  
+REMARK       I    between atoms: NE   and  CZ  
+REMARK       I    between atoms: CZ   and  NH2 
+REMARK       I    between atoms: CZ   and  NH1 
+ROOT
+ATOM      6  CA  ARG B 193      -0.074 -28.161  14.018  1.00 38.79     0.176 C 
+ENDROOT
+BRANCH   6   7
+ATOM      7  CB  ARG B 193      -1.074 -29.000  13.200  1.00  0.00     0.036 C 
+BRANCH   7   8
+ATOM      8  CG  ARG B 193      -2.296 -28.196  12.718  1.00  0.00     0.023 C 
+BRANCH   8   9
+ATOM      9  CD  ARG B 193      -3.292 -29.056  11.932  1.00  0.00     0.138 C 
+BRANCH   9  10
+ATOM     10  NE  ARG B 193      -2.795 -29.336  10.576  1.00  0.00    -0.227 N 
+ATOM     11  HE  ARG B 193      -2.792 -28.545   9.946  1.00  0.00     0.177 HD
+ATOM     12  CZ  ARG B 193      -2.327 -30.510  10.116  1.00  0.00     0.665 C 
+ATOM     13  NH2 ARG B 193      -1.918 -30.592   8.844  1.00  0.00    -0.235 N 
+ATOM     14  NH1 ARG B 193      -2.251 -31.598  10.898  1.00  0.00    -0.235 N 
+ATOM     15 HH21 ARG B 193      -1.957 -29.780   8.244  1.00  0.00     0.174 HD
+ATOM     16 HH22 ARG B 193      -1.559 -31.460   8.475  1.00  0.00     0.174 HD
+ATOM     17 HH11 ARG B 193      -2.527 -31.544  11.868  1.00  0.00     0.174 HD
+ATOM     18 HH12 ARG B 193      -1.898 -32.471  10.534  1.00  0.00     0.174 HD
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+END_RES ARG B 193

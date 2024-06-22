@@ -1,0 +1,24 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CAH_2  and  CAK_4 
+REMARK    2  A    between atoms: CAI_10  and  NAA_11 
+ROOT
+ATOM      1  CAK LIG d   1     -18.473 -34.544  17.444  0.00  0.00     0.070 A 
+ATOM      2  CAG LIG d   1     -17.609 -35.533  16.947  0.00  0.00     0.021 A 
+ATOM      3  CAE LIG d   1     -16.784 -35.231  15.846  0.00  0.00     0.004 A 
+ATOM      4  CAF LIG d   1     -16.829 -33.962  15.257  0.00  0.00     0.045 A 
+ATOM      5  CAJ LIG d   1     -17.698 -32.976  15.737  0.00  0.00     0.143 A 
+ATOM      6  FAD LIG d   1     -17.786 -31.611  15.180  0.00  0.00    -0.204 F 
+ATOM      7  CAI LIG d   1     -18.488 -33.280  16.824  0.00  0.00     0.082 A 
+ENDROOT
+BRANCH   1   8
+ATOM      8  CAH LIG d   1     -19.304 -34.802  18.530  0.00  0.00     0.211 C 
+ATOM      9  OAB LIG d   1     -20.283 -34.049  18.742  0.00  0.00    -0.644 OA
+ATOM     10  OAC LIG d   1     -19.077 -35.758  19.306  0.00  0.00    -0.644 OA
+ENDBRANCH   1   8
+BRANCH   7  11
+ATOM     11  NAA LIG d   1     -19.287 -32.295  17.256  0.00  0.00    -0.396 N 
+ATOM     12 1HAA LIG d   1     -19.482 -31.526  16.633  0.00  0.00     0.156 HD
+ATOM     13 2HAA LIG d   1     -20.039 -32.572  17.881  0.00  0.00     0.156 HD
+ENDBRANCH   7  11
+TORSDOF 2

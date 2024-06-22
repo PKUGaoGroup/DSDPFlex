@@ -1,0 +1,169 @@
+BEGIN_RES ILE F 125
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  CG1 
+ROOT
+ATOM      1  CA  ILE F 125       7.230   9.640  18.978  1.00  7.40     0.180 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  ILE F 125       6.373  10.721  19.698  1.00  7.30     0.013 C 
+ATOM      3  CG2 ILE F 125       4.949  10.202  19.988  1.00  7.26     0.012 C 
+BRANCH   2   4
+ATOM      4  CG1 ILE F 125       7.056  11.208  21.002  1.00  7.38     0.002 C 
+ATOM      5  CD1 ILE F 125       6.347  12.377  21.700  1.00  7.34     0.005 C 
+ENDBRANCH   2   4
+ENDBRANCH   1   2
+END_RES ILE F 125
+BEGIN_RES LEU F 128
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    3  A    between atoms: CA   and  CB  
+REMARK    4  A    between atoms: CB   and  CG  
+ROOT
+ATOM      6  CA  LEU F 128       0.320   7.497  19.034  1.00 10.53     0.177 C 
+ENDROOT
+BRANCH   6   7
+ATOM      7  CB  LEU F 128       1.162   8.067  20.200  1.00 10.29     0.038 C 
+BRANCH   7   8
+ATOM      8  CG  LEU F 128       2.219   7.101  20.787  1.00 10.05    -0.020 C 
+ATOM      9  CD2 LEU F 128       1.657   5.709  21.130  1.00  9.77     0.009 C 
+ATOM     10  CD1 LEU F 128       2.868   7.717  22.034  1.00  9.90     0.009 C 
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+END_RES LEU F 128
+BEGIN_RES GLN F 131
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    5  A    between atoms: CA   and  CB  
+REMARK    6  A    between atoms: CB   and  CG  
+REMARK    7  A    between atoms: CG   and  CD  
+REMARK       I    between atoms: CD   and  NE2 
+ROOT
+ATOM     11  CA  GLN F 131      -1.912  12.829  20.775  1.00 16.09     0.177 C 
+ENDROOT
+BRANCH  11  12
+ATOM     12  CB  GLN F 131      -2.485  11.730  21.696  1.00 16.70     0.044 C 
+BRANCH  12  13
+ATOM     13  CG  GLN F 131      -2.481  12.142  23.189  1.00 17.78     0.105 C 
+BRANCH  13  14
+ATOM     14  CD  GLN F 131      -2.773  11.027  24.195  1.00 19.55     0.215 C 
+ATOM     15  OE1 GLN F 131      -2.661  11.257  25.397  1.00 20.96    -0.274 OA
+ATOM     16  NE2 GLN F 131      -3.127   9.823  23.741  1.00 19.64    -0.370 N 
+ATOM     17 2HE2 GLN F 131      -3.316   9.080  24.398  1.00 19.64     0.159 HD
+ATOM     18 1HE2 GLN F 131      -3.204   9.658  22.748  1.00 19.64     0.159 HD
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+END_RES GLN F 131
+BEGIN_RES TYR F 133
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    8  A    between atoms: CA   and  CB  
+REMARK    9  A    between atoms: CB   and  CG  
+REMARK   10  A    between atoms: CZ   and  OH  
+ROOT
+ATOM     19  CA  TYR F 133       2.053  16.233  19.432  1.00 13.95     0.180 C 
+ENDROOT
+BRANCH  19  20
+ATOM     20  CB  TYR F 133       1.161  17.054  18.476  1.00 13.33     0.073 C 
+BRANCH  20  21
+ATOM     21  CG  TYR F 133       1.377  16.787  17.000  1.00 12.61    -0.056 A 
+ATOM     22  CD2 TYR F 133       2.434  17.413  16.308  1.00 12.25     0.010 A 
+ATOM     23  CE2 TYR F 133       2.604  17.193  14.927  1.00 11.81     0.037 A 
+ATOM     24  CZ  TYR F 133       1.712  16.347  14.239  1.00 11.58     0.065 A 
+ATOM     25  CE1 TYR F 133       0.666  15.709  14.929  1.00 11.79     0.037 A 
+ATOM     26  CD1 TYR F 133       0.499  15.930  16.305  1.00 12.28     0.010 A 
+BRANCH  24  27
+ATOM     27  OH  TYR F 133       1.835  16.156  12.897  1.00 11.47    -0.361 OA
+ATOM     28  HH  TYR F 133       2.374  16.821  12.489  1.00 11.47     0.217 HD
+ENDBRANCH  24  27
+ENDBRANCH  20  21
+ENDBRANCH  19  20
+END_RES TYR F 133
+BEGIN_RES LEU F 134
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK   11  A    between atoms: CA   and  CB  
+REMARK   12  A    between atoms: CB   and  CG  
+ROOT
+ATOM     29  CA  LEU F 134       0.405  16.756  22.899  1.00 14.59     0.177 C 
+ENDROOT
+BRANCH  29  30
+ATOM     30  CB  LEU F 134      -1.035  16.306  23.230  1.00 14.46     0.038 C 
+BRANCH  30  31
+ATOM     31  CG  LEU F 134      -2.117  16.639  22.177  1.00 14.46    -0.020 C 
+ATOM     32  CD1 LEU F 134      -3.492  16.192  22.696  1.00 14.29     0.009 C 
+ATOM     33  CD2 LEU F 134      -2.146  18.117  21.746  1.00 14.15     0.009 C 
+ENDBRANCH  30  31
+ENDBRANCH  29  30
+END_RES LEU F 134
+BEGIN_RES LEU F 135
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK   13  A    between atoms: CA   and  CB  
+REMARK   14  A    between atoms: CB   and  CG  
+ROOT
+ATOM     34  CA  LEU F 135       2.885  14.285  24.537  1.00 14.87     0.177 C 
+ENDROOT
+BRANCH  34  35
+ATOM     35  CB  LEU F 135       2.920  12.780  24.190  1.00 14.61     0.038 C 
+BRANCH  35  36
+ATOM     36  CG  LEU F 135       1.638  11.994  24.550  1.00 14.26    -0.020 C 
+ATOM     37  CD1 LEU F 135       1.683  10.583  23.947  1.00 13.68     0.009 C 
+ATOM     38  CD2 LEU F 135       1.378  11.928  26.063  1.00 13.97     0.009 C 
+ENDBRANCH  35  36
+ENDBRANCH  34  35
+END_RES LEU F 135
+BEGIN_RES LEU F 137
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK   15  A    between atoms: CA   and  CB  
+REMARK   16  A    between atoms: CB   and  CG  
+ROOT
+ATOM     39  CA  LEU F 137       4.483  19.447  24.313  1.00 16.45     0.177 C 
+ENDROOT
+BRANCH  39  40
+ATOM     40  CB  LEU F 137       3.062  20.035  24.143  1.00 16.65     0.038 C 
+BRANCH  40  41
+ATOM     41  CG  LEU F 137       2.790  20.762  22.813  1.00 17.03    -0.020 C 
+ATOM     42  CD2 LEU F 137       3.525  22.111  22.725  1.00 17.05     0.009 C 
+ATOM     43  CD1 LEU F 137       1.280  20.976  22.635  1.00 16.79     0.009 C 
+ENDBRANCH  40  41
+ENDBRANCH  39  40
+END_RES LEU F 137
+BEGIN_RES ARG F 138
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK   17  A    between atoms: CA   and  CB  
+REMARK   18  A    between atoms: CB   and  CG  
+REMARK   19  A    between atoms: CG   and  CD  
+REMARK   20  A    between atoms: CD   and  NE  
+REMARK       I    between atoms: NE   and  CZ  
+REMARK       I    between atoms: CZ   and  NH1 
+REMARK       I    between atoms: CZ   and  NH2 
+ROOT
+ATOM     44  CA  ARG F 138       4.520  17.731  27.781  1.00 18.77     0.176 C 
+ENDROOT
+BRANCH  44  45
+ATOM     45  CB  ARG F 138       3.604  16.547  28.159  1.00 20.21     0.036 C 
+BRANCH  45  46
+ATOM     46  CG  ARG F 138       2.150  17.009  28.335  1.00 22.47     0.022 C 
+BRANCH  46  47
+ATOM     47  CD  ARG F 138       1.170  15.922  28.789  1.00 23.34     0.122 C 
+BRANCH  47  48
+ATOM     48  NE  ARG F 138      -0.184  16.488  28.909  1.00 25.91    -0.357 N 
+ATOM     49  CZ  ARG F 138      -0.655  17.208  29.947  1.00 26.62     0.267 C 
+ATOM     50  NH1 ARG F 138       0.146  17.414  31.170  1.00 25.50    -0.019 N 
+ATOM     51  NH2 ARG F 138      -1.869  17.772  29.868  1.00 26.76    -0.366 N 
+ATOM     52 HH12 ARG F 138      -0.006  16.653  31.816  1.00 25.50     0.284 HD
+ATOM     53 HH13 ARG F 138       1.128  17.462  30.940  1.00 25.50     0.284 HD
+ATOM     54 HH11 ARG F 138      -0.123  18.280  31.616  1.00 25.50     0.284 HD
+ATOM     55  HH2 ARG F 138      -2.233  18.372  30.600  1.00 26.76     0.159 HD
+ATOM     56  HH1 ARG F 138      -2.367  17.762  28.977  1.00 26.76     0.159 HD
+ATOM     57  HE  ARG F 138      -0.770  16.416  28.087  1.00 25.91     0.162 HD
+ENDBRANCH  47  48
+ENDBRANCH  46  47
+ENDBRANCH  45  46
+ENDBRANCH  44  45
+END_RES ARG F 138

@@ -1,0 +1,79 @@
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: NAP_5  and  CAO_6 
+REMARK    2  A    between atoms: CAO_6  and  CAN_7 
+REMARK    3  A    between atoms: CAN_7  and  OAM_8 
+REMARK    4  A    between atoms: OAM_8  and  CAJ_9 
+REMARK    5  A    between atoms: CAG_14  and  NAF_15 
+REMARK    6  A    between atoms: NAF_15  and  C2_16 
+REMARK    7  A    between atoms: C4_22  and  NAW_23 
+REMARK    8  A    between atoms: NAW_23  and  CAX_24 
+REMARK    9  A    between atoms: CBB_29  and  SBD_30 
+REMARK   10  A    between atoms: SBD_30  and  NBE_33 
+REMARK   11  A    between atoms: NBE_33  and  CBF_34 
+ROOT
+ATOM      1  C2  LIG d   1      21.393  40.296  19.473  0.00  0.00     0.728 A 
+ATOM      2  N3  LIG d   1      21.145  39.059  19.945  0.00  0.00    -0.044 NA
+ATOM      3  N1  LIG d   1      22.324  40.531  18.520  0.00  0.00    -0.074 NA
+ATOM      4  C6  LIG d   1      22.980  39.408  17.988  0.00  0.00     0.146 A 
+ATOM      5  C5  LIG d   1      22.744  38.096  18.449  0.00  0.00     0.003 A 
+ATOM      6  CAA LIG d   1      23.502  36.987  17.828  0.00  0.00     0.054 C 
+ATOM      7  C4  LIG d   1      21.784  37.967  19.481  0.00  0.00     0.154 A 
+ENDROOT
+BRANCH   1   8
+ATOM      8  NAF LIG d   1      20.828  41.409  19.957  0.00  0.00    -0.188 N 
+ATOM      9 FHNA LIG d   1      21.257  42.287  19.693  0.00  0.00     0.184 HD
+BRANCH   8  10
+ATOM     10  CAG LIG d   1      19.718  41.449  20.760  0.00  0.00     0.049 A 
+ATOM     11  CAL LIG d   1      19.512  42.653  21.441  0.00  0.00     0.033 A 
+ATOM     12  CAK LIG d   1      18.393  42.850  22.238  0.00  0.00     0.039 A 
+ATOM     13  CAJ LIG d   1      17.428  41.882  22.358  0.00  0.00     0.069 A 
+ATOM     14  CAI LIG d   1      17.602  40.672  21.701  0.00  0.00     0.039 A 
+ATOM     15  CAH LIG d   1      18.715  40.517  20.862  0.00  0.00     0.033 A 
+BRANCH  13  16
+ATOM     16  OAM LIG d   1      16.257  41.969  23.134  0.00  0.00    -0.349 OA
+BRANCH  16  17
+ATOM     17  CAN LIG d   1      16.154  43.006  24.101  0.00  0.00     0.203 C 
+BRANCH  17  18
+ATOM     18  CAO LIG d   1      15.039  42.589  25.066  0.00  0.00     0.261 C 
+BRANCH  18  19
+ATOM     19  NAP LIG d   1      15.075  41.165  25.394  0.00  0.00    -0.069 N 
+ATOM     20  CAQ LIG d   1      16.366  40.783  26.032  0.00  0.00     0.235 C 
+ATOM     21  CAR LIG d   1      16.039  39.576  26.922  0.00  0.00     0.029 C 
+ATOM     22  CAS LIG d   1      14.675  40.098  27.450  0.00  0.00     0.029 C 
+ATOM     23  CAT LIG d   1      13.977  40.829  26.322  0.00  0.00     0.235 C 
+ATOM     24 PHNA LIG d   1      14.956  40.601  24.558  0.00  0.00     0.280 HD
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH  13  16
+ENDBRANCH   8  10
+ENDBRANCH   1   8
+BRANCH   7  25
+ATOM     25  NAW LIG d   1      21.548  36.720  19.893  0.00  0.00    -0.340 N 
+ATOM     26 WHNA LIG d   1      22.035  35.972  19.419  0.00  0.00     0.167 HD
+BRANCH  25  27
+ATOM     27  CAX LIG d   1      20.733  36.385  20.987  0.00  0.00     0.035 A 
+ATOM     28  CBC LIG d   1      20.141  37.239  21.954  0.00  0.00     0.054 A 
+ATOM     29  CBB LIG d   1      19.442  36.666  23.022  0.00  0.00     0.081 A 
+ATOM     30  CBA LIG d   1      19.261  35.303  23.118  0.00  0.00     0.025 A 
+ATOM     31  CAZ LIG d   1      19.799  34.459  22.173  0.00  0.00     0.004 A 
+ATOM     32  CAY LIG d   1      20.556  35.002  21.137  0.00  0.00     0.029 A 
+BRANCH  29  33
+ATOM     33  SBD LIG d   1      18.631  37.737  24.192  0.00  0.00     0.259 S 
+ATOM     34  OBJ LIG d   1      18.803  37.120  25.559  0.00  0.00    -0.201 OA
+ATOM     35  OBK LIG d   1      17.276  38.019  23.585  0.00  0.00    -0.201 OA
+BRANCH  33  36
+ATOM     36  NBE LIG d   1      19.357  39.146  24.086  0.00  0.00    -0.307 N 
+ATOM     37 EHNB LIG d   1      19.291  39.592  23.172  0.00  0.00     0.173 HD
+BRANCH  36  38
+ATOM     38  CBF LIG d   1      20.562  39.455  24.857  0.00  0.00     0.029 C 
+ATOM     39  CBH LIG d   1      21.668  38.359  24.728  0.00  0.00     0.038 C 
+ATOM     40  CBI LIG d   1      20.279  39.739  26.337  0.00  0.00     0.038 C 
+ATOM     41  CBG LIG d   1      21.040  40.765  24.234  0.00  0.00     0.038 C 
+ENDBRANCH  36  38
+ENDBRANCH  33  36
+ENDBRANCH  29  33
+ENDBRANCH  25  27
+ENDBRANCH   7  25
+TORSDOF 11

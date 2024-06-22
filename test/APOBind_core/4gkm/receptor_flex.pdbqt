@@ -1,0 +1,53 @@
+BEGIN_RES SER A 185
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  OG  
+ROOT
+ATOM      1  CA  SER A 185     -26.225 -38.154  11.052  1.00 16.97     0.200 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  SER A 185     -27.141 -39.103  10.250  1.00 16.75     0.199 C 
+BRANCH   2   3
+ATOM      3  OG  SER A 185     -28.494 -38.990  10.644  1.00 21.33    -0.398 OA
+ATOM      4  HG  SER A 185     -28.569 -39.251  11.551  1.00 21.33     0.209 HD
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES SER A 185
+BEGIN_RES ASN A 203
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    3  A    between atoms: CA   and  CB  
+REMARK    4  A    between atoms: CB   and  CG  
+REMARK       I    between atoms: CG   and  ND2 
+ROOT
+ATOM      5  CA  ASN A 203     -29.738 -26.876   8.055  1.00 18.94     0.185 C 
+ENDROOT
+BRANCH   5   6
+ATOM      6  CB  ASN A 203     -31.160 -27.100   7.473  1.00 18.83     0.137 C 
+BRANCH   6   7
+ATOM      7  CG  ASN A 203     -31.846 -28.369   7.993  1.00 21.31     0.217 C 
+ATOM      8  ND2 ASN A 203     -31.618 -29.502   7.326  1.00 18.80    -0.370 N 
+ATOM      9 1HD2 ASN A 203     -31.006 -29.503   6.524  1.00 18.80     0.159 HD
+ATOM     10 2HD2 ASN A 203     -32.050 -30.357   7.642  1.00 18.80     0.159 HD
+ATOM     11  OD1 ASN A 203     -32.583 -28.325   8.977  1.00 25.40    -0.274 OA
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+END_RES ASN A 203
+BEGIN_RES THR A 209
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    5  A    between atoms: CA   and  CB  
+REMARK    6  A    between atoms: CB   and  OG1 
+ROOT
+ATOM     12  CA  THR A 209     -19.517 -26.158   8.899  1.00 12.09     0.205 C 
+ENDROOT
+BRANCH  12  13
+ATOM     13  CB  THR A 209     -20.800 -26.879   9.401  1.00 12.12     0.146 C 
+ATOM     14  CG2 THR A 209     -21.357 -26.347  10.726  1.00 11.98     0.042 C 
+BRANCH  13  15
+ATOM     15  OG1 THR A 209     -21.819 -26.866   8.421  1.00 13.40    -0.393 OA
+ATOM     16  HG1 THR A 209     -22.550 -27.372   8.742  1.00 13.40     0.210 HD
+ENDBRANCH  13  15
+ENDBRANCH  12  13
+END_RES THR A 209

@@ -1,0 +1,42 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: S_1  and  C4_7 
+REMARK    2  A    between atoms: S_1  and  N3S_18 
+REMARK       I    between atoms: N'_2  and  C7_10 
+REMARK    3  A    between atoms: N'_2  and  C1'_14 
+REMARK    4  A    between atoms: C1_4  and  C7_10 
+REMARK    5  A    between atoms: C1'_14  and  C2'_16 
+ROOT
+ATOM      1  C1  RYJ B   1      16.862   3.995  14.639  0.00  0.00     0.032 A 
+ATOM      2  C2  RYJ B   1      17.263   1.801  15.646  0.00  0.00     0.026 A 
+ATOM      3  C3  RYJ B   1      17.723   2.905  14.906  0.00  0.00     0.018 A 
+ATOM      4  C4  RYJ B   1      15.940   1.780  16.121  0.00  0.00     0.074 A 
+ATOM      5  C5  RYJ B   1      15.537   3.966  15.131  0.00  0.00     0.018 A 
+ATOM      6  C6  RYJ B   1      15.072   2.864  15.877  0.00  0.00     0.026 A 
+ENDROOT
+BRANCH   1   7
+ATOM      7  C7  RYJ B   1      17.320   5.149  13.793  0.00  0.00     0.251 C 
+ATOM      8  N'  RYJ B   1      18.634   5.418  13.832  0.00  0.00    -0.348 N 
+ATOM      9  HN' RYJ B   1      19.221   4.838  14.414  0.00  0.00     0.163 HD
+ATOM     10  O'  RYJ B   1      16.509   5.811  13.146  0.00  0.00    -0.268 OA
+BRANCH   8  11
+ATOM     11  C1' RYJ B   1      19.292   6.501  13.107  0.00  0.00     0.240 C 
+BRANCH  11  12
+ATOM     12  C2' RYJ B   1      19.634   7.677  14.033  0.00  0.00     0.403 C 
+ATOM     13  F2' RYJ B   1      20.500   7.293  14.967  0.00  0.00    -0.169 F 
+ATOM     14  F2' RYJ B   1      18.541   8.145  14.629  0.00  0.00    -0.169 F 
+ATOM     15  F2' RYJ B   1      20.184   8.655  13.316  0.00  0.00    -0.169 F 
+ENDBRANCH  11  12
+ENDBRANCH   8  11
+ENDBRANCH   1   7
+BRANCH   4  16
+ATOM     16  S   RYJ B   1      15.384   0.296  16.944  0.00  0.00     0.239 S 
+ATOM     17  O1S RYJ B   1      15.726   0.395  18.369  0.00  0.00    -0.206 OA
+ATOM     18  O2S RYJ B   1      15.835  -0.853  16.147  0.00  0.00    -0.206 OA
+BRANCH  16  19
+ATOM     19  N3S RYJ B   1      13.673   0.360  16.828  0.00  0.00    -0.225 NA
+ATOM     20 1H3S RYJ B   1      13.270   1.071  17.440  0.00  0.00     0.136 HD
+ATOM     21 2H3S RYJ B   1      13.347   0.467  15.869  0.00  0.00     0.136 HD
+ENDBRANCH  16  19
+ENDBRANCH   4  16
+TORSDOF 5

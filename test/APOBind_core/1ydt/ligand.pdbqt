@@ -1,0 +1,59 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_1  and  S_11 
+REMARK    2  A    between atoms: S_11  and  N1'_14 
+REMARK    3  A    between atoms: N1'_14  and  C2'_15 
+REMARK    4  A    between atoms: C2'_15  and  C3'_16 
+REMARK    5  A    between atoms: C3'_16  and  N4'_17 
+REMARK    6  A    between atoms: N4'_17  and  C5'_18 
+REMARK    7  A    between atoms: C5'_18  and  C6'_19 
+REMARK    8  A    between atoms: C7'_20  and  C1'_21 
+ROOT
+ATOM      1  N1' LIG d   1       8.422   8.825   4.403  0.00  0.00    -0.314 N 
+ATOM      2 'HN1 LIG d   1       8.698   8.794   5.389  0.00  0.00     0.172 HD
+ENDROOT
+BRANCH   1   3
+ATOM      3  S   LIG d   1       8.385  10.320   3.807  0.00  0.00     0.259 S 
+ATOM      4  O2  LIG d   1       9.515  10.533   2.926  0.00  0.00    -0.201 OA
+ATOM      5  O1  LIG d   1       8.168  11.239   4.898  0.00  0.00    -0.201 OA
+BRANCH   3   6
+ATOM      6  C1  LIG d   1       6.904  10.245   2.828  0.00  0.00     0.090 A 
+ATOM      7  C10 LIG d   1       5.628  10.148   3.414  0.00  0.00     0.000 A 
+ATOM      8  C5  LIG d   1       4.481  10.096   2.598  0.00  0.00    -0.007 A 
+ATOM      9  C9  LIG d   1       5.467  10.098   4.807  0.00  0.00     0.033 A 
+ATOM     10  C4  LIG d   1       4.600  10.142   1.205  0.00  0.00     0.014 A 
+ATOM     11  C6  LIG d   1       3.220  10.000   3.192  0.00  0.00     0.128 A 
+ATOM     12  C3  LIG d   1       5.871  10.238   0.626  0.00  0.00     0.002 A 
+ATOM     13  C2  LIG d   1       7.015  10.291   1.430  0.00  0.00     0.026 A 
+ATOM     14  N7  LIG d   1       3.100   9.954   4.542  0.00  0.00    -0.272 NA
+ATOM     15  C8  LIG d   1       4.182  10.000   5.355  0.00  0.00     0.117 A 
+ENDBRANCH   3   6
+ENDBRANCH   1   3
+BRANCH   1  16
+ATOM     16  C2' LIG d   1       8.874   7.706   3.596  0.00  0.00     0.159 C 
+BRANCH  16  17
+ATOM     17  C3' LIG d   1      10.193   8.052   2.886  0.00  0.00     0.253 C 
+BRANCH  17  18
+ATOM     18  N4' LIG d   1      11.274   7.179   3.360  0.00  0.00    -0.070 N 
+ATOM     19 1H4' LIG d   1      11.556   6.562   2.610  0.00  0.00     0.277 HD
+ATOM     20 2H4' LIG d   1      10.955   6.612   4.136  0.00  0.00     0.277 HD
+BRANCH  18  21
+ATOM     21  C5' LIG d   1      12.422   7.996   3.796  0.00  0.00     0.259 C 
+BRANCH  21  22
+ATOM     22  C6' LIG d   1      12.832   8.959   2.714  0.00  0.00     0.001 C 
+ATOM     23  C7' LIG d   1      12.831  10.281   2.932  0.00  0.00     0.009 C 
+BRANCH  23  24
+ATOM     24  C1' LIG d   1      13.236  11.261   1.863  0.00  0.00    -0.036 A 
+ATOM     25  C6' LIG d   1      12.772  12.576   1.932  0.00  0.00     0.012 A 
+ATOM     26  C5' LIG d   1      13.128  13.511   0.956  0.00  0.00     0.020 A 
+ATOM     27  C4' LIG d   1      13.954  13.131  -0.100  0.00  0.00     0.011 A 
+ATOM     28  C3' LIG d   1      14.427  11.815  -0.183  0.00  0.00     0.020 A 
+ATOM     29 BR4' LIG d   1      14.422  14.388  -1.388  0.00  0.00    -0.051 Br
+ATOM     30  C2' LIG d   1      14.068  10.882   0.799  0.00  0.00     0.012 A 
+ENDBRANCH  23  24
+ENDBRANCH  21  22
+ENDBRANCH  18  21
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH   1  16
+TORSDOF 8

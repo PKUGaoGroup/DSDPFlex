@@ -1,0 +1,113 @@
+BEGIN_RES LEU A 145
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  CG  
+ROOT
+ATOM      1  CA  LEU A 145      94.052  92.857 -36.991  1.00 11.14     0.177 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  LEU A 145      93.966  91.773 -38.082  1.00 12.51     0.038 C 
+BRANCH   2   3
+ATOM      3  CG  LEU A 145      93.887  90.313 -37.597  1.00 13.31    -0.020 C 
+ATOM      4  CD2 LEU A 145      95.086  89.895 -36.731  1.00 12.88     0.009 C 
+ATOM      5  CD1 LEU A 145      93.770  89.401 -38.817  1.00 15.72     0.009 C 
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES LEU A 145
+BEGIN_RES VAL A 147
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    3  A    between atoms: CA   and  CB  
+ROOT
+ATOM      6  CA  VAL A 147      96.150  97.322 -41.724  1.00 12.67     0.180 C 
+ENDROOT
+BRANCH   6   7
+ATOM      7  CB  VAL A 147      95.931  96.215 -42.794  1.00 12.61     0.009 C 
+ATOM      8  CG2 VAL A 147      94.454  95.997 -43.178  1.00 13.85     0.012 C 
+ATOM      9  CG1 VAL A 147      96.603  94.884 -42.416  1.00 13.52     0.012 C 
+ENDBRANCH   6   7
+END_RES VAL A 147
+BEGIN_RES ASP A 148
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    4  A    between atoms: CA   and  CB  
+REMARK    5  A    between atoms: CB   and  CG  
+ROOT
+ATOM     10  CA  ASP A 148      96.728 100.767 -43.367  1.00 15.38     0.186 C 
+ENDROOT
+BRANCH  10  11
+ATOM     11  CB  ASP A 148      98.095 101.494 -43.295  1.00 16.24     0.147 C 
+BRANCH  11  12
+ATOM     12  CG  ASP A 148      98.634 101.690 -41.872  1.00 17.30     0.175 C 
+ATOM     13  OD2 ASP A 148      99.872 101.649 -41.721  1.00 19.91    -0.648 OA
+ATOM     14  OD1 ASP A 148      97.806 101.861 -40.949  1.00 17.09    -0.648 OA
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+END_RES ASP A 148
+BEGIN_RES SER A 149
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    6  A    between atoms: CA   and  CB  
+REMARK    7  A    between atoms: CB   and  OG  
+ROOT
+ATOM     15  CA  SER A 149      96.006  99.192 -46.828  1.00 17.79     0.200 C 
+ENDROOT
+BRANCH  15  16
+ATOM     16  CB  SER A 149      96.983  99.719 -47.902  1.00 20.82     0.199 C 
+BRANCH  16  17
+ATOM     17  OG  SER A 149      98.203  99.006 -47.914  1.00 21.85    -0.398 OA
+ATOM     18  HG  SER A 149      98.648  99.158 -47.094  1.00 21.85     0.209 HD
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+END_RES SER A 149
+BEGIN_RES THR A 150
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    8  A    between atoms: CA   and  CB  
+REMARK    9  A    between atoms: CB   and  OG1 
+ROOT
+ATOM     19  CA  THR A 150      94.076  96.006 -47.812  1.00 16.20     0.205 C 
+ENDROOT
+BRANCH  19  20
+ATOM     20  CB  THR A 150      92.725  96.097 -48.571  1.00 17.85     0.146 C 
+ATOM     21  CG2 THR A 150      92.044  94.737 -48.821  1.00 18.50     0.042 C 
+BRANCH  20  22
+ATOM     22  OG1 THR A 150      91.819  96.859 -47.795  1.00 19.87    -0.393 OA
+ATOM     23  HG1 THR A 150      91.005  96.935 -48.269  1.00 19.87     0.210 HD
+ENDBRANCH  20  22
+ENDBRANCH  19  20
+END_RES THR A 150
+BEGIN_RES CYS A 220
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK   10  A    between atoms: CA   and  CB  
+REMARK   11  A    between atoms: CB   and  SG  
+ROOT
+ATOM     24  CA  CYS A 220      92.731  87.577 -44.021  1.00 16.28     0.185 C 
+ENDROOT
+BRANCH  24  25
+ATOM     25  CB  CYS A 220      94.038  88.250 -44.495  1.00 17.69     0.105 C 
+BRANCH  25  26
+ATOM     26  SG  CYS A 220      94.207  89.916 -43.791  1.00 21.81    -0.180 SA
+ATOM     27  HG  CYS A 220      93.103  90.417 -44.354  1.00 21.81     0.101 HD
+ENDBRANCH  25  26
+ENDBRANCH  24  25
+END_RES CYS A 220
+BEGIN_RES THR A 230
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK   12  A    between atoms: CA   and  CB  
+REMARK   13  A    between atoms: CB   and  OG1 
+ROOT
+ATOM     28  CA  THR A 230      88.633  92.428 -38.432  1.00 13.83     0.205 C 
+ENDROOT
+BRANCH  28  29
+ATOM     29  CB  THR A 230      89.086  91.586 -39.657  0.62 15.20     0.146 C 
+ATOM     30  CG2 THR A 230      90.607  91.398 -39.787  0.62 14.16     0.042 C 
+BRANCH  29  31
+ATOM     31  OG1 THR A 230      88.493  90.302 -39.620  0.62 18.08    -0.393 OA
+ATOM     32  HG1 THR A 230      88.687  89.859 -40.432  1.00 18.08     0.210 HD
+ENDBRANCH  29  31
+ENDBRANCH  28  29
+END_RES THR A 230
