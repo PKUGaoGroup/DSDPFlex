@@ -1,0 +1,9 @@
+README.md
+setup.py
+DSDP_Tools/DSDPFlex.py
+DSDP_Tools/__init__.py
+DSDP_Tools.egg-info/PKG-INFO
+DSDP_Tools.egg-info/SOURCES.txt
+DSDP_Tools.egg-info/dependency_links.txt
+DSDP_Tools.egg-info/entry_points.txt
+DSDP_Tools.egg-info/top_level.txt

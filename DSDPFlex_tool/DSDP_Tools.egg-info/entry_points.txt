@@ -1,0 +1,2 @@
+[console_scripts]
+DSDPFlex = DSDP_Tools.DSDPFlex:main
