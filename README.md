@@ -22,13 +22,13 @@ Install DSDPFlex. Suppose you are at the root of this repository.
 ```bash
 cd DSDPFlex_v0.2
 make clean && make
-cp DSDPflex ../
+cp DSDPflex ../bin
 cd ..
 ```
 
-A binary named `DSDPflex` will be compiled. You may add it to the system path by
+A binary named `DSDPflex` will be compiled. You may add it to the system path by adding this line to `~/.bashrc`
 ```bash
-echo "PATH=$PATH:/path/to/DSDPFlex" > ~/.bashrc
+export PATH=/path/to/DSDPFlex/bin:$PATH
 ```
 
 so that DSDPFlex can be called directly from the command line.
@@ -40,12 +40,12 @@ so that DSDPFlex can be called directly from the command line.
 (If the flexible receptor parts are not needed, [DSDP](https://github.com/PKUGaoGroup/DSDP) would work better.) For a ligand-receptor pair, run:
 
 
-```shell
+```bash
 ./DSDPflex --ligand ligand.pdbqt \
 --protein receptor_rigid.pdbqt \
 --flex receptor_flex.pdbqt \
---box_min <x> <y> <x> \
---box_max <x> <y> <x> \
+--box_min x y z \
+--box_max x y z \
 --exhaustiveness 384 --search_depth 40 --top_n 1 \
 --out ligand_out.pdbqt \
 --out_flex flex_out.pdbqt \
@@ -80,7 +80,7 @@ Use `--help` to see more details.
 
 ### Using the ligand batch mode
 
-For docking multiple ligand to a single receptor (e.g. in virtual screening scenerio), your can use the batch mode.
+For docking multiple ligands to a single receptor (e.g. in a virtual screening scenario), you can use the batch mode.
 
 ```
 ./DSDPflex --ligand_batch batch_list ...
@@ -98,14 +98,14 @@ It will replace the `--ligand`, `--out`, and `--out_flex` options. Each file nam
 
 We provide a python interface for calling DSDPFlex and related tools. It is recommended to run **rescoring** with this DSDPFlex_pyTools. More functions can be implemented in the future.
 
-We recommend to set up the python evironment with conda.
+We recommend to set up the python environment with conda.
 
 ```
 conda create -n DSDPFlex_py
 conda activate DSDPFlex_py
 ```
 
-Then you can install the DSDPFlex_pyTools package by this following command:
+Then you can install the DSDPFlex_pyTools package by the following command:
 
 ```
 cd ./DSDPFlex_pyTools
@@ -134,7 +134,7 @@ Other rescoring methods might be implemented in the future.
 
 There are advanced options in DSDPflex that allow users to maually adjust or further develop the program.
 
-- `--no_norm` let the program do not normalize the intra-protein score (i.e. using the original Vina score, see more in the [paper](https://doi.org/10.26434/chemrxiv-2023-bcw0g-v2))
+- `--no_norm` let the program not normalize the intra-protein score (i.e. using the original Vina score, see more in the [paper](https://doi.org/10.26434/chemrxiv-2023-bcw0g-v2))
 - `--norm_param <float>` modify the normalization parameter $p$ 
     the weight of intra-protein score ($\gamma$) will be
     $$\gamma = p\times \min(f_\text{ligand} / f_\text{flex}, 1)$$
