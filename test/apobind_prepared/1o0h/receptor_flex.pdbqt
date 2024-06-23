@@ -63,101 +63,64 @@ ATOM     19 1HD2 ASN A  67      40.561   2.276  23.728  1.00 35.55     0.159 HD
 ENDBRANCH  14  15
 ENDBRANCH  13  14
 END_RES ASN A  67
-BEGIN_RES GLN A  69
-REMARK  3 active torsions:
-REMARK  status: ('A' for Active; 'I' for Inactive)
-REMARK   10  A    between atoms: CA   and  CB  
-REMARK   11  A    between atoms: CB   and  CG  
-REMARK   12  A    between atoms: CG   and  CD  
-REMARK       I    between atoms: CD   and  NE2 
-ROOT
-ATOM     20  CA  GLN A  69      36.606   1.097  27.373  1.00 38.86     0.177 C 
-ENDROOT
-BRANCH  20  21
-ATOM     21  CB  GLN A  69      36.657   2.171  26.263  1.00 45.30     0.044 C 
-BRANCH  21  22
-ATOM     22  CG  GLN A  69      37.941   3.025  26.282  1.00 51.50     0.105 C 
-BRANCH  22  23
-ATOM     23  CD  GLN A  69      38.083   3.896  27.536  1.00 59.05     0.215 C 
-ATOM     24  OE1 GLN A  69      37.096   4.378  28.087  1.00 62.07    -0.274 OA
-ATOM     25  NE2 GLN A  69      39.318   4.087  28.001  1.00 62.48    -0.370 N 
-ATOM     26 2HE2 GLN A  69      39.456   4.648  28.829  1.00 62.48     0.159 HD
-ATOM     27 1HE2 GLN A  69      40.108   3.669  27.532  1.00 62.48     0.159 HD
-ENDBRANCH  22  23
-ENDBRANCH  21  22
-ENDBRANCH  20  21
-END_RES GLN A  69
 BEGIN_RES ASN A  71
 REMARK  2 active torsions:
 REMARK  status: ('A' for Active; 'I' for Inactive)
-REMARK   13  A    between atoms: CA   and  CB  
-REMARK   14  A    between atoms: CB   and  CG  
+REMARK   10  A    between atoms: CA   and  CB  
+REMARK   11  A    between atoms: CB   and  CG  
 REMARK       I    between atoms: CG   and  ND2 
 ROOT
-ATOM     28  CA  ASN A  71      31.238   3.481  26.030  1.00 24.89     0.185 C 
+ATOM     20  CA  ASN A  71      31.238   3.481  26.030  1.00 24.89     0.185 C 
 ENDROOT
-BRANCH  28  29
-ATOM     29  CB  ASN A  71      31.931   4.818  25.648  1.00 22.21     0.137 C 
-BRANCH  29  30
-ATOM     30  CG  ASN A  71      33.096   4.732  24.650  1.00 22.84     0.217 C 
-ATOM     31  ND2 ASN A  71      33.006   5.492  23.557  1.00 22.24    -0.370 N 
-ATOM     32 1HD2 ASN A  71      32.204   6.094  23.425  1.00 22.24     0.159 HD
-ATOM     33 2HD2 ASN A  71      33.751   5.480  22.876  1.00 22.24     0.159 HD
-ATOM     34  OD1 ASN A  71      34.047   3.981  24.848  1.00 23.14    -0.274 OA
-ENDBRANCH  29  30
-ENDBRANCH  28  29
+BRANCH  20  21
+ATOM     21  CB  ASN A  71      31.931   4.818  25.648  1.00 22.21     0.137 C 
+BRANCH  21  22
+ATOM     22  CG  ASN A  71      33.096   4.732  24.650  1.00 22.84     0.217 C 
+ATOM     23  ND2 ASN A  71      33.006   5.492  23.557  1.00 22.24    -0.370 N 
+ATOM     24 1HD2 ASN A  71      32.204   6.094  23.425  1.00 22.24     0.159 HD
+ATOM     25 2HD2 ASN A  71      33.751   5.480  22.876  1.00 22.24     0.159 HD
+ATOM     26  OD1 ASN A  71      34.047   3.981  24.848  1.00 23.14    -0.274 OA
+ENDBRANCH  21  22
+ENDBRANCH  20  21
 END_RES ASN A  71
 BEGIN_RES GLU A 111
 REMARK  3 active torsions:
 REMARK  status: ('A' for Active; 'I' for Inactive)
-REMARK   15  A    between atoms: CA   and  CB  
-REMARK   16  A    between atoms: CB   and  CG  
-REMARK   17  A    between atoms: CG   and  CD  
+REMARK   12  A    between atoms: CA   and  CB  
+REMARK   13  A    between atoms: CB   and  CG  
+REMARK   14  A    between atoms: CG   and  CD  
 ROOT
-ATOM     35  CA  GLU A 111      30.028   9.879  22.725  1.00 31.79     0.177 C 
+ATOM     27  CA  GLU A 111      30.028   9.879  22.725  1.00 31.79     0.177 C 
 ENDROOT
-BRANCH  35  36
-ATOM     36  CB  GLU A 111      31.577  10.000  22.679  1.00 32.68     0.045 C 
-BRANCH  36  37
-ATOM     37  CG  GLU A 111      32.154  10.929  21.590  1.00 36.60     0.116 C 
-BRANCH  37  38
-ATOM     38  CD  GLU A 111      33.679  10.855  21.452  1.00 39.22     0.172 C 
-ATOM     39  OE2 GLU A 111      34.245  11.867  20.986  1.00 42.15    -0.648 OA
-ATOM     40  OE1 GLU A 111      34.257   9.799  21.793  1.00 35.95    -0.648 OA
-ENDBRANCH  37  38
-ENDBRANCH  36  37
-ENDBRANCH  35  36
+BRANCH  27  28
+ATOM     28  CB  GLU A 111      31.577  10.000  22.679  1.00 32.68     0.045 C 
+BRANCH  28  29
+ATOM     29  CG  GLU A 111      32.154  10.929  21.590  1.00 36.60     0.116 C 
+BRANCH  29  30
+ATOM     30  CD  GLU A 111      33.679  10.855  21.452  1.00 39.22     0.172 C 
+ATOM     31  OE2 GLU A 111      34.245  11.867  20.986  1.00 42.15    -0.648 OA
+ATOM     32  OE1 GLU A 111      34.257   9.799  21.793  1.00 35.95    -0.648 OA
+ENDBRANCH  29  30
+ENDBRANCH  28  29
+ENDBRANCH  27  28
 END_RES GLU A 111
-BEGIN_RES VAL A 118
-REMARK  1 active torsions:
-REMARK  status: ('A' for Active; 'I' for Inactive)
-REMARK   18  A    between atoms: CA   and  CB  
-ROOT
-ATOM     41  CA  VAL A 118      31.507   7.787  16.490  1.00 11.77     0.180 C 
-ENDROOT
-BRANCH  41  42
-ATOM     42  CB  VAL A 118      32.074   8.779  17.539  1.00  8.70     0.009 C 
-ATOM     43  CG1 VAL A 118      31.152   9.991  17.757  1.00  8.56     0.012 C 
-ATOM     44  CG2 VAL A 118      32.429   8.107  18.880  1.00  9.68     0.012 C 
-ENDBRANCH  41  42
-END_RES VAL A 118
 BEGIN_RES HIS A 119
 REMARK  2 active torsions:
 REMARK  status: ('A' for Active; 'I' for Inactive)
-REMARK   19  A    between atoms: CA   and  CB  
-REMARK   20  A    between atoms: CB   and  CG  
+REMARK   15  A    between atoms: CA   and  CB  
+REMARK   16  A    between atoms: CB   and  CG  
 ROOT
-ATOM     45  CA  HIS A 119      33.340   4.440  15.876  1.00 16.25     0.182 C 
+ATOM     33  CA  HIS A 119      33.340   4.440  15.876  1.00 16.25     0.182 C 
 ENDROOT
-BRANCH  45  46
-ATOM     46  CB  HIS A 119      34.615   4.451  16.753  1.00 21.92     0.095 C 
-BRANCH  46  47
-ATOM     47  CG  HIS A 119      35.426   3.177  16.772  1.00 29.54     0.053 A 
-ATOM     48  ND1 HIS A 119      36.253   2.791  15.712  1.00 34.44    -0.247 NA
-ATOM     49  CE1 HIS A 119      36.782   1.637  16.097  1.00 33.01     0.207 A 
-ATOM     50  NE2 HIS A 119      36.370   1.250  17.305  1.00 30.75    -0.359 N 
-ATOM     51  HE2 HIS A 119      36.636   0.404  17.792  1.00 30.75     0.166 HD
-ATOM     52  CD2 HIS A 119      35.493   2.216  17.761  1.00 25.48     0.116 A 
-ENDBRANCH  46  47
-ENDBRANCH  45  46
+BRANCH  33  34
+ATOM     34  CB  HIS A 119      34.615   4.451  16.753  1.00 21.92     0.095 C 
+BRANCH  34  35
+ATOM     35  CG  HIS A 119      35.426   3.177  16.772  1.00 29.54     0.053 A 
+ATOM     36  ND1 HIS A 119      36.253   2.791  15.712  1.00 34.44    -0.247 NA
+ATOM     37  CE1 HIS A 119      36.782   1.637  16.097  1.00 33.01     0.207 A 
+ATOM     38  NE2 HIS A 119      36.370   1.250  17.305  1.00 30.75    -0.359 N 
+ATOM     39  HE2 HIS A 119      36.636   0.404  17.792  1.00 30.75     0.166 HD
+ATOM     40  CD2 HIS A 119      35.493   2.216  17.761  1.00 25.48     0.116 A 
+ENDBRANCH  34  35
+ENDBRANCH  33  34
 END_RES HIS A 119

@@ -18,390 +18,129 @@ ATOM      8  CD2 PHE E  54      18.473  -0.842   4.271  1.00  0.00     0.007 A
 ENDBRANCH   2   3
 ENDBRANCH   1   2
 END_RES PHE E  54
-BEGIN_RES VAL E  57
+BEGIN_RES VAL E 104
 REMARK  1 active torsions:
 REMARK  status: ('A' for Active; 'I' for Inactive)
 REMARK    3  A    between atoms: CA   and  CB  
 ROOT
-ATOM      9  CA  VAL E  57       8.335  -1.107   9.387  1.00 18.26     0.180 C 
+ATOM      9  CA  VAL E 104      14.305   3.921  21.829  1.00 16.00     0.180 C 
 ENDROOT
 BRANCH   9  10
-ATOM     10  CB  VAL E  57       9.202   0.076   9.892  1.00 16.00     0.009 C 
-ATOM     11  CG2 VAL E  57       9.258   0.147  11.426  1.00 16.00     0.012 C 
-ATOM     12  CG1 VAL E  57       8.818   1.444   9.310  1.00 25.12     0.012 C 
+ATOM     10  CB  VAL E 104      13.891   4.049  20.349  1.00 16.00     0.009 C 
+ATOM     11  CG2 VAL E 104      12.555   3.338  20.081  1.00 16.00     0.012 C 
+ATOM     12  CG1 VAL E 104      14.975   3.534  19.385  1.00 23.20     0.012 C 
 ENDBRANCH   9  10
-END_RES VAL E  57
-BEGIN_RES VAL E 104
+END_RES VAL E 104
+BEGIN_RES VAL E 123
 REMARK  1 active torsions:
 REMARK  status: ('A' for Active; 'I' for Inactive)
 REMARK    4  A    between atoms: CA   and  CB  
 ROOT
-ATOM     13  CA  VAL E 104      14.305   3.921  21.829  1.00 16.00     0.180 C 
+ATOM     13  CA  VAL E 123       6.557   6.027  19.659  1.00 21.61     0.180 C 
 ENDROOT
 BRANCH  13  14
-ATOM     14  CB  VAL E 104      13.891   4.049  20.349  1.00 16.00     0.009 C 
-ATOM     15  CG2 VAL E 104      12.555   3.338  20.081  1.00 16.00     0.012 C 
-ATOM     16  CG1 VAL E 104      14.975   3.534  19.385  1.00 23.20     0.012 C 
+ATOM     14  CB  VAL E 123       8.006   6.576  19.632  1.00 16.00     0.009 C 
+ATOM     15  CG2 VAL E 123       9.013   5.624  20.295  1.00 16.00     0.012 C 
+ATOM     16  CG1 VAL E 123       8.081   7.939  20.329  1.00 16.00     0.012 C 
 ENDBRANCH  13  14
-END_RES VAL E 104
-BEGIN_RES MET E 120
+END_RES VAL E 123
+BEGIN_RES GLU E 127
 REMARK  3 active torsions:
 REMARK  status: ('A' for Active; 'I' for Inactive)
 REMARK    5  A    between atoms: CA   and  CB  
 REMARK    6  A    between atoms: CB   and  CG  
-REMARK    7  A    between atoms: CG   and  SD  
+REMARK    7  A    between atoms: CG   and  CD  
 ROOT
-ATOM     17  CA  MET E 120      11.286  -1.485  19.241  1.00 16.00     0.177 C 
+ATOM     17  CA  GLU E 127       9.829  12.545  14.613  1.00 17.92     0.177 C 
 ENDROOT
 BRANCH  17  18
-ATOM     18  CB  MET E 120      11.875  -0.226  18.567  1.00 31.80     0.045 C 
+ATOM     18  CB  GLU E 127      10.460  12.453  13.210  1.00 20.83     0.045 C 
 BRANCH  18  19
-ATOM     19  CG  MET E 120      13.407  -0.228  18.531  1.00 30.84     0.076 C 
+ATOM     19  CG  GLU E 127      10.355  11.048  12.584  1.00 27.09     0.116 C 
 BRANCH  19  20
-ATOM     20  SD  MET E 120      14.076  -1.321  17.264  1.00 26.22    -0.173 SA
-ATOM     21  CE  MET E 120      13.872  -0.235  15.831  1.00 33.44     0.089 C 
+ATOM     20  CD  GLU E 127      11.213  10.862  11.340  1.00 37.91     0.172 C 
+ATOM     21  OE2 GLU E 127      11.530   9.683  11.067  1.00 32.86    -0.648 OA
+ATOM     22  OE1 GLU E 127      11.525  11.879  10.680  1.00 30.31    -0.648 OA
 ENDBRANCH  19  20
 ENDBRANCH  18  19
 ENDBRANCH  17  18
-END_RES MET E 120
-BEGIN_RES TYR E 122
-REMARK  3 active torsions:
+END_RES GLU E 127
+BEGIN_RES PHE E 129
+REMARK  2 active torsions:
 REMARK  status: ('A' for Active; 'I' for Inactive)
 REMARK    8  A    between atoms: CA   and  CB  
 REMARK    9  A    between atoms: CB   and  CG  
-REMARK   10  A    between atoms: CZ   and  OH  
 ROOT
-ATOM     22  CA  TYR E 122       6.259   2.225  19.402  1.00 16.00     0.180 C 
+ATOM     23  CA  PHE E 129      11.572  16.980  12.153  1.00 16.00     0.180 C 
 ENDROOT
-BRANCH  22  23
-ATOM     23  CB  TYR E 122       4.873   1.622  19.088  1.00 16.00     0.073 C 
 BRANCH  23  24
-ATOM     24  CG  TYR E 122       3.962   2.462  18.201  1.00 16.00    -0.056 A 
-ATOM     25  CD2 TYR E 122       2.665   2.785  18.650  1.00 16.00     0.010 A 
-ATOM     26  CE2 TYR E 122       1.791   3.523  17.831  1.00 16.00     0.037 A 
-ATOM     27  CZ  TYR E 122       2.214   3.964  16.564  1.00 21.43     0.065 A 
-ATOM     28  CE1 TYR E 122       3.517   3.670  16.121  1.00 16.00     0.037 A 
-ATOM     29  CD1 TYR E 122       4.387   2.915  16.933  1.00 18.85     0.010 A 
-BRANCH  27  30
-ATOM     30  OH  TYR E 122       1.361   4.678  15.773  1.00 22.08    -0.361 OA
-ATOM     31  HH  TYR E 122       1.766   4.994  14.980  1.00 22.08     0.217 HD
-ENDBRANCH  27  30
+ATOM     24  CB  PHE E 129      12.153  15.930  11.194  1.00 16.00     0.073 C 
+BRANCH  24  25
+ATOM     25  CG  PHE E 129      12.331  16.454   9.784  1.00 23.05    -0.056 A 
+ATOM     26  CD2 PHE E 129      11.307  16.298   8.825  1.00 19.66     0.007 A 
+ATOM     27  CE2 PHE E 129      11.442  16.868   7.547  1.00 16.00     0.001 A 
+ATOM     28  CZ  PHE E 129      12.628  17.544   7.208  1.00 16.00     0.000 A 
+ATOM     29  CE1 PHE E 129      13.670  17.650   8.150  1.00 16.00     0.001 A 
+ATOM     30  CD1 PHE E 129      13.507  17.146   9.448  1.00 16.00     0.007 A 
+ENDBRANCH  24  25
 ENDBRANCH  23  24
-ENDBRANCH  22  23
-END_RES TYR E 122
-BEGIN_RES VAL E 123
-REMARK  1 active torsions:
+END_RES PHE E 129
+BEGIN_RES ASP E 166
+REMARK  2 active torsions:
 REMARK  status: ('A' for Active; 'I' for Inactive)
-REMARK   11  A    between atoms: CA   and  CB  
+REMARK   10  A    between atoms: CA   and  CB  
+REMARK   11  A    between atoms: CB   and  CG  
 ROOT
-ATOM     32  CA  VAL E 123       6.557   6.027  19.659  1.00 21.61     0.180 C 
+ATOM     31  CA  ASP E 166      23.942  10.982  13.077  1.00 16.00     0.186 C 
 ENDROOT
+BRANCH  31  32
+ATOM     32  CB  ASP E 166      23.538   9.754  12.227  1.00 16.00     0.147 C 
 BRANCH  32  33
-ATOM     33  CB  VAL E 123       8.006   6.576  19.632  1.00 16.00     0.009 C 
-ATOM     34  CG2 VAL E 123       9.013   5.624  20.295  1.00 16.00     0.012 C 
-ATOM     35  CG1 VAL E 123       8.081   7.939  20.329  1.00 16.00     0.012 C 
+ATOM     33  CG  ASP E 166      22.586  10.033  11.074  1.00 16.00     0.175 C 
+ATOM     34  OD2 ASP E 166      21.758   9.131  10.825  1.00 34.39    -0.648 OA
+ATOM     35  OD1 ASP E 166      22.717  11.106  10.444  1.00 24.01    -0.648 OA
 ENDBRANCH  32  33
-END_RES VAL E 123
-BEGIN_RES GLU E 127
+ENDBRANCH  31  32
+END_RES ASP E 166
+BEGIN_RES GLU E 170
 REMARK  3 active torsions:
 REMARK  status: ('A' for Active; 'I' for Inactive)
 REMARK   12  A    between atoms: CA   and  CB  
 REMARK   13  A    between atoms: CB   and  CG  
 REMARK   14  A    between atoms: CG   and  CD  
 ROOT
-ATOM     36  CA  GLU E 127       9.829  12.545  14.613  1.00 17.92     0.177 C 
+ATOM     36  CA  GLU E 170      14.832  13.224  11.817  1.00 20.09     0.177 C 
 ENDROOT
 BRANCH  36  37
-ATOM     37  CB  GLU E 127      10.460  12.453  13.210  1.00 20.83     0.045 C 
+ATOM     37  CB  GLU E 170      15.469  12.993  10.429  1.00 16.00     0.045 C 
 BRANCH  37  38
-ATOM     38  CG  GLU E 127      10.355  11.048  12.584  1.00 27.09     0.116 C 
+ATOM     38  CG  GLU E 170      15.146  14.039   9.345  1.00 16.00     0.116 C 
 BRANCH  38  39
-ATOM     39  CD  GLU E 127      11.213  10.862  11.340  1.00 37.91     0.172 C 
-ATOM     40  OE2 GLU E 127      11.530   9.683  11.067  1.00 32.86    -0.648 OA
-ATOM     41  OE1 GLU E 127      11.525  11.879  10.680  1.00 30.31    -0.648 OA
+ATOM     39  CD  GLU E 170      16.186  15.152   9.185  1.00 16.00     0.172 C 
+ATOM     40  OE1 GLU E 170      16.785  15.557  10.204  1.00 16.66    -0.648 OA
+ATOM     41  OE2 GLU E 170      16.359  15.593   8.028  1.00 16.00    -0.648 OA
 ENDBRANCH  38  39
 ENDBRANCH  37  38
 ENDBRANCH  36  37
-END_RES GLU E 127
-BEGIN_RES PHE E 129
-REMARK  2 active torsions:
-REMARK  status: ('A' for Active; 'I' for Inactive)
-REMARK   15  A    between atoms: CA   and  CB  
-REMARK   16  A    between atoms: CB   and  CG  
-ROOT
-ATOM     42  CA  PHE E 129      11.572  16.980  12.153  1.00 16.00     0.180 C 
-ENDROOT
-BRANCH  42  43
-ATOM     43  CB  PHE E 129      12.153  15.930  11.194  1.00 16.00     0.073 C 
-BRANCH  43  44
-ATOM     44  CG  PHE E 129      12.331  16.454   9.784  1.00 23.05    -0.056 A 
-ATOM     45  CD2 PHE E 129      11.307  16.298   8.825  1.00 19.66     0.007 A 
-ATOM     46  CE2 PHE E 129      11.442  16.868   7.547  1.00 16.00     0.001 A 
-ATOM     47  CZ  PHE E 129      12.628  17.544   7.208  1.00 16.00     0.000 A 
-ATOM     48  CE1 PHE E 129      13.670  17.650   8.150  1.00 16.00     0.001 A 
-ATOM     49  CD1 PHE E 129      13.507  17.146   9.448  1.00 16.00     0.007 A 
-ENDBRANCH  43  44
-ENDBRANCH  42  43
-END_RES PHE E 129
-BEGIN_RES ARG E 133
-REMARK  4 active torsions:
-REMARK  status: ('A' for Active; 'I' for Inactive)
-REMARK   17  A    between atoms: CA   and  CB  
-REMARK   18  A    between atoms: CB   and  CG  
-REMARK   19  A    between atoms: CG   and  CD  
-REMARK   20  A    between atoms: CD   and  NE  
-REMARK       I    between atoms: NE   and  CZ  
-REMARK       I    between atoms: CZ   and  NH1 
-REMARK       I    between atoms: CZ   and  NH2 
-ROOT
-ATOM     50  CA  ARG E 133       9.113  22.175   9.859  1.00 16.00     0.176 C 
-ENDROOT
-BRANCH  50  51
-ATOM     51  CB  ARG E 133       9.258  21.146   8.720  1.00 16.00     0.036 C 
-BRANCH  51  52
-ATOM     52  CG  ARG E 133      10.692  20.666   8.429  1.00 16.00     0.022 C 
-BRANCH  52  53
-ATOM     53  CD  ARG E 133      11.551  21.644   7.612  1.00 16.00     0.122 C 
-BRANCH  53  54
-ATOM     54  NE  ARG E 133      12.638  22.138   8.452  1.00 17.55    -0.357 N 
-ATOM     55  HE  ARG E 133      12.379  22.858   9.114  1.00 17.55     0.162 HD
-ATOM     56  CZ  ARG E 133      13.873  21.628   8.535  1.00 16.00     0.267 C 
-ATOM     57  NH1 ARG E 133      14.365  20.604   7.599  1.00 20.26    -0.019 N 
-ATOM     58  NH2 ARG E 133      14.661  22.081   9.511  1.00 16.00    -0.366 N 
-ATOM     59 HH12 ARG E 133      13.772  19.787   7.637  1.00 20.26     0.284 HD
-ATOM     60 HH13 ARG E 133      14.372  20.967   6.656  1.00 20.26     0.284 HD
-ATOM     61 HH11 ARG E 133      15.306  20.331   7.848  1.00 20.26     0.284 HD
-ATOM     62  HH2 ARG E 133      15.537  21.613   9.756  1.00 16.00     0.159 HD
-ATOM     63  HH1 ARG E 133      14.351  22.839  10.104  1.00 16.00     0.159 HD
-ENDBRANCH  53  54
-ENDBRANCH  52  53
-ENDBRANCH  51  52
-ENDBRANCH  50  51
-END_RES ARG E 133
-BEGIN_RES ASP E 166
-REMARK  2 active torsions:
-REMARK  status: ('A' for Active; 'I' for Inactive)
-REMARK   21  A    between atoms: CA   and  CB  
-REMARK   22  A    between atoms: CB   and  CG  
-ROOT
-ATOM     64  CA  ASP E 166      23.942  10.982  13.077  1.00 16.00     0.186 C 
-ENDROOT
-BRANCH  64  65
-ATOM     65  CB  ASP E 166      23.538   9.754  12.227  1.00 16.00     0.147 C 
-BRANCH  65  66
-ATOM     66  CG  ASP E 166      22.586  10.033  11.074  1.00 16.00     0.175 C 
-ATOM     67  OD2 ASP E 166      21.758   9.131  10.825  1.00 34.39    -0.648 OA
-ATOM     68  OD1 ASP E 166      22.717  11.106  10.444  1.00 24.01    -0.648 OA
-ENDBRANCH  65  66
-ENDBRANCH  64  65
-END_RES ASP E 166
-BEGIN_RES LYS E 168
-REMARK  5 active torsions:
-REMARK  status: ('A' for Active; 'I' for Inactive)
-REMARK   23  A    between atoms: CA   and  CB  
-REMARK   24  A    between atoms: CB   and  CG  
-REMARK   25  A    between atoms: CG   and  CD  
-REMARK   26  A    between atoms: CD   and  CE  
-REMARK   27  A    between atoms: CE   and  NZ  
-ROOT
-ATOM     69  CA  LYS E 168      19.511  15.526  13.455  1.00 16.00     0.176 C 
-ENDROOT
-BRANCH  69  70
-ATOM     70  CB  LYS E 168      19.733  15.150  11.973  1.00 16.00     0.035 C 
-BRANCH  70  71
-ATOM     71  CG  LYS E 168      19.438  13.673  11.651  1.00 16.00     0.004 C 
-BRANCH  71  72
-ATOM     72  CD  LYS E 168      19.605  13.367  10.171  1.00 16.00     0.027 C 
-BRANCH  72  73
-ATOM     73  CE  LYS E 168      19.276  11.906   9.849  1.00 21.67     0.229 C 
-BRANCH  73  74
-ATOM     74  NZ  LYS E 168      19.347  11.653   8.404  1.00 18.73    -0.079 N 
-ATOM     75  HZ3 LYS E 168      18.660  12.219   7.927  1.00 18.73     0.274 HD
-ATOM     76  HZ2 LYS E 168      19.174  10.675   8.222  1.00 18.73     0.274 HD
-ATOM     77  HZ1 LYS E 168      20.273  11.900   8.077  1.00 18.73     0.274 HD
-ENDBRANCH  73  74
-ENDBRANCH  72  73
-ENDBRANCH  71  72
-ENDBRANCH  70  71
-ENDBRANCH  69  70
-END_RES LYS E 168
-BEGIN_RES GLU E 170
-REMARK  3 active torsions:
-REMARK  status: ('A' for Active; 'I' for Inactive)
-REMARK   28  A    between atoms: CA   and  CB  
-REMARK   29  A    between atoms: CB   and  CG  
-REMARK   30  A    between atoms: CG   and  CD  
-ROOT
-ATOM     78  CA  GLU E 170      14.832  13.224  11.817  1.00 20.09     0.177 C 
-ENDROOT
-BRANCH  78  79
-ATOM     79  CB  GLU E 170      15.469  12.993  10.429  1.00 16.00     0.045 C 
-BRANCH  79  80
-ATOM     80  CG  GLU E 170      15.146  14.039   9.345  1.00 16.00     0.116 C 
-BRANCH  80  81
-ATOM     81  CD  GLU E 170      16.186  15.152   9.185  1.00 16.00     0.172 C 
-ATOM     82  OE1 GLU E 170      16.785  15.557  10.204  1.00 16.66    -0.648 OA
-ATOM     83  OE2 GLU E 170      16.359  15.593   8.028  1.00 16.00    -0.648 OA
-ENDBRANCH  80  81
-ENDBRANCH  79  80
-ENDBRANCH  78  79
 END_RES GLU E 170
-BEGIN_RES LEU E 173
-REMARK  2 active torsions:
-REMARK  status: ('A' for Active; 'I' for Inactive)
-REMARK   31  A    between atoms: CA   and  CB  
-REMARK   32  A    between atoms: CB   and  CG  
-ROOT
-ATOM     84  CA  LEU E 173      11.045  10.823  18.072  1.00 16.00     0.177 C 
-ENDROOT
-BRANCH  84  85
-ATOM     85  CB  LEU E 173      10.786   9.305  18.065  1.00 16.89     0.038 C 
-BRANCH  85  86
-ATOM     86  CG  LEU E 173      11.571   8.482  17.027  1.00 16.25    -0.020 C 
-ATOM     87  CD2 LEU E 173      11.325   8.949  15.587  1.00 16.00     0.009 C 
-ATOM     88  CD1 LEU E 173      11.222   6.998  17.193  1.00 16.00     0.009 C 
-ENDBRANCH  85  86
-ENDBRANCH  84  85
-END_RES LEU E 173
-BEGIN_RES THR E 183
-REMARK  2 active torsions:
-REMARK  status: ('A' for Active; 'I' for Inactive)
-REMARK   33  A    between atoms: CA   and  CB  
-REMARK   34  A    between atoms: CB   and  OG1 
-ROOT
-ATOM     89  CA  THR E 183      16.318   6.289  17.234  1.00 16.00     0.205 C 
-ENDROOT
-BRANCH  89  90
-ATOM     90  CB  THR E 183      14.980   6.325  16.464  1.00 16.00     0.146 C 
-ATOM     91  CG2 THR E 183      14.879   7.333  15.304  1.00 16.00     0.042 C 
-BRANCH  90  92
-ATOM     92  OG1 THR E 183      14.722   5.039  15.943  1.00 27.95    -0.393 OA
-ATOM     93  HG1 THR E 183      13.863   5.045  15.548  1.00 27.95     0.210 HD
-ENDBRANCH  90  92
-ENDBRANCH  89  90
-END_RES THR E 183
-BEGIN_RES ASP E 184
-REMARK  3 active torsions:
-REMARK  status: ('A' for Active; 'I' for Inactive)
-REMARK   35  A    between atoms: CA   and  CB  
-REMARK   36  A    between atoms: CB   and  CG  
-REMARK   37  A    between atoms: CG   and  OD2 
-ROOT
-ATOM     94  CA  ASP E 184      18.498   4.672  14.610  1.00 16.59     0.186 C 
-ENDROOT
-BRANCH  94  95
-ATOM     95  CB  ASP E 184      17.985   5.569  13.457  1.00 18.90     0.144 C 
-BRANCH  95  96
-ATOM     96  CG  ASP E 184      18.628   5.281  12.121  1.00 34.46     0.141 C 
-ATOM     97  OD1 ASP E 184      17.984   4.991  11.119  1.00 37.31    -0.650 OA
-BRANCH  96  98
-ATOM     98  OD2 ASP E 184      19.981   5.429  12.145  1.00 42.95    -0.776 OA
-ATOM     99  HD2 ASP E 184      20.367   5.301  11.291  1.00 42.95     0.167 HD
-ENDBRANCH  96  98
-ENDBRANCH  95  96
-ENDBRANCH  94  95
-END_RES ASP E 184
-BEGIN_RES PHE E 187
-REMARK  2 active torsions:
-REMARK  status: ('A' for Active; 'I' for Inactive)
-REMARK   38  A    between atoms: CA   and  CB  
-REMARK   39  A    between atoms: CB   and  CG  
-ROOT
-ATOM    100  CA  PHE E 187      26.328   4.737  12.413  1.00 22.73     0.180 C 
-ENDROOT
-BRANCH 100 101
-ATOM    101  CB  PHE E 187      26.229   6.135  11.784  1.00 21.95     0.073 C 
-BRANCH 101 102
-ATOM    102  CG  PHE E 187      25.758   6.089  10.355  1.00 16.00    -0.056 A 
-ATOM    103  CD2 PHE E 187      24.606   6.799   9.970  1.00 16.58     0.007 A 
-ATOM    104  CE2 PHE E 187      24.131   6.700   8.651  1.00 24.13     0.001 A 
-ATOM    105  CZ  PHE E 187      24.792   5.873   7.723  1.00 16.00     0.000 A 
-ATOM    106  CE1 PHE E 187      25.945   5.164   8.107  1.00 27.11     0.001 A 
-ATOM    107  CD1 PHE E 187      26.439   5.287   9.416  1.00 22.27     0.007 A 
-ENDBRANCH 101 102
-ENDBRANCH 100 101
-END_RES PHE E 187
-BEGIN_RES THR E 201
-REMARK  2 active torsions:
-REMARK  status: ('A' for Active; 'I' for Inactive)
-REMARK   40  A    between atoms: CA   and  CB  
-REMARK   41  A    between atoms: CB   and  OG1 
-ROOT
-ATOM    108  CA  THR E 201      24.064  13.887   7.098  1.00 19.28     0.205 C 
-ENDROOT
-BRANCH 108 109
-ATOM    109  CB  THR E 201      22.723  14.195   7.796  1.00 16.81     0.146 C 
-ATOM    110  CG2 THR E 201      21.742  15.026   6.952  1.00 16.00     0.042 C 
-BRANCH 109 111
-ATOM    111  OG1 THR E 201      22.098  12.948   8.042  1.00 16.00    -0.393 OA
-ATOM    112  HG1 THR E 201      22.625  12.458   8.661  1.00 16.00     0.210 HD
-ENDBRANCH 109 111
-ENDBRANCH 108 109
-END_RES THR E 201
-BEGIN_RES GLU E 203
-REMARK  3 active torsions:
-REMARK  status: ('A' for Active; 'I' for Inactive)
-REMARK   42  A    between atoms: CA   and  CB  
-REMARK   43  A    between atoms: CB   and  CG  
-REMARK   44  A    between atoms: CG   and  CD  
-ROOT
-ATOM    113  CA  GLU E 203      24.414  19.797   7.232  1.00 16.00     0.177 C 
-ENDROOT
-BRANCH 113 114
-ATOM    114  CB  GLU E 203      22.956  20.326   7.163  1.00 16.00     0.045 C 
-BRANCH 114 115
-ATOM    115  CG  GLU E 203      21.864  19.349   6.672  1.00 16.00     0.116 C 
-BRANCH 115 116
-ATOM    116  CD  GLU E 203      21.626  19.369   5.161  1.00 16.00     0.172 C 
-ATOM    117  OE2 GLU E 203      22.086  18.412   4.503  1.00 18.81    -0.648 OA
-ATOM    118  OE1 GLU E 203      20.967  20.327   4.700  1.00 26.49    -0.648 OA
-ENDBRANCH 115 116
-ENDBRANCH 114 115
-ENDBRANCH 113 114
-END_RES GLU E 203
-BEGIN_RES TYR E 204
-REMARK  3 active torsions:
-REMARK  status: ('A' for Active; 'I' for Inactive)
-REMARK   45  A    between atoms: CA   and  CB  
-REMARK   46  A    between atoms: CB   and  CG  
-REMARK   47  A    between atoms: CZ   and  OH  
-ROOT
-ATOM    119  CA  TYR E 204      25.435  18.141  10.598  1.00 17.75     0.180 C 
-ENDROOT
-BRANCH 119 120
-ATOM    120  CB  TYR E 204      24.472  17.101  11.203  1.00 16.00     0.073 C 
-BRANCH 120 121
-ATOM    121  CG  TYR E 204      23.170  17.738  11.635  1.00 16.00    -0.056 A 
-ATOM    122  CD1 TYR E 204      22.193  18.088  10.679  1.00 16.00     0.010 A 
-ATOM    123  CE1 TYR E 204      21.032  18.774  11.079  1.00 17.48     0.037 A 
-ATOM    124  CZ  TYR E 204      20.839  19.084  12.440  1.00 21.66     0.065 A 
-ATOM    125  CE2 TYR E 204      21.789  18.697  13.399  1.00 16.00     0.037 A 
-ATOM    126  CD2 TYR E 204      22.963  18.040  12.995  1.00 16.00     0.010 A 
-BRANCH 124 127
-ATOM    127  OH  TYR E 204      19.752  19.792  12.840  1.00 16.00    -0.361 OA
-ATOM    128  HH  TYR E 204      19.339  20.258  12.119  1.00 16.00     0.217 HD
-ENDBRANCH 124 127
-ENDBRANCH 120 121
-ENDBRANCH 119 120
-END_RES TYR E 204
 BEGIN_RES GLU E 230
 REMARK  3 active torsions:
 REMARK  status: ('A' for Active; 'I' for Inactive)
-REMARK   48  A    between atoms: CA   and  CB  
-REMARK   49  A    between atoms: CB   and  CG  
-REMARK   50  A    between atoms: CG   and  CD  
+REMARK   15  A    between atoms: CA   and  CB  
+REMARK   16  A    between atoms: CB   and  CG  
+REMARK   17  A    between atoms: CG   and  CD  
 ROOT
-ATOM    129  CA  GLU E 230      18.148  24.507  13.779  1.00 16.00     0.177 C 
+ATOM     42  CA  GLU E 230      18.148  24.507  13.779  1.00 16.00     0.177 C 
 ENDROOT
-BRANCH 129 130
-ATOM    130  CB  GLU E 230      18.425  23.176  13.054  1.00 16.00     0.045 C 
-BRANCH 130 131
-ATOM    131  CG  GLU E 230      17.277  22.709  12.131  1.00 16.00     0.116 C 
-BRANCH 131 132
-ATOM    132  CD  GLU E 230      17.652  21.582  11.175  1.00 16.00     0.172 C 
-ATOM    133  OE2 GLU E 230      16.715  20.904  10.710  1.00 18.33    -0.648 OA
-ATOM    134  OE1 GLU E 230      18.853  21.400  10.899  1.00 16.00    -0.648 OA
-ENDBRANCH 131 132
-ENDBRANCH 130 131
-ENDBRANCH 129 130
+BRANCH  42  43
+ATOM     43  CB  GLU E 230      18.425  23.176  13.054  1.00 16.00     0.045 C 
+BRANCH  43  44
+ATOM     44  CG  GLU E 230      17.277  22.709  12.131  1.00 16.00     0.116 C 
+BRANCH  44  45
+ATOM     45  CD  GLU E 230      17.652  21.582  11.175  1.00 16.00     0.172 C 
+ATOM     46  OE2 GLU E 230      16.715  20.904  10.710  1.00 18.33    -0.648 OA
+ATOM     47  OE1 GLU E 230      18.853  21.400  10.899  1.00 16.00    -0.648 OA
+ENDBRANCH  44  45
+ENDBRANCH  43  44
+ENDBRANCH  42  43
 END_RES GLU E 230

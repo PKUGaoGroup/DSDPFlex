@@ -18,35 +18,3 @@ ATOM      7 1HD2 ASN A 138      73.412  80.928  27.661  1.00 27.96     0.159 HD
 ENDBRANCH   2   3
 ENDBRANCH   1   2
 END_RES ASN A 138
-BEGIN_RES SER A 142
-REMARK  2 active torsions:
-REMARK  status: ('A' for Active; 'I' for Inactive)
-REMARK    3  A    between atoms: CA   and  CB  
-REMARK    4  A    between atoms: CB   and  OG  
-ROOT
-ATOM      8  CA  SER A 142      75.521  85.347  27.192  1.00 44.36     0.200 C 
-ENDROOT
-BRANCH   8   9
-ATOM      9  CB  SER A 142      75.402  84.338  26.032  1.00 44.51     0.199 C 
-BRANCH   9  10
-ATOM     10  OG  SER A 142      75.270  85.011  24.797  1.00 45.29    -0.398 OA
-ATOM     11  HG  SER A 142      76.042  85.539  24.660  1.00 45.29     0.209 HD
-ENDBRANCH   9  10
-ENDBRANCH   8   9
-END_RES SER A 142
-BEGIN_RES SER A 185
-REMARK  2 active torsions:
-REMARK  status: ('A' for Active; 'I' for Inactive)
-REMARK    5  A    between atoms: CA   and  CB  
-REMARK    6  A    between atoms: CB   and  OG  
-ROOT
-ATOM     12  CA  SER A 185      64.902  79.678  24.148  1.00 16.97     0.200 C 
-ENDROOT
-BRANCH  12  13
-ATOM     13  CB  SER A 185      65.581  80.556  23.075  1.00 16.75     0.199 C 
-BRANCH  13  14
-ATOM     14  OG  SER A 185      65.254  81.923  23.226  1.00 21.33    -0.398 OA
-ATOM     15  HG  SER A 185      64.321  82.028  23.104  1.00 21.33     0.209 HD
-ENDBRANCH  13  14
-ENDBRANCH  12  13
-END_RES SER A 185

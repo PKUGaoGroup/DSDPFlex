@@ -18,23 +18,3 @@ ATOM      8  ND1 HIS G   1       8.439  20.279 -12.142  1.00121.42    -0.247 NA
 ENDBRANCH   2   3
 ENDBRANCH   1   2
 END_RES HIS G   1
-BEGIN_RES ASN G  70
-REMARK  2 active torsions:
-REMARK  status: ('A' for Active; 'I' for Inactive)
-REMARK    3  A    between atoms: CA   and  CB  
-REMARK    4  A    between atoms: CB   and  CG  
-REMARK       I    between atoms: CG   and  ND2 
-ROOT
-ATOM      9  CA  ASN G  70      -2.920  27.229  -5.874  1.00 82.37     0.185 C 
-ENDROOT
-BRANCH   9  10
-ATOM     10  CB  ASN G  70      -3.154  28.002  -4.555  1.00 85.91     0.137 C 
-BRANCH  10  11
-ATOM     11  CG  ASN G  70      -3.212  29.518  -4.735  1.00 88.45     0.217 C 
-ATOM     12  OD1 ASN G  70      -4.253  30.074  -5.069  1.00 90.01    -0.274 OA
-ATOM     13  ND2 ASN G  70      -2.089  30.199  -4.500  1.00 90.37    -0.370 N 
-ATOM     14 1HD2 ASN G  70      -1.250  29.717  -4.213  1.00 90.37     0.159 HD
-ATOM     15 2HD2 ASN G  70      -2.094  31.205  -4.593  1.00 90.37     0.159 HD
-ENDBRANCH  10  11
-ENDBRANCH   9  10
-END_RES ASN G  70

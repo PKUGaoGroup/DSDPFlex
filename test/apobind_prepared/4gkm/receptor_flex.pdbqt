@@ -34,20 +34,3 @@ ATOM     11  OD1 ASN A 203     -32.583 -28.325   8.977  1.00 25.40    -0.274 OA
 ENDBRANCH   6   7
 ENDBRANCH   5   6
 END_RES ASN A 203
-BEGIN_RES THR A 209
-REMARK  2 active torsions:
-REMARK  status: ('A' for Active; 'I' for Inactive)
-REMARK    5  A    between atoms: CA   and  CB  
-REMARK    6  A    between atoms: CB   and  OG1 
-ROOT
-ATOM     12  CA  THR A 209     -19.517 -26.158   8.899  1.00 12.09     0.205 C 
-ENDROOT
-BRANCH  12  13
-ATOM     13  CB  THR A 209     -20.800 -26.879   9.401  1.00 12.12     0.146 C 
-ATOM     14  CG2 THR A 209     -21.357 -26.347  10.726  1.00 11.98     0.042 C 
-BRANCH  13  15
-ATOM     15  OG1 THR A 209     -21.819 -26.866   8.421  1.00 13.40    -0.393 OA
-ATOM     16  HG1 THR A 209     -22.550 -27.372   8.742  1.00 13.40     0.210 HD
-ENDBRANCH  13  15
-ENDBRANCH  12  13
-END_RES THR A 209

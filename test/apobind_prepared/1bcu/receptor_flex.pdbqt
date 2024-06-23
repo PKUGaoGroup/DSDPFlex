@@ -1,129 +1,32 @@
-BEGIN_RES TRP H  60
+BEGIN_RES ASP H 189
 REMARK  2 active torsions:
 REMARK  status: ('A' for Active; 'I' for Inactive)
 REMARK    1  A    between atoms: CA   and  CB  
 REMARK    2  A    between atoms: CB   and  CG  
 ROOT
-ATOM      1  CA  TRP H  60D     -1.720  16.679  57.713  1.00 55.43     0.181 C 
+ATOM      1  CA  ASP H 189      16.667  23.884  46.258  1.00 43.18     0.186 C 
 ENDROOT
 BRANCH   1   2
-ATOM      2  CB  TRP H  60D     -0.406  17.443  57.411  1.00 53.01     0.075 C 
+ATOM      2  CB  ASP H 189      16.140  22.485  45.829  1.00 44.59     0.147 C 
 BRANCH   2   3
-ATOM      3  CG  TRP H  60D      0.457  16.960  56.273  1.00 52.47    -0.028 A 
-ATOM      4  CD1 TRP H  60D      0.293  15.823  55.556  1.00 51.87     0.096 A 
-ATOM      5  NE1 TRP H  60D      1.265  15.737  54.583  1.00 51.45    -0.365 N 
-ATOM      6  HE1 TRP H  60D      1.317  14.966  53.932  1.00 51.45     0.165 HD
-ATOM      7  CE2 TRP H  60D      2.124  16.813  54.625  1.00 52.38     0.042 A 
-ATOM      8  CZ2 TRP H  60D      3.245  17.182  53.860  1.00 51.90     0.030 A 
-ATOM      9  CD2 TRP H  60D      1.645  17.605  55.712  1.00 53.01    -0.002 A 
-ATOM     10  CH2 TRP H  60D      3.931  18.368  54.175  1.00 50.99     0.002 A 
-ATOM     11  CZ3 TRP H  60D      3.497  19.164  55.253  1.00 51.52     0.001 A 
-ATOM     12  CE3 TRP H  60D      2.371  18.781  56.011  1.00 51.00     0.014 A 
+ATOM      3  CG  ASP H 189      14.669  22.416  45.393  1.00 50.99     0.175 C 
+ATOM      4  OD2 ASP H 189      14.201  21.271  45.218  1.00 52.87    -0.648 OA
+ATOM      5  OD1 ASP H 189      14.039  23.486  45.227  1.00 53.51    -0.648 OA
 ENDBRANCH   2   3
 ENDBRANCH   1   2
-END_RES TRP H  60
-BEGIN_RES ASP H 189
-REMARK  2 active torsions:
-REMARK  status: ('A' for Active; 'I' for Inactive)
-REMARK    3  A    between atoms: CA   and  CB  
-REMARK    4  A    between atoms: CB   and  CG  
-ROOT
-ATOM     13  CA  ASP H 189      16.667  23.884  46.258  1.00 43.18     0.186 C 
-ENDROOT
-BRANCH  13  14
-ATOM     14  CB  ASP H 189      16.140  22.485  45.829  1.00 44.59     0.147 C 
-BRANCH  14  15
-ATOM     15  CG  ASP H 189      14.669  22.416  45.393  1.00 50.99     0.175 C 
-ATOM     16  OD2 ASP H 189      14.201  21.271  45.218  1.00 52.87    -0.648 OA
-ATOM     17  OD1 ASP H 189      14.039  23.486  45.227  1.00 53.51    -0.648 OA
-ENDBRANCH  14  15
-ENDBRANCH  13  14
 END_RES ASP H 189
-BEGIN_RES CYS H 191
-REMARK  2 active torsions:
-REMARK  status: ('A' for Active; 'I' for Inactive)
-REMARK    5  A    between atoms: CA   and  CB  
-REMARK    6  A    between atoms: CB   and  SG  
-ROOT
-ATOM     18  CA  CYS H 191      13.204  21.858  51.549  1.00 44.15     0.186 C 
-ENDROOT
-BRANCH  18  19
-ATOM     19  CB  CYS H 191      14.495  21.097  51.927  1.00 48.90     0.120 C 
-BRANCH  19  20
-ATOM     20  SG  CYS H 191      14.383  19.293  52.113  1.00 58.87    -0.095 SA
-ENDBRANCH  19  20
-ENDBRANCH  18  19
-END_RES CYS H 191
-BEGIN_RES GLU H 192
-REMARK  3 active torsions:
-REMARK  status: ('A' for Active; 'I' for Inactive)
-REMARK    7  A    between atoms: CA   and  CB  
-REMARK    8  A    between atoms: CB   and  CG  
-REMARK    9  A    between atoms: CG   and  CD  
-ROOT
-ATOM     21  CA  GLU H 192      11.068  20.943  54.630  1.00 42.46     0.177 C 
-ENDROOT
-BRANCH  21  22
-ATOM     22  CB  GLU H 192      11.069  19.478  55.133  1.00 43.40     0.045 C 
-BRANCH  22  23
-ATOM     23  CG  GLU H 192      10.474  19.229  56.539  1.00 48.38     0.116 C 
-BRANCH  23  24
-ATOM     24  CD  GLU H 192      10.449  17.752  56.952  1.00 53.49     0.172 C 
-ATOM     25  OE1 GLU H 192       9.682  17.453  57.892  1.00 52.21    -0.648 OA
-ATOM     26  OE2 GLU H 192      11.206  16.947  56.360  1.00 54.68    -0.648 OA
-ENDBRANCH  23  24
-ENDBRANCH  22  23
-ENDBRANCH  21  22
-END_RES GLU H 192
-BEGIN_RES VAL H 213
-REMARK  1 active torsions:
-REMARK  status: ('A' for Active; 'I' for Inactive)
-REMARK   10  A    between atoms: CA   and  CB  
-ROOT
-ATOM     27  CA  VAL H 213       8.256  28.767  48.726  1.00 33.87     0.180 C 
-ENDROOT
-BRANCH  27  28
-ATOM     28  CB  VAL H 213       9.351  28.402  49.772  1.00 34.63     0.009 C 
-ATOM     29  CG2 VAL H 213      10.681  29.149  49.567  1.00 31.79     0.012 C 
-ATOM     30  CG1 VAL H 213       9.663  26.889  49.812  1.00 32.95     0.012 C 
-ENDBRANCH  27  28
-END_RES VAL H 213
-BEGIN_RES TRP H 215
-REMARK  2 active torsions:
-REMARK  status: ('A' for Active; 'I' for Inactive)
-REMARK   11  A    between atoms: CA   and  CB  
-REMARK   12  A    between atoms: CB   and  CG  
-ROOT
-ATOM     31  CA  TRP H 215       6.089  22.817  46.995  1.00 40.92     0.181 C 
-ENDROOT
-BRANCH  31  32
-ATOM     32  CB  TRP H 215       4.759  22.138  46.587  1.00 40.56     0.075 C 
-BRANCH  32  33
-ATOM     33  CG  TRP H 215       4.187  22.505  45.248  1.00 42.20    -0.028 A 
-ATOM     34  CD2 TRP H 215       4.297  21.795  43.974  1.00 42.39    -0.002 A 
-ATOM     35  CE3 TRP H 215       4.931  20.604  43.548  1.00 42.58     0.014 A 
-ATOM     36  CE2 TRP H 215       3.563  22.524  42.988  1.00 43.97     0.042 A 
-ATOM     37  CZ3 TRP H 215       4.840  20.164  42.211  1.00 45.06     0.001 A 
-ATOM     38  CH2 TRP H 215       4.108  20.909  41.267  1.00 44.02     0.002 A 
-ATOM     39  CZ2 TRP H 215       3.461  22.095  41.654  1.00 43.84     0.030 A 
-ATOM     40  NE1 TRP H 215       3.067  23.615  43.667  1.00 44.18    -0.365 N 
-ATOM     41  CD1 TRP H 215       3.415  23.585  44.999  1.00 42.96     0.096 A 
-ATOM     42  HE1 TRP H 215       2.475  24.334  43.275  1.00 44.18     0.165 HD
-ENDBRANCH  32  33
-ENDBRANCH  31  32
-END_RES TRP H 215
 BEGIN_RES CYS H 220
 REMARK  2 active torsions:
 REMARK  status: ('A' for Active; 'I' for Inactive)
-REMARK   13  A    between atoms: CA   and  CB  
-REMARK   14  A    between atoms: CB   and  SG  
+REMARK    3  A    between atoms: CA   and  CB  
+REMARK    4  A    between atoms: CB   and  SG  
 ROOT
-ATOM     43  CA  CYS H 220      14.571  18.575  47.660  1.00 56.75     0.186 C 
+ATOM      6  CA  CYS H 220      14.571  18.575  47.660  1.00 56.75     0.186 C 
 ENDROOT
-BRANCH  43  44
-ATOM     44  CB  CYS H 220      14.922  18.848  49.143  1.00 57.60     0.120 C 
-BRANCH  44  45
-ATOM     45  SG  CYS H 220      13.573  18.674  50.345  1.00 63.69    -0.095 SA
-ENDBRANCH  44  45
-ENDBRANCH  43  44
+BRANCH   6   7
+ATOM      7  CB  CYS H 220      14.922  18.848  49.143  1.00 57.60     0.120 C 
+BRANCH   7   8
+ATOM      8  SG  CYS H 220      13.573  18.674  50.345  1.00 63.69    -0.095 SA
+ENDBRANCH   7   8
+ENDBRANCH   6   7
 END_RES CYS H 220

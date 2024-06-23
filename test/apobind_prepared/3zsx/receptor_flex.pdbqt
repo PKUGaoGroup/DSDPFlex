@@ -155,20 +155,3 @@ ENDBRANCH  47  50
 ENDBRANCH  43  44
 ENDBRANCH  42  43
 END_RES TYR B  99
-BEGIN_RES THR B 125
-REMARK  2 active torsions:
-REMARK  status: ('A' for Active; 'I' for Inactive)
-REMARK   22  A    between atoms: CA   and  CB  
-REMARK   23  A    between atoms: CB   and  OG1 
-ROOT
-ATOM     52  CA  THR B 125      -5.956  46.592  -4.067  1.00 16.80     0.205 C 
-ENDROOT
-BRANCH  52  53
-ATOM     53  CB  THR B 125      -7.262  47.261  -4.563  1.00 19.01     0.146 C 
-ATOM     54  CG2 THR B 125      -8.533  46.686  -3.924  1.00 19.25     0.042 C 
-BRANCH  53  55
-ATOM     55  OG1 THR B 125      -7.242  48.634  -4.223  1.00 23.30    -0.393 OA
-ATOM     56  HG1 THR B 125      -7.228  48.713  -3.281  1.00 23.30     0.210 HD
-ENDBRANCH  53  55
-ENDBRANCH  52  53
-END_RES THR B 125
