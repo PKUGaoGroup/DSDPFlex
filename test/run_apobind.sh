@@ -15,4 +15,4 @@ l=`awk '{print $12}' ./apobind_prepared/${line}/box_dsdp.txt`
 
 ../DSDPflex --ligand ./apobind_prepared/${line}/ligand.pdbqt --flex ./apobind_prepared/${line}/receptor_flex.pdbqt --protein ./apobind_prepared/${line}/receptor_rigid.pdbqt --box_min $g $h $i --box_max $j $k $l --ligbox_min $a $b $c --ligbox_max $d $e $f  --top_n 10 --out ./apobind_prepared/${line}/ligand_out.pdbqt --out_flex ./apobind_prepared/${line}/flex_out.pdbqt --log ./apobind_prepared/${line}/dsdp_out.log
 
-done < apobind_cleaned.txt
+done < apobind_211.txt
