@@ -8,7 +8,7 @@ DSDPFlex runs on a Linux machine (tested on Ubuntu 22.04 and 20.04).
 
 A GPU with CUDA is required. NVCC is required for compilation, please install [Cuda Toolkit](https://developer.nvidia.com/cuda-toolkit) and make sure it is in the system path. (e.g. check using `nvcc --version`)
 
-> NOTE: Cuda version would need to be compatible with the GPU architecture and gcc/g++ version. An example version we used is `cuda_11.6` with `gcc_9.4.0`. If an older GPU (former to the GTX/RTX Turing) was used in your computer, you might need to modify the `-arch=sm_70` in Makefile to an compatible one.
+> NOTE: Cuda version would need to be compatible with the GPU architecture and gcc/g++ version. An example version we used is `cuda_11.6` with `gcc_9.4.0`. If an older GPU (former to the GTX/RTX Turing) was used on your computer, you might need to modify the `-arch=sm_70` in Makefile to a compatible one.
 
 Clone this repository.
 
@@ -96,9 +96,9 @@ It will replace the `--ligand`, `--out`, and `--out_flex` options. Each file nam
 
 ## Using DSDPFlex_pyTools
 
-We provide a python interface for calling DSDPFlex and related tools. It is recommended to run **rescoring** with this DSDPFlex_pyTools. More functions can be implemented in the future.
+We provide a Python interface for calling DSDPFlex and related tools. It is recommended to run **rescoring** with this DSDPFlex_pyTools. More functions can be implemented in the future.
 
-We recommend to set up the python environment with conda.
+We recommend setting up the Python environment with conda.
 
 ```
 conda create -n DSDPFlex_py
@@ -123,16 +123,24 @@ To use DSDPflex-py:
 DSDPflex-py --ligand ... --protein ... --rescore gnina
 ```
 
-(the other options are same as `DSDPflex`.) DSDPflex-py will call `gnina` for rescoring after docking by `DSDPflex`. By default, top-20 poses are rescored, the output files will be named `*_rescored.pdbqt`
+(the other options are the same as `DSDPflex`.) DSDPflex-py will call `gnina` for rescoring after docking by `DSDPflex`. By default, top-20 poses are rescored, the output files will be named `*_rescored.pdbqt`
 
 Other rescoring methods might be implemented in the future.
 
 ## Run DSDPFlex on APOBind
 
+The 211 systems within APOBind dataset, which was used for evaluation in the paper, are provided in `./test/apobind_prepared`. To run this test:
+
+```bash
+cd ./test
+sh ./run_apobind.sh
+```
+
+DSDPFlex will perform docking on each system.
 
 ## Advanced Options of DSDPFlex
 
-There are advanced options in DSDPflex that allow users to maually adjust or further develop the program.
+There are advanced options in DSDPflex that allow users to manually adjust or further develop the program.
 
 - `--no_norm` let the program not normalize the intra-protein score (i.e. using the original Vina score, see more in the [paper](https://doi.org/10.26434/chemrxiv-2023-bcw0g-v2))
 - `--norm_param <float>` modify the normalization parameter $p$ 
