@@ -1,0 +1,34 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_8  and  C_15 
+REMARK    2  A    between atoms: C_9  and  C_16 
+ROOT
+ATOM      1  C   UNK d   0      33.164 -32.274   1.076  0.00  0.00     0.015 A 
+ATOM      2  C   UNK d   0      32.441 -32.863   2.119  0.00  0.00     0.040 A 
+ATOM      3  C   UNK d   0      33.294 -32.817  -0.177  0.00  0.00    -0.015 A 
+ATOM      4  C   UNK d   0      32.711 -34.076  -0.431  0.00  0.00     0.087 A 
+ATOM      5  C   UNK d   0      31.853 -34.056   1.811  0.00  0.00     0.106 A 
+ATOM      6  C   UNK d   0      31.992 -34.643   0.593  0.00  0.00     0.122 A 
+ATOM      7  C   UNK d   0      30.630 -35.750   1.758  0.00  0.00     0.352 C 
+ATOM      8  O   UNK d   0      31.080 -34.795   2.609  0.00  0.00    -0.323 OA
+ATOM      9  O   UNK d   0      31.341 -35.848   0.513  0.00  0.00    -0.322 OA
+ENDROOT
+BRANCH   3  10
+ATOM     10  C   UNK d   0      34.111 -32.099  -1.196  0.00  0.00     0.028 C 
+ATOM     11  C   UNK d   0      33.901 -30.796  -1.570  0.00  0.00     0.022 A 
+ATOM     12  C   UNK d   0      32.894 -29.791  -1.271  0.00  0.00    -0.016 A 
+ATOM     13  C   UNK d   0      34.865 -30.174  -2.510  0.00  0.00     0.164 A 
+ATOM     14  C   UNK d   0      31.815 -29.772  -0.419  0.00  0.00     0.013 A 
+ATOM     15  C   UNK d   0      33.167 -28.662  -2.011  0.00  0.00    -0.040 A 
+ATOM     16  C   UNK d   0      30.990 -28.666  -0.303  0.00  0.00     0.001 A 
+ATOM     17  C   UNK d   0      31.261 -27.535  -1.057  0.00  0.00     0.001 A 
+ATOM     18  C   UNK d   0      32.355 -27.552  -1.881  0.00  0.00     0.008 A 
+ATOM     19  C   UNK d   0      34.358 -28.812  -2.878  0.00  0.00     0.123 A 
+ATOM     20  O   UNK d   0      35.908 -30.678  -2.920  0.00  0.00    -0.292 OA
+ENDBRANCH   3  10
+BRANCH   4  21
+ATOM     21  C   UNK d   0      32.803 -34.733  -1.793  0.00  0.00     0.213 C 
+ATOM     22  O   UNK d   0      31.771 -35.295  -2.239  0.00  0.00    -0.644 OA
+ATOM     23  O   UNK d   0      33.896 -34.659  -2.463  0.00  0.00    -0.644 OA
+ENDBRANCH   4  21
+TORSDOF 2

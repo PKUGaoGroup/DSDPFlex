@@ -1,0 +1,93 @@
+BEGIN_RES PHE A 253
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  CG  
+ROOT
+ATOM      1  CA  PHE A 253      23.978  30.874  22.276  1.00 58.43     0.180 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  PHE A 253      24.403  29.408  22.510  1.00 55.01     0.073 C 
+BRANCH   2   3
+ATOM      3  CG  PHE A 253      25.900  29.157  22.420  1.00 56.55    -0.056 A 
+ATOM      4  CD2 PHE A 253      26.504  28.848  21.183  1.00 54.65     0.007 A 
+ATOM      5  CE2 PHE A 253      27.895  28.645  21.103  1.00 51.13     0.001 A 
+ATOM      6  CZ  PHE A 253      28.686  28.731  22.265  1.00 54.19     0.000 A 
+ATOM      7  CE1 PHE A 253      28.088  29.037  23.502  1.00 52.54     0.001 A 
+ATOM      8  CD1 PHE A 253      26.699  29.250  23.579  1.00 52.30     0.007 A 
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES PHE A 253
+BEGIN_RES SER A 256
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    3  A    between atoms: CA   and  CB  
+REMARK    4  A    between atoms: CB   and  OG  
+ROOT
+ATOM      9  CA  SER A 256      24.654  36.034  20.816  1.00 69.63     0.200 C 
+ENDROOT
+BRANCH   9  10
+ATOM     10  CB  SER A 256      25.453  37.072  19.987  1.00 68.91     0.199 C 
+BRANCH  10  11
+ATOM     11  OG  SER A 256      26.213  36.459  18.966  1.00 66.54    -0.398 OA
+ATOM     12  HG  SER A 256      26.783  35.803  19.345  1.00 66.54     0.209 HD
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+END_RES SER A 256
+BEGIN_RES PHE A 259
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    5  A    between atoms: CA   and  CB  
+REMARK    6  A    between atoms: CB   and  CG  
+ROOT
+ATOM     13  CA  PHE A 259      25.775  37.357  27.096  1.00 60.66     0.180 C 
+ENDROOT
+BRANCH  13  14
+ATOM     14  CB  PHE A 259      26.655  37.162  25.835  1.00 64.40     0.073 C 
+BRANCH  14  15
+ATOM     15  CG  PHE A 259      27.057  35.735  25.499  1.00 71.86    -0.056 A 
+ATOM     16  CD1 PHE A 259      26.110  34.827  24.982  1.00 78.26     0.007 A 
+ATOM     17  CE1 PHE A 259      26.485  33.512  24.650  1.00 77.88     0.001 A 
+ATOM     18  CZ  PHE A 259      27.823  33.108  24.796  1.00 71.19     0.000 A 
+ATOM     19  CE2 PHE A 259      28.780  34.018  25.285  1.00 74.22     0.001 A 
+ATOM     20  CD2 PHE A 259      28.396  35.323  25.645  1.00 73.29     0.007 A 
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+END_RES PHE A 259
+BEGIN_RES ILE A 359
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    7  A    between atoms: CA   and  CB  
+REMARK    8  A    between atoms: CB   and  CG1 
+ROOT
+ATOM     21  CA  ILE A 359      32.820  37.162  23.011  1.00 67.52     0.180 C 
+ENDROOT
+BRANCH  21  22
+ATOM     22  CB  ILE A 359      32.965  35.610  22.914  1.00 63.69     0.013 C 
+ATOM     23  CG2 ILE A 359      32.997  34.898  24.282  1.00 66.81     0.012 C 
+BRANCH  22  24
+ATOM     24  CG1 ILE A 359      31.837  34.974  22.084  1.00 67.11     0.002 C 
+ATOM     25  CD1 ILE A 359      32.178  33.583  21.536  1.00 68.43     0.005 C 
+ENDBRANCH  22  24
+ENDBRANCH  21  22
+END_RES ILE A 359
+BEGIN_RES PHE A 601
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    9  A    between atoms: CA   and  CB  
+REMARK   10  A    between atoms: CB   and  CG  
+ROOT
+ATOM     26  CA  PHE A 601      28.029  32.754  18.462  1.00 57.97     0.321 C 
+ENDROOT
+BRANCH  26  27
+ATOM     27  CB  PHE A 601      28.620  32.944  19.870  1.00 62.85     0.085 C 
+BRANCH  27  28
+ATOM     28  CG  PHE A 601      28.751  34.388  20.321  1.00 66.96    -0.056 A 
+ATOM     29  CD2 PHE A 601      28.162  34.819  21.529  1.00 61.54     0.007 A 
+ATOM     30  CE2 PHE A 601      28.286  36.163  21.937  1.00 55.47     0.001 A 
+ATOM     31  CZ  PHE A 601      28.985  37.082  21.132  1.00 61.83     0.000 A 
+ATOM     32  CE1 PHE A 601      29.555  36.661  19.918  1.00 58.92     0.001 A 
+ATOM     33  CD1 PHE A 601      29.458  35.313  19.528  1.00 62.78     0.007 A 
+ENDBRANCH  27  28
+ENDBRANCH  26  27
+END_RES PHE A 601

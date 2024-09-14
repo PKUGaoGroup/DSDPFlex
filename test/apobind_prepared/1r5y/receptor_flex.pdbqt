@@ -1,0 +1,110 @@
+BEGIN_RES SER A 103
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  OG  
+ROOT
+ATOM      1  CA  SER A 103      10.184  14.960  25.999  1.00 20.47     0.200 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  SER A 103      11.391  15.282  26.898  1.00 22.71     0.199 C 
+BRANCH   2   3
+ATOM      3  OG  SER A 103      12.160  16.386  26.452  1.00 24.06    -0.398 OA
+ATOM      4  HG  SER A 103      12.958  16.432  26.961  1.00 24.06     0.209 HD
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES SER A 103
+BEGIN_RES ASP A 156
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    3  A    between atoms: CA   and  CB  
+REMARK    4  A    between atoms: CB   and  CG  
+ROOT
+ATOM      5  CA  ASP A 156      15.534  18.468  30.085  1.00 24.43     0.186 C 
+ENDROOT
+BRANCH   5   6
+ATOM      6  CB  ASP A 156      16.647  17.614  29.417  1.00 24.54     0.147 C 
+BRANCH   6   7
+ATOM      7  CG  ASP A 156      16.611  17.507  27.885  1.00 25.49     0.175 C 
+ATOM      8  OD1 ASP A 156      15.500  17.461  27.314  1.00 24.56    -0.648 OA
+ATOM      9  OD2 ASP A 156      17.721  17.446  27.312  1.00 28.18    -0.648 OA
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+END_RES ASP A 156
+BEGIN_RES CYS A 158
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    5  A    between atoms: CA   and  CB  
+REMARK    6  A    between atoms: CB   and  SG  
+ROOT
+ATOM     10  CA  CYS A 158      18.251  22.129  25.876  1.00 41.70     0.185 C 
+ENDROOT
+BRANCH  10  11
+ATOM     11  CB  CYS A 158      17.449  22.047  24.562  1.00 43.11     0.105 C 
+BRANCH  11  12
+ATOM     12  SG  CYS A 158      16.703  20.399  24.415  1.00 46.60    -0.180 SA
+ATOM     13  HG  CYS A 158      16.084  20.624  23.253  1.00 46.60     0.101 HD
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+END_RES CYS A 158
+BEGIN_RES ILE A 201
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    7  A    between atoms: CA   and  CB  
+REMARK    8  A    between atoms: CB   and  CG1 
+ROOT
+ATOM     14  CA  ILE A 201      19.468  12.702  28.230  1.00 18.00     0.180 C 
+ENDROOT
+BRANCH  14  15
+ATOM     15  CB  ILE A 201      18.493  13.743  27.601  1.00 17.24     0.013 C 
+ATOM     16  CG2 ILE A 201      19.208  14.567  26.504  1.00 19.04     0.012 C 
+BRANCH  15  17
+ATOM     17  CG1 ILE A 201      17.222  13.075  27.025  1.00 18.13     0.002 C 
+ATOM     18  CD1 ILE A 201      16.140  14.051  26.543  1.00 16.27     0.005 C 
+ENDBRANCH  15  17
+ENDBRANCH  14  15
+END_RES ILE A 201
+BEGIN_RES GLN A 203
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    9  A    between atoms: CA   and  CB  
+REMARK   10  A    between atoms: CB   and  CG  
+REMARK   11  A    between atoms: CG   and  CD  
+REMARK       I    between atoms: CD   and  NE2 
+ROOT
+ATOM     19  CA  GLN A 203      23.921  17.494  28.402  1.00 21.59     0.177 C 
+ENDROOT
+BRANCH  19  20
+ATOM     20  CB  GLN A 203      22.794  18.366  29.020  1.00 23.38     0.044 C 
+BRANCH  20  21
+ATOM     21  CG  GLN A 203      21.401  18.205  28.367  1.00 25.52     0.105 C 
+BRANCH  21  22
+ATOM     22  CD  GLN A 203      21.308  18.716  26.922  1.00 26.82     0.215 C 
+ATOM     23  NE2 GLN A 203      20.180  18.452  26.261  1.00 27.85    -0.370 N 
+ATOM     24 1HE2 GLN A 203      19.408  17.977  26.724  1.00 27.85     0.159 HD
+ATOM     25 2HE2 GLN A 203      20.069  18.773  25.312  1.00 27.85     0.159 HD
+ATOM     26  OE1 GLN A 203      22.230  19.341  26.398  1.00 29.10    -0.274 OA
+ENDBRANCH  21  22
+ENDBRANCH  20  21
+ENDBRANCH  19  20
+END_RES GLN A 203
+BEGIN_RES MET A 260
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK   12  A    between atoms: CA   and  CB  
+REMARK   13  A    between atoms: CB   and  CG  
+REMARK   14  A    between atoms: CG   and  SD  
+ROOT
+ATOM     27  CA  MET A 260      19.023  12.623  19.078  1.00 16.80     0.177 C 
+ENDROOT
+BRANCH  27  28
+ATOM     28  CB  MET A 260      18.537  13.391  20.327  1.00 17.56     0.045 C 
+BRANCH  28  29
+ATOM     29  CG  MET A 260      18.367  12.497  21.565  1.00 22.89     0.076 C 
+BRANCH  29  30
+ATOM     30  SD  MET A 260      17.643  13.315  23.014  1.00 24.84    -0.173 SA
+ATOM     31  CE  MET A 260      15.892  13.319  22.543  1.00 27.77     0.089 C 
+ENDBRANCH  29  30
+ENDBRANCH  28  29
+ENDBRANCH  27  28
+END_RES MET A 260

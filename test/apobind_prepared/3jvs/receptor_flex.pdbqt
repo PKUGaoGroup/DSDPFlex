@@ -1,0 +1,58 @@
+BEGIN_RES PHE A  93
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  CG  
+ROOT
+ATOM      1  CA  PHE A  93      24.812  -1.541  18.907  1.00 20.19     0.180 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  PHE A  93      23.930  -2.784  18.656  1.00 22.90     0.073 C 
+BRANCH   2   3
+ATOM      3  CG  PHE A  93      24.465  -4.086  19.223  1.00 26.57    -0.056 A 
+ATOM      4  CD1 PHE A  93      25.205  -4.964  18.403  1.00 28.11     0.007 A 
+ATOM      5  CE1 PHE A  93      25.714  -6.164  18.932  1.00 28.68     0.001 A 
+ATOM      6  CZ  PHE A  93      25.478  -6.496  20.280  1.00 30.38     0.000 A 
+ATOM      7  CE2 PHE A  93      24.731  -5.626  21.099  1.00 31.45     0.001 A 
+ATOM      8  CD2 PHE A  93      24.228  -4.422  20.572  1.00 27.86     0.007 A 
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES PHE A  93
+BEGIN_RES ILE A  96
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    3  A    between atoms: CA   and  CB  
+REMARK    4  A    between atoms: CB   and  CG1 
+ROOT
+ATOM      9  CA  ILE A  96      29.492   0.619  20.764  1.00 22.49     0.180 C 
+ENDROOT
+BRANCH   9  10
+ATOM     10  CB  ILE A  96      28.349   0.063  21.672  1.00 21.92     0.013 C 
+ATOM     11  CG2 ILE A  96      28.876  -0.533  22.994  1.00 20.88     0.012 C 
+BRANCH  10  12
+ATOM     12  CG1 ILE A  96      27.304   1.166  21.974  1.00 20.32     0.002 C 
+ATOM     13  CD1 ILE A  96      25.975   0.652  22.544  1.00 17.54     0.005 C 
+ENDBRANCH  10  12
+ENDBRANCH   9  10
+END_RES ILE A  96
+BEGIN_RES GLU A  97
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    5  A    between atoms: CA   and  CB  
+REMARK    6  A    between atoms: CB   and  CG  
+REMARK    7  A    between atoms: CG   and  CD  
+ROOT
+ATOM     14  CA  GLU A  97      33.028  -0.908  20.802  1.00 24.12     0.177 C 
+ENDROOT
+BRANCH  14  15
+ATOM     15  CB  GLU A  97      34.264   0.020  20.688  1.00 27.26     0.045 C 
+BRANCH  15  16
+ATOM     16  CG  GLU A  97      35.631  -0.690  20.573  1.00 34.87     0.116 C 
+BRANCH  16  17
+ATOM     17  CD  GLU A  97      35.800  -1.497  19.284  1.00 39.91     0.172 C 
+ATOM     18  OE2 GLU A  97      36.327  -2.626  19.388  1.00 43.96    -0.648 OA
+ATOM     19  OE1 GLU A  97      35.408  -0.973  18.217  1.00 41.98    -0.648 OA
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+ENDBRANCH  14  15
+END_RES GLU A  97

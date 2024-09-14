@@ -1,0 +1,112 @@
+BEGIN_RES GLU A  71
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  CG  
+REMARK    3  A    between atoms: CG   and  CD  
+ROOT
+ATOM      1  CA  GLU A  71      33.825  24.432  34.202  1.00 24.17     0.177 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  GLU A  71      34.629  24.323  32.883  1.00 29.77     0.045 C 
+BRANCH   2   3
+ATOM      3  CG  GLU A  71      35.467  25.588  32.558  1.00 35.68     0.116 C 
+BRANCH   3   4
+ATOM      4  CD  GLU A  71      36.509  25.428  31.446  1.00 40.01     0.172 C 
+ATOM      5  OE2 GLU A  71      37.086  26.471  31.063  1.00 41.50    -0.648 OA
+ATOM      6  OE1 GLU A  71      36.732  24.283  31.001  1.00 41.96    -0.648 OA
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES GLU A  71
+BEGIN_RES LEU A  75
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    4  A    between atoms: CA   and  CB  
+REMARK    5  A    between atoms: CB   and  CG  
+ROOT
+ATOM      7  CA  LEU A  75      33.817  29.942  36.832  1.00 19.08     0.177 C 
+ENDROOT
+BRANCH   7   8
+ATOM      8  CB  LEU A  75      34.209  29.954  35.338  1.00 17.76     0.038 C 
+BRANCH   8   9
+ATOM      9  CG  LEU A  75      35.543  29.255  34.999  1.00 16.65    -0.020 C 
+ATOM     10  CD2 LEU A  75      36.757  29.962  35.628  1.00 16.28     0.009 C 
+ATOM     11  CD1 LEU A  75      35.718  29.164  33.477  1.00 15.97     0.009 C 
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+END_RES LEU A  75
+BEGIN_RES THR A 106
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    6  A    between atoms: CA   and  CB  
+REMARK    7  A    between atoms: CB   and  OG1 
+ROOT
+ATOM     12  CA  THR A 106      37.932  36.022  31.349  1.00 22.80     0.205 C 
+ENDROOT
+BRANCH  12  13
+ATOM     13  CB  THR A 106      38.612  34.759  31.942  1.00 22.95     0.146 C 
+ATOM     14  CG2 THR A 106      37.651  33.595  32.233  1.00 22.55     0.042 C 
+BRANCH  13  15
+ATOM     15  OG1 THR A 106      39.666  34.299  31.112  1.00 23.88    -0.393 OA
+ATOM     16  HG1 THR A 106      40.335  34.967  31.071  1.00 23.88     0.210 HD
+ENDBRANCH  13  15
+ENDBRANCH  12  13
+END_RES THR A 106
+BEGIN_RES MET A 109
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    8  A    between atoms: CA   and  CB  
+REMARK    9  A    between atoms: CB   and  CG  
+REMARK   10  A    between atoms: CG   and  SD  
+ROOT
+ATOM     17  CA  MET A 109      46.472  37.337  31.820  1.00 42.18     0.177 C 
+ENDROOT
+BRANCH  17  18
+ATOM     18  CB  MET A 109      46.334  35.919  32.413  1.00 45.03     0.045 C 
+BRANCH  18  19
+ATOM     19  CG  MET A 109      45.944  35.980  33.889  1.00 46.89     0.076 C 
+BRANCH  19  20
+ATOM     20  SD  MET A 109      44.375  36.805  34.289  1.00 56.73    -0.173 SA
+ATOM     21  CE  MET A 109      44.955  38.030  35.494  1.00 48.57     0.089 C 
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+END_RES MET A 109
+BEGIN_RES LEU A 167
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK   11  A    between atoms: CA   and  CB  
+REMARK   12  A    between atoms: CB   and  CG  
+ROOT
+ATOM     22  CA  LEU A 167      43.586  29.972  37.424  1.00 23.18     0.177 C 
+ENDROOT
+BRANCH  22  23
+ATOM     23  CB  LEU A 167      44.695  30.237  36.375  1.00 23.81     0.038 C 
+BRANCH  23  24
+ATOM     24  CG  LEU A 167      44.749  31.651  35.761  1.00 25.14    -0.020 C 
+ATOM     25  CD2 LEU A 167      46.052  31.795  34.958  1.00 25.52     0.009 C 
+ATOM     26  CD1 LEU A 167      44.617  32.798  36.774  1.00 25.77     0.009 C 
+ENDBRANCH  23  24
+ENDBRANCH  22  23
+END_RES LEU A 167
+BEGIN_RES PHE A 169
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK   13  A    between atoms: CA   and  CB  
+REMARK   14  A    between atoms: CB   and  CG  
+ROOT
+ATOM     27  CA  PHE A 169      39.538  25.045  37.949  1.00 46.25     0.180 C 
+ENDROOT
+BRANCH  27  28
+ATOM     28  CB  PHE A 169      38.388  25.917  38.485  1.00 41.04     0.073 C 
+BRANCH  28  29
+ATOM     29  CG  PHE A 169      38.827  26.742  39.665  1.00 35.09    -0.056 A 
+ATOM     30  CD1 PHE A 169      38.708  26.217  40.969  1.00 31.86     0.007 A 
+ATOM     31  CE1 PHE A 169      39.160  26.969  42.068  1.00 29.98     0.001 A 
+ATOM     32  CZ  PHE A 169      39.730  28.238  41.852  1.00 29.55     0.000 A 
+ATOM     33  CE2 PHE A 169      39.861  28.753  40.549  1.00 30.18     0.001 A 
+ATOM     34  CD2 PHE A 169      39.404  28.008  39.453  1.00 32.25     0.007 A 
+ENDBRANCH  28  29
+ENDBRANCH  27  28
+END_RES PHE A 169

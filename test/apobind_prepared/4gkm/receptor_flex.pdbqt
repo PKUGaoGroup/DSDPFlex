@@ -1,0 +1,56 @@
+BEGIN_RES ASN A 138
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  CG  
+REMARK       I    between atoms: CG   and  ND2 
+ROOT
+ATOM      1  CA  ASN A 138      77.036  79.573  28.210  1.00 26.97     0.185 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  ASN A 138      75.947  80.681  28.296  1.00 27.67     0.137 C 
+BRANCH   2   3
+ATOM      3  CG  ASN A 138      75.267  80.989  26.958  1.00 29.69     0.217 C 
+ATOM      4  OD1 ASN A 138      75.921  81.083  25.922  1.00 27.89    -0.274 OA
+ATOM      5  ND2 ASN A 138      73.939  81.117  26.969  1.00 27.96    -0.370 N 
+ATOM      6 2HD2 ASN A 138      73.449  81.309  26.108  1.00 27.96     0.159 HD
+ATOM      7 1HD2 ASN A 138      73.427  81.028  27.835  1.00 27.96     0.159 HD
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES ASN A 138
+BEGIN_RES SER A 142
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    3  A    between atoms: CA   and  CB  
+REMARK    4  A    between atoms: CB   and  OG  
+ROOT
+ATOM      8  CA  SER A 142      75.513  85.460  27.416  1.00 44.36     0.200 C 
+ENDROOT
+BRANCH   8   9
+ATOM      9  CB  SER A 142      75.401  84.463  26.245  1.00 44.51     0.199 C 
+BRANCH   9  10
+ATOM     10  OG  SER A 142      75.266  85.149  25.017  1.00 45.29    -0.398 OA
+ATOM     11  HG  SER A 142      76.035  85.683  24.887  1.00 45.29     0.209 HD
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+END_RES SER A 142
+BEGIN_RES ASN A 203
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    5  A    between atoms: CA   and  CB  
+REMARK    6  A    between atoms: CB   and  CG  
+REMARK       I    between atoms: CG   and  ND2 
+ROOT
+ATOM     12  CA  ASN A 203      69.694  83.193  34.991  1.00 18.94     0.185 C 
+ENDROOT
+BRANCH  12  13
+ATOM     13  CB  ASN A 203      70.277  84.597  34.677  1.00 18.83     0.137 C 
+BRANCH  13  14
+ATOM     14  CG  ASN A 203      69.592  85.300  33.499  1.00 21.31     0.217 C 
+ATOM     15  OD1 ASN A 203      68.648  86.066  33.689  1.00 25.40    -0.274 OA
+ATOM     16  ND2 ASN A 203      70.073  85.054  32.279  1.00 18.80    -0.370 N 
+ATOM     17 2HD2 ASN A 203      69.644  85.496  31.480  1.00 18.80     0.159 HD
+ATOM     18 1HD2 ASN A 203      70.847  84.418  32.159  1.00 18.80     0.159 HD
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+END_RES ASN A 203

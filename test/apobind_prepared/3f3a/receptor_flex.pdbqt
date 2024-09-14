@@ -1,0 +1,136 @@
+BEGIN_RES ASN A  27
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  CG  
+REMARK       I    between atoms: CG   and  ND2 
+ROOT
+ATOM      1  CA  ASN A  27      24.771  26.768  14.477  1.00 40.23     0.185 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  ASN A  27      24.976  27.989  13.544  1.00 57.58     0.137 C 
+BRANCH   2   3
+ATOM      3  CG  ASN A  27      24.314  29.294  14.000  1.00 72.54     0.217 C 
+ATOM      4  OD1 ASN A  27      23.774  30.020  13.168  1.00 55.42    -0.274 OA
+ATOM      5  ND2 ASN A  27      24.381  29.638  15.288  1.00106.77    -0.370 N 
+ATOM      6 1HD2 ASN A  27      24.855  29.051  15.961  1.00106.77     0.159 HD
+ATOM      7 2HD2 ASN A  27      23.981  30.517  15.591  1.00106.77     0.159 HD
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES ASN A  27
+BEGIN_RES TYR A 108
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    3  A    between atoms: CA   and  CB  
+REMARK    4  A    between atoms: CB   and  CG  
+REMARK    5  A    between atoms: CZ   and  OH  
+ROOT
+ATOM      8  CA  TYR A 108      34.796  27.818  23.227  1.00 27.67     0.180 C 
+ENDROOT
+BRANCH   8   9
+ATOM      9  CB  TYR A 108      33.802  28.994  23.240  1.00 35.99     0.073 C 
+BRANCH   9  10
+ATOM     10  CG  TYR A 108      33.022  29.205  21.963  1.00 33.50    -0.056 A 
+ATOM     11  CD2 TYR A 108      33.541  30.022  20.939  1.00 38.48     0.010 A 
+ATOM     12  CE2 TYR A 108      32.804  30.212  19.758  1.00 45.62     0.037 A 
+ATOM     13  CZ  TYR A 108      31.548  29.597  19.604  1.00 33.87     0.065 A 
+ATOM     14  CE1 TYR A 108      31.025  28.787  20.629  1.00 26.23     0.037 A 
+ATOM     15  CD1 TYR A 108      31.764  28.588  21.807  1.00 26.38     0.010 A 
+BRANCH  13  16
+ATOM     16  OH  TYR A 108      30.839  29.791  18.461  1.00 43.08    -0.361 OA
+ATOM     17  HH  TYR A 108      29.930  29.519  18.539  1.00 43.08     0.217 HD
+ENDBRANCH  13  16
+ENDBRANCH   9  10
+ENDBRANCH   8   9
+END_RES TYR A 108
+BEGIN_RES PHE A 253
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    6  A    between atoms: CA   and  CB  
+REMARK    7  A    between atoms: CB   and  CG  
+ROOT
+ATOM     18  CA  PHE A 253      23.055  29.653  22.491  1.00 40.46     0.180 C 
+ENDROOT
+BRANCH  18  19
+ATOM     19  CB  PHE A 253      23.392  28.153  22.656  1.00 26.48     0.073 C 
+BRANCH  19  20
+ATOM     20  CG  PHE A 253      24.889  27.864  22.690  1.00 48.76    -0.056 A 
+ATOM     21  CD1 PHE A 253      25.569  27.842  23.925  1.00 40.21     0.007 A 
+ATOM     22  CE1 PHE A 253      26.961  27.640  23.975  1.00 35.48     0.001 A 
+ATOM     23  CZ  PHE A 253      27.684  27.445  22.783  1.00 61.87     0.000 A 
+ATOM     24  CE2 PHE A 253      27.011  27.448  21.546  1.00 58.01     0.001 A 
+ATOM     25  CD2 PHE A 253      25.617  27.658  21.498  1.00 45.70     0.007 A 
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+END_RES PHE A 253
+BEGIN_RES THR A 254
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    8  A    between atoms: CA   and  CB  
+REMARK    9  A    between atoms: CB   and  OG1 
+ROOT
+ATOM     26  CA  THR A 254      22.458  30.087  18.690  1.00 47.00     0.205 C 
+ENDROOT
+BRANCH  26  27
+ATOM     27  CB  THR A 254      21.320  29.333  17.948  1.00 47.74     0.146 C 
+ATOM     28  CG2 THR A 254      19.925  29.959  18.062  1.00 67.00     0.042 C 
+BRANCH  27  29
+ATOM     29  OG1 THR A 254      21.602  29.221  16.572  1.00 48.56    -0.393 OA
+ATOM     30  HG1 THR A 254      20.914  28.729  16.148  1.00 48.56     0.210 HD
+ENDBRANCH  27  29
+ENDBRANCH  26  27
+END_RES THR A 254
+BEGIN_RES PHE A 259
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK   10  A    between atoms: CA   and  CB  
+REMARK   11  A    between atoms: CB   and  CG  
+ROOT
+ATOM     31  CA  PHE A 259      25.833  36.072  27.341  1.00 35.55     0.180 C 
+ENDROOT
+BRANCH  31  32
+ATOM     32  CB  PHE A 259      26.531  35.516  26.076  1.00 40.45     0.073 C 
+BRANCH  32  33
+ATOM     33  CG  PHE A 259      26.242  34.059  25.765  1.00 37.85    -0.056 A 
+ATOM     34  CD2 PHE A 259      25.079  33.734  25.051  1.00 44.25     0.007 A 
+ATOM     35  CE2 PHE A 259      24.785  32.406  24.706  1.00 33.81     0.001 A 
+ATOM     36  CZ  PHE A 259      25.663  31.380  25.092  1.00 36.43     0.000 A 
+ATOM     37  CE1 PHE A 259      26.814  31.689  25.836  1.00 32.01     0.001 A 
+ATOM     38  CD1 PHE A 259      27.118  33.027  26.164  1.00 26.09     0.007 A 
+ENDBRANCH  32  33
+ENDBRANCH  31  32
+END_RES PHE A 259
+BEGIN_RES ILE A 359
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK   12  A    between atoms: CA   and  CB  
+REMARK   13  A    between atoms: CB   and  CG1 
+ROOT
+ATOM     39  CA  ILE A 359      32.358  36.777  24.174  1.00 46.94     0.180 C 
+ENDROOT
+BRANCH  39  40
+ATOM     40  CB  ILE A 359      31.953  35.285  24.296  1.00 24.85     0.013 C 
+ATOM     41  CG2 ILE A 359      30.461  35.128  23.968  1.00 22.98     0.012 C 
+BRANCH  40  42
+ATOM     42  CG1 ILE A 359      32.844  34.341  23.461  1.00 38.07     0.002 C 
+ATOM     43  CD1 ILE A 359      32.582  32.850  23.683  1.00 15.89     0.005 C 
+ENDBRANCH  40  42
+ENDBRANCH  39  40
+END_RES ILE A 359
+BEGIN_RES LEU A 515
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK   14  A    between atoms: CA   and  CB  
+REMARK   15  A    between atoms: CB   and  CG  
+ROOT
+ATOM     44  CA  LEU A 515      27.382  31.222  19.275  1.00 17.05     0.318 C 
+ENDROOT
+BRANCH  44  45
+ATOM     45  CB  LEU A 515      27.777  30.996  20.749  1.00 25.45     0.050 C 
+BRANCH  45  46
+ATOM     46  CG  LEU A 515      28.043  32.250  21.598  1.00 37.53    -0.020 C 
+ATOM     47  CD1 LEU A 515      28.525  31.819  22.984  1.00 26.16     0.009 C 
+ATOM     48  CD2 LEU A 515      29.051  33.224  20.968  1.00 83.45     0.009 C 
+ENDBRANCH  45  46
+ENDBRANCH  44  45
+END_RES LEU A 515

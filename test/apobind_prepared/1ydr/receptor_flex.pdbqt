@@ -1,0 +1,103 @@
+BEGIN_RES VAL E 123
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+ROOT
+ATOM      1  CA  VAL E 123       0.749   7.920   5.849  1.00 17.00     0.180 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  VAL E 123       1.495   6.959   4.878  1.00 17.00     0.009 C 
+ATOM      3  CG2 VAL E 123       0.910   6.984   3.452  1.00 17.00     0.012 C 
+ATOM      4  CG1 VAL E 123       1.479   5.515   5.378  1.00 17.00     0.012 C 
+ENDBRANCH   1   2
+END_RES VAL E 123
+BEGIN_RES GLU E 127
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    2  A    between atoms: CA   and  CB  
+REMARK    3  A    between atoms: CB   and  CG  
+REMARK    4  A    between atoms: CG   and  CD  
+ROOT
+ATOM      5  CA  GLU E 127       8.431   3.470   7.717  1.00 17.00     0.177 C 
+ENDROOT
+BRANCH   5   6
+ATOM      6  CB  GLU E 127       9.894   3.936   7.567  1.00 17.00     0.045 C 
+BRANCH   6   7
+ATOM      7  CG  GLU E 127      10.075   5.166   6.653  1.00 17.00     0.116 C 
+BRANCH   7   8
+ATOM      8  CD  GLU E 127      11.512   5.700   6.604  1.00 17.00     0.172 C 
+ATOM      9  OE2 GLU E 127      11.706   6.730   5.924  1.00 17.00    -0.648 OA
+ATOM     10  OE1 GLU E 127      12.414   5.082   7.215  1.00 17.00    -0.648 OA
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+END_RES GLU E 127
+BEGIN_RES LEU E 173
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    5  A    between atoms: CA   and  CB  
+REMARK    6  A    between atoms: CB   and  CG  
+ROOT
+ATOM     11  CA  LEU E 173       5.429   3.080   4.890  1.00 17.00     0.177 C 
+ENDROOT
+BRANCH  11  12
+ATOM     12  CB  LEU E 173       5.012   4.464   4.346  1.00 17.00     0.038 C 
+BRANCH  12  13
+ATOM     13  CG  LEU E 173       6.080   5.571   4.460  1.00 17.00    -0.020 C 
+ATOM     14  CD2 LEU E 173       5.507   6.905   3.958  1.00 17.00     0.009 C 
+ATOM     15  CD1 LEU E 173       7.398   5.229   3.749  1.00 17.00     0.009 C 
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+END_RES LEU E 173
+BEGIN_RES THR E 183
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    7  A    between atoms: CA   and  CB  
+REMARK    8  A    between atoms: CB   and  OG1 
+ROOT
+ATOM     16  CA  THR E 183       7.525   5.587  -1.586  1.00 17.00     0.205 C 
+ENDROOT
+BRANCH  16  17
+ATOM     17  CB  THR E 183       7.797   6.399  -0.287  1.00 17.00     0.146 C 
+ATOM     18  CG2 THR E 183       6.552   6.676   0.561  1.00 17.00     0.042 C 
+BRANCH  17  19
+ATOM     19  OG1 THR E 183       8.770   5.779   0.536  1.00 17.00    -0.393 OA
+ATOM     20  HG1 THR E 183       9.583   5.721   0.057  1.00 17.00     0.210 HD
+ENDBRANCH  17  19
+ENDBRANCH  16  17
+END_RES THR E 183
+BEGIN_RES ARG I  14
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    9  A    between atoms: CA   and  CB  
+REMARK   10  A    between atoms: CB   and  CG  
+REMARK   11  A    between atoms: CG   and  CD  
+REMARK   12  A    between atoms: CD   and  NE  
+REMARK       I    between atoms: NE   and  CZ  
+REMARK       I    between atoms: CZ   and  NH2 
+REMARK       I    between atoms: CZ   and  NH1 
+ROOT
+ATOM     21  CA  ARG I  14      18.926   4.249   8.371  1.00 17.00     0.176 C 
+ENDROOT
+BRANCH  21  22
+ATOM     22  CB  ARG I  14      18.044   5.501   8.549  1.00 17.00     0.036 C 
+BRANCH  22  23
+ATOM     23  CG  ARG I  14      16.865   5.515   7.576  1.00 17.00     0.022 C 
+BRANCH  23  24
+ATOM     24  CD  ARG I  14      15.946   6.726   7.755  1.00 17.00     0.122 C 
+BRANCH  24  25
+ATOM     25  NE  ARG I  14      14.937   6.769   6.691  1.00 17.00    -0.357 N 
+ATOM     26  CZ  ARG I  14      15.170   7.138   5.419  1.00 17.00     0.267 C 
+ATOM     27  NH2 ARG I  14      14.164   7.120   4.534  1.00 17.00    -0.366 N 
+ATOM     28  NH1 ARG I  14      16.518   7.564   4.980  1.00 17.00    -0.019 N 
+ATOM     29  HH1 ARG I  14      13.226   6.883   4.860  1.00 17.00     0.159 HD
+ATOM     30  HH2 ARG I  14      14.291   7.375   3.564  1.00 17.00     0.159 HD
+ATOM     31 HH11 ARG I  14      16.493   7.864   4.017  1.00 17.00     0.284 HD
+ATOM     32 HH13 ARG I  14      17.168   6.796   5.066  1.00 17.00     0.284 HD
+ATOM     33 HH12 ARG I  14      16.838   8.333   5.552  1.00 17.00     0.284 HD
+ATOM     34  HE  ARG I  14      14.013   6.419   6.929  1.00 17.00     0.162 HD
+ENDBRANCH  24  25
+ENDBRANCH  23  24
+ENDBRANCH  22  23
+ENDBRANCH  21  22
+END_RES ARG I  14

@@ -1,0 +1,41 @@
+BEGIN_RES TRP A 275
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  CG  
+ROOT
+ATOM      1  CA  TRP A 275      12.109 -12.622  25.965  1.00  8.71     0.181 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  TRP A 275      12.676 -11.247  25.547  1.00  8.60     0.075 C 
+BRANCH   2   3
+ATOM      3  CG  TRP A 275      14.168 -11.080  25.622  1.00  8.05    -0.028 A 
+ATOM      4  CD1 TRP A 275      14.825 -10.298  26.509  1.00  8.10     0.096 A 
+ATOM      5  NE1 TRP A 275      16.183 -10.390  26.297  1.00  8.34    -0.365 N 
+ATOM      6  CE2 TRP A 275      16.477 -11.226  25.242  1.00  8.90     0.042 A 
+ATOM      7  HE1 TRP A 275      16.858  -9.888  26.857  1.00  8.34     0.165 HD
+ATOM      8  CD2 TRP A 275      15.202 -11.686  24.786  1.00  8.63    -0.002 A 
+ATOM      9  CZ2 TRP A 275      17.682 -11.628  24.640  1.00  9.19     0.030 A 
+ATOM     10  CE3 TRP A 275      15.198 -12.575  23.685  1.00  8.70     0.014 A 
+ATOM     11  CZ3 TRP A 275      16.401 -12.976  23.069  1.00  8.68     0.001 A 
+ATOM     12  CH2 TRP A 275      17.641 -12.508  23.544  1.00  9.79     0.002 A 
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES TRP A 275
+BEGIN_RES ASP A 392
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    3  A    between atoms: CA   and  CB  
+REMARK    4  A    between atoms: CB   and  CG  
+ROOT
+ATOM     13  CA  ASP A 392      15.432  -8.078  15.807  1.00  6.47     0.186 C 
+ENDROOT
+BRANCH  13  14
+ATOM     14  CB  ASP A 392      15.015  -8.692  17.176  1.00  6.44     0.147 C 
+BRANCH  14  15
+ATOM     15  CG  ASP A 392      13.963  -7.904  17.959  1.00  7.10     0.175 C 
+ATOM     16  OD2 ASP A 392      13.259  -8.537  18.773  1.00  6.97    -0.648 OA
+ATOM     17  OD1 ASP A 392      13.906  -6.668  17.779  1.00  6.37    -0.648 OA
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+END_RES ASP A 392

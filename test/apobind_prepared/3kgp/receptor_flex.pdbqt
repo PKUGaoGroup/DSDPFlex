@@ -1,0 +1,56 @@
+BEGIN_RES SER A 190
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  OG  
+ROOT
+ATOM      1  CA  SER A 190      12.493  -2.776  25.262  1.00 13.76     0.200 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  SER A 190      12.094  -2.561  23.782  1.00 15.34     0.199 C 
+BRANCH   2   3
+ATOM      3  OG  SER A 190      10.698  -2.442  23.592  1.00 15.17    -0.398 OA
+ATOM      4  HG  SER A 190      10.369  -1.748  24.145  1.00 15.17     0.209 HD
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES SER A 190
+BEGIN_RES GLN A 192
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    3  A    between atoms: CA   and  CB  
+REMARK    4  A    between atoms: CB   and  CG  
+REMARK    5  A    between atoms: CG   and  CD  
+REMARK       I    between atoms: CD   and  NE2 
+ROOT
+ATOM      5  CA  GLN A 192      13.212   4.409  26.096  1.00 18.78     0.177 C 
+ENDROOT
+BRANCH   5   6
+ATOM      6  CB  GLN A 192      12.971   5.556  27.100  1.00 22.50     0.044 C 
+BRANCH   6   7
+ATOM      7  CG  GLN A 192      13.199   6.953  26.484  1.00 26.91     0.105 C 
+BRANCH   7   8
+ATOM      8  CD  GLN A 192      13.168   8.078  27.517  1.00 32.14     0.215 C 
+ATOM      9  OE1 GLN A 192      12.307   8.111  28.393  1.00 34.37    -0.274 OA
+ATOM     10  NE2 GLN A 192      14.120   9.008  27.419  1.00 32.35    -0.370 N 
+ATOM     11 2HE2 GLN A 192      14.133   9.783  28.065  1.00 32.35     0.159 HD
+ATOM     12 1HE2 GLN A 192      14.820   8.938  26.692  1.00 32.35     0.159 HD
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+END_RES GLN A 192
+BEGIN_RES SER A 195
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    6  A    between atoms: CA   and  CB  
+REMARK    7  A    between atoms: CB   and  OG  
+ROOT
+ATOM     13  CA  SER A 195      13.078   3.012  19.785  1.00 14.82     0.200 C 
+ENDROOT
+BRANCH  13  14
+ATOM     14  CB  SER A 195      12.482   4.369  20.184  1.00 14.80     0.199 C 
+BRANCH  14  15
+ATOM     15  OG  SER A 195      11.370   4.192  21.040  1.00 16.09    -0.398 OA
+ATOM     16  HG  SER A 195      10.734   3.641  20.607  1.00 16.09     0.209 HD
+ENDBRANCH  14  15
+ENDBRANCH  13  14
+END_RES SER A 195

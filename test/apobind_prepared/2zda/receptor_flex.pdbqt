@@ -1,0 +1,86 @@
+BEGIN_RES HIS H  57
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  CG  
+ROOT
+ATOM      1  CA  HIS H  57      22.528  -7.572  17.620  1.00 42.86     0.182 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  HIS H  57      21.908  -8.470  18.720  1.00 41.62     0.093 C 
+BRANCH   2   3
+ATOM      3  CG  HIS H  57      20.407  -8.466  18.850  1.00 43.05     0.030 A 
+ATOM      4  CD2 HIS H  57      19.453  -9.341  18.377  1.00 42.70     0.143 A 
+ATOM      5  NE2 HIS H  57      18.183  -8.891  18.731  1.00 42.63    -0.254 NA
+ATOM      6  CE1 HIS H  57      18.414  -7.770  19.407  1.00 43.31     0.207 A 
+ATOM      7  ND1 HIS H  57      19.709  -7.474  19.509  1.00 43.04    -0.353 N 
+ATOM      8  HD1 HIS H  57      20.105  -6.695  20.028  1.00 43.04     0.166 HD
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES HIS H  57
+BEGIN_RES TYR H  60
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    3  A    between atoms: CA   and  CB  
+REMARK    4  A    between atoms: CB   and  CG  
+REMARK    5  A    between atoms: CZ   and  OH  
+ROOT
+ATOM      9  CA  TYR H  60A     25.599 -11.153  15.966  1.00 48.58     0.181 C 
+ENDROOT
+BRANCH   9  10
+ATOM     10  CB  TYR H  60A     24.105 -11.320  16.314  1.00 45.54     0.073 C 
+BRANCH  10  11
+ATOM     11  CG  TYR H  60A     23.837 -12.300  17.441  1.00 45.26    -0.056 A 
+ATOM     12  CD2 TYR H  60A     23.173 -13.517  17.184  1.00 43.52     0.010 A 
+ATOM     13  CE2 TYR H  60A     22.934 -14.423  18.233  1.00 43.04     0.037 A 
+ATOM     14  CZ  TYR H  60A     23.368 -14.125  19.539  1.00 45.22     0.065 A 
+ATOM     15  CE1 TYR H  60A     24.034 -12.911  19.797  1.00 45.09     0.037 A 
+ATOM     16  CD1 TYR H  60A     24.259 -11.996  18.752  1.00 45.02     0.010 A 
+BRANCH  14  17
+ATOM     17  OH  TYR H  60A     23.150 -15.014  20.550  1.00 44.58    -0.361 OA
+ATOM     18  HH  TYR H  60A     23.481 -14.718  21.383  1.00 44.58     0.217 HD
+ENDBRANCH  14  17
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+END_RES TYR H  60
+BEGIN_RES ASP H 189
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    6  A    between atoms: CA   and  CB  
+REMARK    7  A    between atoms: CB   and  CG  
+ROOT
+ATOM     19  CA  ASP H 189       5.494  -9.154  24.863  1.00 43.18     0.186 C 
+ENDROOT
+BRANCH  19  20
+ATOM     20  CB  ASP H 189       6.021 -10.554  25.292  1.00 44.59     0.147 C 
+BRANCH  20  21
+ATOM     21  CG  ASP H 189       7.490 -10.622  25.732  1.00 50.99     0.175 C 
+ATOM     22  OD2 ASP H 189       7.959 -11.769  25.905  1.00 52.87    -0.648 OA
+ATOM     23  OD1 ASP H 189       8.119  -9.554  25.903  1.00 53.51    -0.648 OA
+ENDBRANCH  20  21
+ENDBRANCH  19  20
+END_RES ASP H 189
+BEGIN_RES TRP H 215
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    8  A    between atoms: CA   and  CB  
+REMARK    9  A    between atoms: CB   and  CG  
+ROOT
+ATOM     24  CA  TRP H 215      16.075 -10.216  24.159  1.00 40.92     0.181 C 
+ENDROOT
+BRANCH  24  25
+ATOM     25  CB  TRP H 215      17.404 -10.896  24.571  1.00 40.56     0.075 C 
+BRANCH  25  26
+ATOM     26  CG  TRP H 215      17.970 -10.531  25.913  1.00 42.20    -0.028 A 
+ATOM     27  CD2 TRP H 215      17.858 -11.243  27.185  1.00 42.39    -0.002 A 
+ATOM     28  CE3 TRP H 215      17.222 -12.435  27.607  1.00 42.58     0.014 A 
+ATOM     29  CE2 TRP H 215      18.587 -10.516  28.175  1.00 43.97     0.042 A 
+ATOM     30  CZ3 TRP H 215      17.310 -12.878  28.943  1.00 45.06     0.001 A 
+ATOM     31  CH2 TRP H 215      18.038 -12.135  29.891  1.00 44.02     0.002 A 
+ATOM     32  CZ2 TRP H 215      18.685 -10.948  29.509  1.00 43.84     0.030 A 
+ATOM     33  NE1 TRP H 215      19.085  -9.422  27.500  1.00 44.18    -0.365 N 
+ATOM     34  HE1 TRP H 215      19.675  -8.704  27.895  1.00 44.18     0.165 HD
+ATOM     35  CD1 TRP H 215      18.741  -9.451  26.167  1.00 42.96     0.096 A 
+ENDBRANCH  25  26
+ENDBRANCH  24  25
+END_RES TRP H 215

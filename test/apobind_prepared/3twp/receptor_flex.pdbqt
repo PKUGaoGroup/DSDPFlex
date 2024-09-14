@@ -1,0 +1,20 @@
+BEGIN_RES ASN A 138
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  CG  
+REMARK       I    between atoms: CG   and  ND2 
+ROOT
+ATOM      1  CA  ASN A 138      77.035  79.578  28.252  1.00 26.97     0.185 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  ASN A 138      75.945  80.686  28.344  1.00 27.67     0.137 C 
+BRANCH   2   3
+ATOM      3  CG  ASN A 138      75.264  80.996  27.007  1.00 29.69     0.217 C 
+ATOM      4  OD1 ASN A 138      75.917  81.093  25.970  1.00 27.89    -0.274 OA
+ATOM      5  ND2 ASN A 138      73.935  81.123  27.021  1.00 27.96    -0.370 N 
+ATOM      6 2HD2 ASN A 138      73.445  81.319  26.161  1.00 27.96     0.159 HD
+ATOM      7 1HD2 ASN A 138      73.424  81.034  27.887  1.00 27.96     0.159 HD
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES ASN A 138

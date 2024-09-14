@@ -1,0 +1,30 @@
+BEGIN_RES VAL A 147
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+ROOT
+ATOM      1  CA  VAL A 147      96.119  97.344 -41.682  1.00 13.56     0.180 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  VAL A 147      95.892  96.225 -42.739  1.00 12.36     0.009 C 
+ATOM      3  CG2 VAL A 147      94.414  96.008 -43.114  1.00 14.89     0.012 C 
+ATOM      4  CG1 VAL A 147      96.561  94.896 -42.348  1.00 14.55     0.012 C 
+ENDBRANCH   1   2
+END_RES VAL A 147
+BEGIN_RES THR A 150
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    2  A    between atoms: CA   and  CB  
+REMARK    3  A    between atoms: CB   and  OG1 
+ROOT
+ATOM      5  CA  THR A 150      93.918  95.992 -47.717  1.00 17.47     0.205 C 
+ENDROOT
+BRANCH   5   6
+ATOM      6  CB  THR A 150      92.557  96.095 -48.456  1.00 19.73     0.146 C 
+ATOM      7  CG2 THR A 150      91.867  94.741 -48.711  1.00 19.87     0.042 C 
+BRANCH   6   8
+ATOM      8  OG1 THR A 150      91.666  96.855 -47.663  1.00 22.39    -0.393 OA
+ATOM      9  HG1 THR A 150      90.844  96.937 -48.124  1.00 22.39     0.210 HD
+ENDBRANCH   6   8
+ENDBRANCH   5   6
+END_RES THR A 150

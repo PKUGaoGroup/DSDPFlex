@@ -1,0 +1,20 @@
+BEGIN_RES ASN A 152
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  CG  
+REMARK       I    between atoms: CG   and  ND2 
+ROOT
+ATOM      1  CA  ASN A 152      30.499   7.986  11.813  1.00 14.98     0.185 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  ASN A 152      29.061   7.637  11.361  1.00 16.06     0.137 C 
+BRANCH   2   3
+ATOM      3  CG  ASN A 152      28.178   7.125  12.503  1.00 19.18     0.217 C 
+ATOM      4  OD1 ASN A 152      28.311   5.980  12.926  1.00 20.31    -0.274 OA
+ATOM      5  ND2 ASN A 152      27.271   7.967  13.002  1.00 20.55    -0.370 N 
+ATOM      6 1HD2 ASN A 152      27.208   8.910  12.640  1.00 20.55     0.159 HD
+ATOM      7 2HD2 ASN A 152      26.647   7.659  13.733  1.00 20.55     0.159 HD
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES ASN A 152

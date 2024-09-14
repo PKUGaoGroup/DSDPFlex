@@ -1,0 +1,57 @@
+BEGIN_RES ASP A 189
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  CG  
+ROOT
+ATOM      1  CA  ASP A 189      49.476  13.254  53.609  1.00 14.11     0.186 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  ASP A 189      49.174  14.326  54.691  1.00 16.34     0.147 C 
+BRANCH   2   3
+ATOM      3  CG  ASP A 189      47.790  14.981  54.665  1.00 18.57     0.175 C 
+ATOM      4  OD1 ASP A 189      46.846  14.342  54.148  1.00 19.00    -0.648 OA
+ATOM      5  OD2 ASP A 189      47.707  16.111  55.194  1.00 22.26    -0.648 OA
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES ASP A 189
+BEGIN_RES SER A 190
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    3  A    between atoms: CA   and  CB  
+REMARK    4  A    between atoms: CB   and  OG  
+ROOT
+ATOM      6  CA  SER A 190      48.170  15.007  50.432  1.00 10.72     0.200 C 
+ENDROOT
+BRANCH   6   7
+ATOM      7  CB  SER A 190      46.769  14.729  49.840  1.00  8.57     0.199 C 
+BRANCH   7   8
+ATOM      8  OG  SER A 190      45.712  15.232  50.636  1.00 11.39    -0.398 OA
+ATOM      9  HG  SER A 190      45.701  14.770  51.461  1.00 11.39     0.209 HD
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+END_RES SER A 190
+BEGIN_RES GLN A 192
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    5  A    between atoms: CA   and  CB  
+REMARK    6  A    between atoms: CB   and  CG  
+REMARK    7  A    between atoms: CG   and  CD  
+REMARK       I    between atoms: CD   and  NE2 
+ROOT
+ATOM     10  CA  GLN A 192      48.691  21.892  47.676  1.00 15.32     0.177 C 
+ENDROOT
+BRANCH  10  11
+ATOM     11  CB  GLN A 192      49.683  23.042  47.970  1.00 18.89     0.044 C 
+BRANCH  11  12
+ATOM     12  CG  GLN A 192      49.654  23.606  49.411  1.00 33.56     0.105 C 
+BRANCH  12  13
+ATOM     13  CD  GLN A 192      50.941  24.335  49.832  1.00 41.39     0.215 C 
+ATOM     14  OE1 GLN A 192      51.134  24.587  51.019  1.00 44.57    -0.274 OA
+ATOM     15  NE2 GLN A 192      51.843  24.655  48.899  1.00 42.79    -0.370 N 
+ATOM     16 2HE2 GLN A 192      52.693  25.128  49.169  1.00 42.79     0.159 HD
+ATOM     17 1HE2 GLN A 192      51.670  24.438  47.927  1.00 42.79     0.159 HD
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+END_RES GLN A 192

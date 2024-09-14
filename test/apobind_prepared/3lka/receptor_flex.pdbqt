@@ -1,0 +1,62 @@
+BEGIN_RES THR A 215
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  OG1 
+ROOT
+ATOM      1  CA  THR A 215      -3.954  -5.813 -12.224  1.00  0.00     0.205 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  THR A 215      -2.530  -6.427 -12.195  1.00  0.00     0.146 C 
+ATOM      3  CG2 THR A 215      -1.616  -5.805 -11.122  1.00  0.00     0.042 C 
+BRANCH   2   4
+ATOM      4  OG1 THR A 215      -2.622  -7.802 -11.876  1.00  0.00    -0.393 OA
+ATOM      5  HG1 THR A 215      -3.039  -8.253 -12.597  1.00  0.00     0.210 HD
+ENDBRANCH   2   4
+ENDBRANCH   1   2
+END_RES THR A 215
+BEGIN_RES HIS A 218
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    3  A    between atoms: CA   and  CB  
+REMARK    4  A    between atoms: CB   and  CG  
+ROOT
+ATOM      6  CA  HIS A 218      -6.959  -1.780 -10.051  1.00  0.00     0.182 C 
+ENDROOT
+BRANCH   6   7
+ATOM      7  CB  HIS A 218      -6.456  -2.968  -9.201  1.00  0.00     0.093 C 
+BRANCH   7   8
+ATOM      8  CG  HIS A 218      -6.452  -2.710  -7.711  1.00  0.00     0.030 A 
+ATOM      9  ND1 HIS A 218      -7.492  -3.075  -6.875  1.00  0.00    -0.353 N 
+ATOM     10  HD1 HIS A 218      -8.333  -3.576  -7.143  1.00  0.00     0.166 HD
+ATOM     11  CE1 HIS A 218      -7.193  -2.642  -5.649  1.00  0.00     0.207 A 
+ATOM     12  NE2 HIS A 218      -6.035  -1.994  -5.596  1.00  0.00    -0.254 NA
+ATOM     13  CD2 HIS A 218      -5.549  -2.059  -6.901  1.00  0.00     0.143 A 
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+END_RES HIS A 218
+BEGIN_RES TYR A 240
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    5  A    between atoms: CA   and  CB  
+REMARK    6  A    between atoms: CB   and  CG  
+REMARK    7  A    between atoms: CZ   and  OH  
+ROOT
+ATOM     14  CA  TYR A 240      -7.299  -9.805  -6.531  1.00  0.00     0.180 C 
+ENDROOT
+BRANCH  14  15
+ATOM     15  CB  TYR A 240      -5.873  -9.773  -7.140  1.00  0.00     0.073 C 
+BRANCH  15  16
+ATOM     16  CG  TYR A 240      -5.707 -10.308  -8.559  1.00  0.00    -0.056 A 
+ATOM     17  CD2 TYR A 240      -5.726  -9.432  -9.665  1.00  0.00     0.010 A 
+ATOM     18  CE2 TYR A 240      -5.539  -9.936 -10.968  1.00  0.00     0.037 A 
+ATOM     19  CZ  TYR A 240      -5.361 -11.319 -11.175  1.00  0.00     0.065 A 
+ATOM     20  CE1 TYR A 240      -5.342 -12.196 -10.075  1.00  0.00     0.037 A 
+ATOM     21  CD1 TYR A 240      -5.499 -11.689  -8.773  1.00  0.00     0.010 A 
+BRANCH  19  22
+ATOM     22  OH  TYR A 240      -5.194 -11.813 -12.433  1.00  0.00    -0.361 OA
+ATOM     23  HH  TYR A 240      -5.059 -12.748 -12.444  1.00  0.00     0.217 HD
+ENDBRANCH  19  22
+ENDBRANCH  15  16
+ENDBRANCH  14  15
+END_RES TYR A 240

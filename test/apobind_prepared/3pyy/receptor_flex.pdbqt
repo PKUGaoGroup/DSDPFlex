@@ -1,0 +1,67 @@
+BEGIN_RES LEU A 359
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  CG  
+ROOT
+ATOM      1  CA  LEU A 359      -1.935  -5.896 -26.028  1.00 39.71     0.177 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  LEU A 359      -1.909  -6.790 -27.287  1.00 41.21     0.038 C 
+BRANCH   2   3
+ATOM      3  CG  LEU A 359      -1.708  -8.304 -27.068  1.00 43.61    -0.020 C 
+ATOM      4  CD1 LEU A 359      -1.630  -9.006 -28.431  1.00 44.12     0.009 C 
+ATOM      5  CD2 LEU A 359      -0.483  -8.646 -26.207  1.00 43.75     0.009 C 
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES LEU A 359
+BEGIN_RES LEU A 448
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    3  A    between atoms: CA   and  CB  
+REMARK    4  A    between atoms: CB   and  CG  
+ROOT
+ATOM      6  CA  LEU A 448       4.512  -3.291 -31.335  1.00 34.63     0.177 C 
+ENDROOT
+BRANCH   6   7
+ATOM      7  CB  LEU A 448       3.924  -2.204 -32.256  1.00 35.08     0.038 C 
+BRANCH   7   8
+ATOM      8  CG  LEU A 448       3.566  -0.862 -31.594  1.00 35.56    -0.020 C 
+ATOM      9  CD1 LEU A 448       3.165   0.145 -32.684  1.00 36.33     0.009 C 
+ATOM     10  CD2 LEU A 448       2.467  -1.003 -30.532  1.00 36.09     0.009 C 
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+END_RES LEU A 448
+BEGIN_RES ILE A 451
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    5  A    between atoms: CA   and  CB  
+REMARK    6  A    between atoms: CB   and  CG1 
+ROOT
+ATOM     11  CA  ILE A 451       3.565  -7.258 -28.443  1.00 36.85     0.180 C 
+ENDROOT
+BRANCH  11  12
+ATOM     12  CB  ILE A 451       3.132  -5.786 -28.162  1.00 35.91     0.013 C 
+ATOM     13  CG2 ILE A 451       1.636  -5.603 -27.839  1.00 36.75     0.012 C 
+BRANCH  12  14
+ATOM     14  CG1 ILE A 451       3.990  -5.181 -27.023  1.00 34.88     0.002 C 
+ATOM     15  CD1 ILE A 451       3.930  -3.649 -26.925  1.00 34.66     0.005 C 
+ENDBRANCH  12  14
+ENDBRANCH  11  12
+END_RES ILE A 451
+BEGIN_RES CYS A 483
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    7  A    between atoms: CA   and  CB  
+REMARK    8  A    between atoms: CB   and  SG  
+ROOT
+ATOM     16  CA  CYS A 483      -2.937  -7.891 -35.324  1.00 45.96     0.185 C 
+ENDROOT
+BRANCH  16  17
+ATOM     17  CB  CYS A 483      -1.522  -7.671 -35.909  1.00 45.68     0.105 C 
+BRANCH  17  18
+ATOM     18  SG  CYS A 483      -0.934  -5.963 -35.690  1.00 46.81    -0.180 SA
+ATOM     19  HG  CYS A 483      -1.913  -5.379 -36.387  1.00 46.81     0.101 HD
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+END_RES CYS A 483

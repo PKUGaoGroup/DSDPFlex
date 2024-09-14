@@ -1,0 +1,59 @@
+BEGIN_RES LEU A 194
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  CG  
+ROOT
+ATOM      1  CA  LEU A 194       9.263  32.285  13.892  1.00 71.24     0.177 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  LEU A 194       9.122  31.542  12.545  1.00 70.84     0.038 C 
+BRANCH   2   3
+ATOM      3  CG  LEU A 194       7.653  31.301  12.128  1.00 71.51    -0.020 C 
+ATOM      4  CD1 LEU A 194       7.038  32.568  11.507  1.00 72.00     0.009 C 
+ATOM      5  CD2 LEU A 194       7.527  30.103  11.177  1.00 70.49     0.009 C 
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES LEU A 194
+BEGIN_RES TYR A 212
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    3  A    between atoms: CA   and  CB  
+REMARK    4  A    between atoms: CB   and  CG  
+REMARK    5  A    between atoms: CZ   and  OH  
+ROOT
+ATOM      6  CA  TYR A 212       1.471  32.678  11.256  1.00 70.23     0.180 C 
+ENDROOT
+BRANCH   6   7
+ATOM      7  CB  TYR A 212      -0.073  32.765  11.228  1.00 71.99     0.073 C 
+BRANCH   7   8
+ATOM      8  CG  TYR A 212      -0.662  33.287   9.926  1.00 73.98    -0.056 A 
+ATOM      9  CD1 TYR A 212      -0.313  32.687   8.698  1.00 74.77     0.010 A 
+ATOM     10  CE1 TYR A 212      -0.795  33.219   7.487  1.00 76.37     0.037 A 
+ATOM     11  CZ  TYR A 212      -1.652  34.336   7.501  1.00 77.36     0.065 A 
+ATOM     12  CE2 TYR A 212      -2.020  34.924   8.727  1.00 76.81     0.037 A 
+ATOM     13  CD2 TYR A 212      -1.521  34.405   9.935  1.00 75.08     0.010 A 
+BRANCH  11  14
+ATOM     14  OH  TYR A 212      -2.108  34.863   6.329  1.00 79.16    -0.361 OA
+ATOM     15  HH  TYR A 212      -2.546  35.692   6.453  1.00 79.16     0.217 HD
+ENDBRANCH  11  14
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+END_RES TYR A 212
+BEGIN_RES LEU A 263
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    6  A    between atoms: CA   and  CB  
+REMARK    7  A    between atoms: CB   and  CG  
+ROOT
+ATOM     16  CA  LEU A 263       8.876  35.182   6.626  1.00 67.23     0.177 C 
+ENDROOT
+BRANCH  16  17
+ATOM     17  CB  LEU A 263       8.003  34.159   7.385  1.00 66.80     0.038 C 
+BRANCH  17  18
+ATOM     18  CG  LEU A 263       7.716  32.840   6.638  1.00 65.91    -0.020 C 
+ATOM     19  CD2 LEU A 263       6.876  33.054   5.367  1.00 66.54     0.009 C 
+ATOM     20  CD1 LEU A 263       6.990  31.848   7.561  1.00 66.04     0.009 C 
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+END_RES LEU A 263

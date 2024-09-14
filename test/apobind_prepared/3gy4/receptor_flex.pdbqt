@@ -1,0 +1,33 @@
+BEGIN_RES ASP A 189
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  CG  
+ROOT
+ATOM      1  CA  ASP A 189      49.465  13.264  53.609  1.00 14.11     0.186 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  ASP A 189      49.161  14.334  54.693  1.00 16.34     0.147 C 
+BRANCH   2   3
+ATOM      3  CG  ASP A 189      47.776  14.989  54.665  1.00 18.57     0.175 C 
+ATOM      4  OD1 ASP A 189      46.832  14.347  54.150  1.00 19.00    -0.648 OA
+ATOM      5  OD2 ASP A 189      47.691  16.120  55.190  1.00 22.26    -0.648 OA
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES ASP A 189
+BEGIN_RES SER A 190
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    3  A    between atoms: CA   and  CB  
+REMARK    4  A    between atoms: CB   and  OG  
+ROOT
+ATOM      6  CA  SER A 190      48.159  15.016  50.432  1.00 10.72     0.200 C 
+ENDROOT
+BRANCH   6   7
+ATOM      7  CB  SER A 190      46.759  14.735  49.839  1.00  8.57     0.199 C 
+BRANCH   7   8
+ATOM      8  OG  SER A 190      45.700  15.239  50.635  1.00 11.39    -0.398 OA
+ATOM      9  HG  SER A 190      45.688  14.774  51.459  1.00 11.39     0.209 HD
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+END_RES SER A 190

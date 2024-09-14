@@ -1,0 +1,98 @@
+BEGIN_RES CYS A 366
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  SG  
+ROOT
+ATOM      1  CA  CYS A 366       7.111  39.279  49.200  1.00 17.86     0.185 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  CYS A 366       6.348  40.562  49.619  1.00 17.70     0.105 C 
+BRANCH   2   3
+ATOM      3  SG  CYS A 366       5.370  41.189  48.233  1.00 21.46    -0.180 SA
+ATOM      4  HG  CYS A 366       4.888  40.000  47.850  1.00 21.46     0.101 HD
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES CYS A 366
+BEGIN_RES LEU A 384
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    3  A    between atoms: CA   and  CB  
+REMARK    4  A    between atoms: CB   and  CG  
+ROOT
+ATOM      5  CA  LEU A 384       2.942  40.035  58.802  1.00 13.65     0.177 C 
+ENDROOT
+BRANCH   5   6
+ATOM      6  CB  LEU A 384       3.175  41.225  57.838  1.00 12.93     0.038 C 
+BRANCH   6   7
+ATOM      7  CG  LEU A 384       3.833  40.830  56.490  1.00 15.95    -0.020 C 
+ATOM      8  CD1 LEU A 384       2.864  40.069  55.566  1.00 10.38     0.009 C 
+ATOM      9  CD2 LEU A 384       4.397  42.056  55.761  1.00 14.94     0.009 C 
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+END_RES LEU A 384
+BEGIN_RES ASN A 411
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    5  A    between atoms: CA   and  CB  
+REMARK    6  A    between atoms: CB   and  CG  
+REMARK       I    between atoms: CG   and  ND2 
+ROOT
+ATOM     10  CA  ASN A 411      12.904  45.404  59.300  1.00 10.64     0.185 C 
+ENDROOT
+BRANCH  10  11
+ATOM     11  CB  ASN A 411      13.955  44.274  59.454  1.00  9.75     0.137 C 
+BRANCH  11  12
+ATOM     12  CG  ASN A 411      14.301  43.567  58.138  1.00 13.50     0.217 C 
+ATOM     13  ND2 ASN A 411      15.572  43.586  57.737  1.00 11.65    -0.370 N 
+ATOM     14 2HD2 ASN A 411      15.833  43.132  56.876  1.00 11.65     0.159 HD
+ATOM     15 1HD2 ASN A 411      16.263  44.095  58.272  1.00 11.65     0.159 HD
+ATOM     16  OD1 ASN A 411      13.427  42.996  57.490  1.00 11.47    -0.274 OA
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+END_RES ASN A 411
+BEGIN_RES MET A 414
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    7  A    between atoms: CA   and  CB  
+REMARK    8  A    between atoms: CB   and  CG  
+REMARK    9  A    between atoms: CG   and  SD  
+ROOT
+ATOM     17  CA  MET A 414       7.969  46.552  58.571  1.00 13.54     0.177 C 
+ENDROOT
+BRANCH  17  18
+ATOM     18  CB  MET A 414       8.757  46.105  57.319  1.00 13.85     0.045 C 
+BRANCH  18  19
+ATOM     19  CG  MET A 414       8.953  47.230  56.286  1.00 19.46     0.076 C 
+BRANCH  19  20
+ATOM     20  SD  MET A 414       7.437  47.863  55.517  1.00 27.00    -0.173 SA
+ATOM     21  CE  MET A 414       6.986  46.475  54.444  1.00 18.28     0.089 C 
+ENDBRANCH  19  20
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+END_RES MET A 414
+BEGIN_RES TYR A 415
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK   10  A    between atoms: CA   and  CB  
+REMARK   11  A    between atoms: CB   and  CG  
+REMARK   12  A    between atoms: CZ   and  OH  
+ROOT
+ATOM     22  CA  TYR A 415       8.047  43.626  61.120  1.00 10.67     0.180 C 
+ENDROOT
+BRANCH  22  23
+ATOM     23  CB  TYR A 415       9.007  42.513  60.631  1.00 10.71     0.073 C 
+BRANCH  23  24
+ATOM     24  CG  TYR A 415       8.986  42.226  59.142  1.00 13.20    -0.056 A 
+ATOM     25  CD1 TYR A 415       7.936  41.478  58.567  1.00 12.65     0.010 A 
+ATOM     26  CE1 TYR A 415       7.933  41.219  57.182  1.00 11.99     0.037 A 
+ATOM     27  CZ  TYR A 415       8.977  41.714  56.372  1.00 12.43     0.065 A 
+ATOM     28  CE2 TYR A 415      10.022  42.460  56.945  1.00 11.89     0.037 A 
+ATOM     29  CD2 TYR A 415      10.027  42.711  58.326  1.00 11.85     0.010 A 
+BRANCH  27  30
+ATOM     30  OH  TYR A 415       8.993  41.468  55.033  1.00 14.85    -0.361 OA
+ATOM     31  HH  TYR A 415       8.274  40.918  54.748  1.00 14.85     0.217 HD
+ENDBRANCH  27  30
+ENDBRANCH  23  24
+ENDBRANCH  22  23
+END_RES TYR A 415

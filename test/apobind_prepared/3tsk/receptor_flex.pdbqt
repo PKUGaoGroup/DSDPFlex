@@ -1,0 +1,46 @@
+BEGIN_RES GLU A 219
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  CG  
+REMARK    3  A    between atoms: CG   and  CD  
+ROOT
+ATOM      1  CA  GLU A 219      -3.787   0.405 -10.224  1.00  0.00     0.177 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  GLU A 219      -2.399  -0.206 -10.516  1.00  0.00     0.045 C 
+BRANCH   2   3
+ATOM      3  CG  GLU A 219      -2.001  -1.385  -9.592  1.00  0.00     0.116 C 
+BRANCH   3   4
+ATOM      4  CD  GLU A 219      -1.922  -1.073  -8.091  1.00  0.00     0.172 C 
+ATOM      5  OE2 GLU A 219      -1.968  -2.052  -7.316  1.00  0.00    -0.648 OA
+ATOM      6  OE1 GLU A 219      -1.820   0.119  -7.726  1.00  0.00    -0.648 OA
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES GLU A 219
+BEGIN_RES TYR A 240
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    4  A    between atoms: CA   and  CB  
+REMARK    5  A    between atoms: CB   and  CG  
+REMARK    6  A    between atoms: CZ   and  OH  
+ROOT
+ATOM      7  CA  TYR A 240      -7.286  -9.806  -6.492  1.00  0.00     0.180 C 
+ENDROOT
+BRANCH   7   8
+ATOM      8  CB  TYR A 240      -5.865  -9.776  -7.112  1.00  0.00     0.073 C 
+BRANCH   8   9
+ATOM      9  CG  TYR A 240      -5.711 -10.312  -8.532  1.00  0.00    -0.056 A 
+ATOM     10  CD1 TYR A 240      -5.505 -11.694  -8.745  1.00  0.00     0.010 A 
+ATOM     11  CE1 TYR A 240      -5.359 -12.203 -10.049  1.00  0.00     0.037 A 
+ATOM     12  CZ  TYR A 240      -5.385 -11.328 -11.149  1.00  0.00     0.065 A 
+ATOM     13  CE2 TYR A 240      -5.562  -9.945 -10.941  1.00  0.00     0.037 A 
+ATOM     14  CD2 TYR A 240      -5.738  -9.438  -9.639  1.00  0.00     0.010 A 
+BRANCH  12  15
+ATOM     15  OH  TYR A 240      -5.230 -11.824 -12.409  1.00  0.00    -0.361 OA
+ATOM     16  HH  TYR A 240      -5.095 -12.759 -12.419  1.00  0.00     0.217 HD
+ENDBRANCH  12  15
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+END_RES TYR A 240

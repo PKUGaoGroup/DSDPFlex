@@ -1,0 +1,67 @@
+BEGIN_RES VAL B  87
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+ROOT
+ATOM      1  CA  VAL B  87      30.585  14.456   5.241  1.00  8.87     0.180 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  VAL B  87      31.895  14.898   4.530  1.00  8.83     0.009 C 
+ATOM      3  CG1 VAL B  87      32.233  14.042   3.291  1.00 12.23     0.012 C 
+ATOM      4  CG2 VAL B  87      31.829  16.382   4.121  1.00 11.54     0.012 C 
+ENDBRANCH   1   2
+END_RES VAL B  87
+BEGIN_RES LEU B  92
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    2  A    between atoms: CA   and  CB  
+REMARK    3  A    between atoms: CB   and  CG  
+ROOT
+ATOM      5  CA  LEU B  92      29.395   8.591  -0.269  1.00 13.46     0.177 C 
+ENDROOT
+BRANCH   5   6
+ATOM      6  CB  LEU B  92      29.909  10.020   0.030  1.00 12.61     0.038 C 
+BRANCH   6   7
+ATOM      7  CG  LEU B  92      28.824  11.024   0.486  1.00 11.92    -0.020 C 
+ATOM      8  CD2 LEU B  92      27.827  11.358  -0.636  1.00 16.59     0.009 C 
+ATOM      9  CD1 LEU B  92      29.470  12.304   1.033  1.00 15.07     0.009 C 
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+END_RES LEU B  92
+BEGIN_RES LEU B  94
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    4  A    between atoms: CA   and  CB  
+REMARK    5  A    between atoms: CB   and  CG  
+ROOT
+ATOM     10  CA  LEU B  94      35.131   8.242   0.333  1.00 12.25     0.177 C 
+ENDROOT
+BRANCH  10  11
+ATOM     11  CB  LEU B  94      34.711   9.728   0.488  1.00 12.84     0.038 C 
+BRANCH  11  12
+ATOM     12  CG  LEU B  94      33.606  10.251  -0.456  1.00 12.68    -0.020 C 
+ATOM     13  CD1 LEU B  94      33.208  11.684  -0.068  1.00 13.83     0.009 C 
+ATOM     14  CD2 LEU B  94      33.979  10.179  -1.944  1.00 12.96     0.009 C 
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+END_RES LEU B  94
+BEGIN_RES ASN B 140
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    6  A    between atoms: CA   and  CB  
+REMARK    7  A    between atoms: CB   and  CG  
+REMARK       I    between atoms: CG   and  ND2 
+ROOT
+ATOM     15  CA  ASN B 140      37.912  17.928  -4.678  1.00 10.45     0.185 C 
+ENDROOT
+BRANCH  15  16
+ATOM     16  CB  ASN B 140      36.463  18.463  -4.658  1.00 11.31     0.137 C 
+BRANCH  16  17
+ATOM     17  CG  ASN B 140      35.527  17.633  -3.775  1.00  9.36     0.217 C 
+ATOM     18  OD1 ASN B 140      35.185  16.505  -4.116  1.00 11.63    -0.274 OA
+ATOM     19  ND2 ASN B 140      35.119  18.186  -2.631  1.00 10.49    -0.370 N 
+ATOM     20 1HD2 ASN B 140      35.433  19.115  -2.383  1.00 10.49     0.159 HD
+ATOM     21 2HD2 ASN B 140      34.494  17.676  -2.023  1.00 10.49     0.159 HD
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+END_RES ASN B 140

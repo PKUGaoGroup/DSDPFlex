@@ -1,0 +1,51 @@
+BEGIN_RES LEU A 359
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  CG  
+ROOT
+ATOM      1  CA  LEU A 359      -3.435  -2.719 -27.093  1.00 10.46     0.177 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  LEU A 359      -4.891  -2.593 -27.600  1.00 10.61     0.038 C 
+BRANCH   2   3
+ATOM      3  CG  LEU A 359      -5.248  -1.231 -28.245  1.00 10.86    -0.020 C 
+ATOM      4  CD1 LEU A 359      -4.754  -1.142 -29.698  1.00 10.39     0.009 C 
+ATOM      5  CD2 LEU A 359      -6.758  -0.967 -28.171  1.00 10.86     0.009 C 
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES LEU A 359
+BEGIN_RES VAL A 486
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    3  A    between atoms: CA   and  CB  
+ROOT
+ATOM      6  CA  VAL A 486      -2.085  -1.203 -35.271  1.00 18.51     0.180 C 
+ENDROOT
+BRANCH   6   7
+ATOM      7  CB  VAL A 486      -2.262  -2.349 -34.232  1.00 18.71     0.009 C 
+ATOM      8  CG2 VAL A 486      -3.337  -1.981 -33.191  1.00 18.52     0.012 C 
+ATOM      9  CG1 VAL A 486      -0.966  -2.728 -33.483  1.00 18.77     0.012 C 
+ENDBRANCH   6   7
+END_RES VAL A 486
+BEGIN_RES GLU A 517
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    4  A    between atoms: CA   and  CB  
+REMARK    5  A    between atoms: CB   and  CG  
+REMARK    6  A    between atoms: CG   and  CD  
+ROOT
+ATOM     10  CA  GLU A 517     -13.908  -1.924 -26.718  1.00 37.72     0.146 C 
+ENDROOT
+BRANCH  10  11
+ATOM     11  CB  GLU A 517     -14.577  -2.640 -27.928  1.00 37.81     0.043 C 
+BRANCH  11  12
+ATOM     12  CG  GLU A 517     -16.120  -2.618 -27.931  1.00 37.89     0.115 C 
+BRANCH  12  13
+ATOM     13  CD  GLU A 517     -16.720  -1.213 -27.994  1.00 38.94     0.172 C 
+ATOM     14  OE2 GLU A 517     -16.961  -0.650 -26.903  1.00 38.41    -0.648 OA
+ATOM     15  OE1 GLU A 517     -16.915  -0.722 -29.126  1.00 38.81    -0.648 OA
+ENDBRANCH  12  13
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+END_RES GLU A 517

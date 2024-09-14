@@ -1,0 +1,57 @@
+BEGIN_RES THR A  45
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  OG1 
+ROOT
+ATOM      1  CA  THR A  45      31.886  -2.608   8.133  1.00 12.88     0.205 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  THR A  45      31.485  -3.291   9.463  1.00 13.79     0.146 C 
+ATOM      3  CG2 THR A  45      30.075  -3.908   9.427  1.00 11.78     0.042 C 
+BRANCH   2   4
+ATOM      4  OG1 THR A  45      32.375  -4.357   9.738  1.00 16.02    -0.393 OA
+ATOM      5  HG1 THR A  45      32.158  -5.093   9.178  1.00 16.02     0.210 HD
+ENDBRANCH   2   4
+ENDBRANCH   1   2
+END_RES THR A  45
+BEGIN_RES HIS A 119
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    3  A    between atoms: CA   and  CB  
+REMARK    4  A    between atoms: CB   and  CG  
+ROOT
+ATOM      6  CA  HIS A 119      33.417   4.199  16.036  1.00 16.25     0.182 C 
+ENDROOT
+BRANCH   6   7
+ATOM      7  CB  HIS A 119      34.686   4.188  16.924  1.00 21.92     0.095 C 
+BRANCH   7   8
+ATOM      8  CG  HIS A 119      35.477   2.901  16.945  1.00 29.54     0.053 A 
+ATOM      9  CD2 HIS A 119      35.522   1.936  17.930  1.00 25.48     0.116 A 
+ATOM     10  NE2 HIS A 119      36.389   0.960  17.478  1.00 30.75    -0.359 N 
+ATOM     11  HE2 HIS A 119      36.639   0.108  17.964  1.00 30.75     0.166 HD
+ATOM     12  CE1 HIS A 119      36.817   1.345  16.276  1.00 33.01     0.207 A 
+ATOM     13  ND1 HIS A 119      36.308   2.509  15.891  1.00 34.44    -0.247 NA
+ENDBRANCH   7   8
+ENDBRANCH   6   7
+END_RES HIS A 119
+BEGIN_RES PHE A 120
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    5  A    between atoms: CA   and  CB  
+REMARK    6  A    between atoms: CB   and  CG  
+ROOT
+ATOM     14  CA  PHE A 120      32.292   0.730  14.851  1.00 14.85     0.180 C 
+ENDROOT
+BRANCH  14  15
+ATOM     15  CB  PHE A 120      32.055   0.410  13.360  1.00 13.71     0.073 C 
+BRANCH  15  16
+ATOM     16  CG  PHE A 120      31.217  -0.835  13.133  1.00 14.99    -0.056 A 
+ATOM     17  CD2 PHE A 120      29.826  -0.709  12.944  1.00 12.69     0.007 A 
+ATOM     18  CE2 PHE A 120      29.032  -1.856  12.769  1.00 13.61     0.001 A 
+ATOM     19  CZ  PHE A 120      29.624  -3.131  12.790  1.00 15.77     0.000 A 
+ATOM     20  CE1 PHE A 120      31.014  -3.263  12.973  1.00 15.01     0.001 A 
+ATOM     21  CD1 PHE A 120      31.811  -2.116  13.139  1.00 14.64     0.007 A 
+ENDBRANCH  15  16
+ENDBRANCH  14  15
+END_RES PHE A 120

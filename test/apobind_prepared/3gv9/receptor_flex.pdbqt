@@ -1,0 +1,36 @@
+BEGIN_RES SER A  64
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  OG  
+ROOT
+ATOM      1  CA  SER A  64      28.024   2.066  16.452  1.00 13.93     0.200 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  SER A  64      27.866   3.388  17.232  1.00 14.51     0.199 C 
+BRANCH   2   3
+ATOM      3  OG  SER A  64      26.825   4.195  16.711  1.00 23.12    -0.398 OA
+ATOM      4  HG  SER A  64      26.826   5.016  17.180  1.00 23.12     0.209 HD
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES SER A  64
+BEGIN_RES ASN A 152
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    3  A    between atoms: CA   and  CB  
+REMARK    4  A    between atoms: CB   and  CG  
+REMARK       I    between atoms: CG   and  ND2 
+ROOT
+ATOM      5  CA  ASN A 152      30.507   7.983  11.809  1.00 14.98     0.185 C 
+ENDROOT
+BRANCH   5   6
+ATOM      6  CB  ASN A 152      29.069   7.634  11.356  1.00 16.06     0.137 C 
+BRANCH   6   7
+ATOM      7  CG  ASN A 152      28.185   7.124  12.498  1.00 19.18     0.217 C 
+ATOM      8  OD1 ASN A 152      28.317   5.979  12.923  1.00 20.31    -0.274 OA
+ATOM      9  ND2 ASN A 152      27.278   7.966  12.996  1.00 20.55    -0.370 N 
+ATOM     10 1HD2 ASN A 152      27.216   8.910  12.634  1.00 20.55     0.159 HD
+ATOM     11 2HD2 ASN A 152      26.653   7.660  13.727  1.00 20.55     0.159 HD
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+END_RES ASN A 152

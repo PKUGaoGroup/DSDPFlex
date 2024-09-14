@@ -1,0 +1,45 @@
+BEGIN_RES ASP H 189
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  CG  
+ROOT
+ATOM      1  CA  ASP H 189       5.497  -9.146  24.855  1.00 43.18     0.186 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  ASP H 189       6.023 -10.546  25.281  1.00 44.59     0.147 C 
+BRANCH   2   3
+ATOM      3  CG  ASP H 189       7.492 -10.617  25.721  1.00 50.99     0.175 C 
+ATOM      4  OD2 ASP H 189       7.960 -11.763  25.894  1.00 52.87    -0.648 OA
+ATOM      5  OD1 ASP H 189       8.122  -9.548  25.893  1.00 53.51    -0.648 OA
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES ASP H 189
+BEGIN_RES VAL H 213
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    3  A    between atoms: CA   and  CB  
+ROOT
+ATOM      6  CA  VAL H 213      13.916  -4.257  22.427  1.00 33.87     0.180 C 
+ENDROOT
+BRANCH   6   7
+ATOM      7  CB  VAL H 213      12.824  -4.619  21.376  1.00 34.63     0.009 C 
+ATOM      8  CG2 VAL H 213      11.494  -3.872  21.580  1.00 31.79     0.012 C 
+ATOM      9  CG1 VAL H 213      12.512  -6.131  21.331  1.00 32.95     0.012 C 
+ENDBRANCH   6   7
+END_RES VAL H 213
+BEGIN_RES CYS H 220
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    4  A    between atoms: CA   and  CB  
+REMARK    5  A    between atoms: CB   and  SG  
+ROOT
+ATOM     10  CA  CYS H 220       7.597 -14.451  23.443  1.00 56.75     0.186 C 
+ENDROOT
+BRANCH  10  11
+ATOM     11  CB  CYS H 220       7.250 -14.174  21.960  1.00 57.60     0.120 C 
+BRANCH  11  12
+ATOM     12  SG  CYS H 220       8.602 -14.344  20.761  1.00 63.69    -0.095 SA
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+END_RES CYS H 220

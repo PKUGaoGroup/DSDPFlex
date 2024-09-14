@@ -1,0 +1,66 @@
+BEGIN_RES HIS A 218
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CA   and  CB  
+REMARK    2  A    between atoms: CB   and  CG  
+ROOT
+ATOM      1  CA  HIS A 218      -6.981  -1.767 -10.064  1.00  0.00     0.182 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  CB  HIS A 218      -6.481  -2.955  -9.213  1.00  0.00     0.093 C 
+BRANCH   2   3
+ATOM      3  CG  HIS A 218      -6.479  -2.695  -7.724  1.00  0.00     0.030 A 
+ATOM      4  ND1 HIS A 218      -7.519  -3.058  -6.889  1.00  0.00    -0.353 N 
+ATOM      5  HD1 HIS A 218      -8.362  -3.558  -7.157  1.00  0.00     0.166 HD
+ATOM      6  CE1 HIS A 218      -7.221  -2.624  -5.662  1.00  0.00     0.207 A 
+ATOM      7  NE2 HIS A 218      -6.063  -1.976  -5.609  1.00  0.00    -0.254 NA
+ATOM      8  CD2 HIS A 218      -5.575  -2.044  -6.913  1.00  0.00     0.143 A 
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+END_RES HIS A 218
+BEGIN_RES GLU A 219
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    3  A    between atoms: CA   and  CB  
+REMARK    4  A    between atoms: CB   and  CG  
+REMARK    5  A    between atoms: CG   and  CD  
+ROOT
+ATOM      9  CA  GLU A 219      -3.800   0.423 -10.235  1.00  0.00     0.177 C 
+ENDROOT
+BRANCH   9  10
+ATOM     10  CB  GLU A 219      -2.409  -0.190 -10.515  1.00  0.00     0.045 C 
+BRANCH  10  11
+ATOM     11  CG  GLU A 219      -2.022  -1.368  -9.588  1.00  0.00     0.116 C 
+BRANCH  11  12
+ATOM     12  CD  GLU A 219      -1.954  -1.056  -8.086  1.00  0.00     0.172 C 
+ATOM     13  OE2 GLU A 219      -2.009  -2.034  -7.311  1.00  0.00    -0.648 OA
+ATOM     14  OE1 GLU A 219      -1.856   0.136  -7.721  1.00  0.00    -0.648 OA
+ENDBRANCH  11  12
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+END_RES GLU A 219
+BEGIN_RES TYR A 240
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    6  A    between atoms: CA   and  CB  
+REMARK    7  A    between atoms: CB   and  CG  
+REMARK    8  A    between atoms: CZ   and  OH  
+ROOT
+ATOM     15  CA  TYR A 240      -7.335  -9.787  -6.535  1.00  0.00     0.180 C 
+ENDROOT
+BRANCH  15  16
+ATOM     16  CB  TYR A 240      -5.910  -9.757  -7.142  1.00  0.00     0.073 C 
+BRANCH  16  17
+ATOM     17  CG  TYR A 240      -5.742 -10.294  -8.561  1.00  0.00    -0.056 A 
+ATOM     18  CD1 TYR A 240      -5.534 -11.676  -8.773  1.00  0.00     0.010 A 
+ATOM     19  CE1 TYR A 240      -5.377 -12.184 -10.074  1.00  0.00     0.037 A 
+ATOM     20  CZ  TYR A 240      -5.394 -11.309 -11.175  1.00  0.00     0.065 A 
+ATOM     21  CE2 TYR A 240      -5.571  -9.927 -10.969  1.00  0.00     0.037 A 
+ATOM     22  CD2 TYR A 240      -5.759  -9.420  -9.668  1.00  0.00     0.010 A 
+BRANCH  20  23
+ATOM     23  OH  TYR A 240      -5.226 -11.805 -12.432  1.00  0.00    -0.361 OA
+ATOM     24  HH  TYR A 240      -5.092 -12.741 -12.441  1.00  0.00     0.217 HD
+ENDBRANCH  20  23
+ENDBRANCH  16  17
+ENDBRANCH  15  16
+END_RES TYR A 240
