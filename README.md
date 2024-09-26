@@ -152,3 +152,6 @@ There are advanced options in DSDPflex that allow users to manually adjust or fu
 
 ## Cite this work
 TBD
+
+## LICENSE
+Licensed under GNU AFFERO GENERAL PUBLIC LICENSE (Version 3), you may not use this file except in compliance with the License. Any commercial use is not permitted.
