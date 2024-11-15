@@ -9,7 +9,9 @@ DSDPFlex runs on a Linux machine (tested on Ubuntu 22.04 and 20.04).
 A GPU with CUDA is required. NVCC is used for compilation. Please install [Cuda Toolkit](https://developer.nvidia.com/cuda-toolkit) and make sure it is in the system PATH variable. (check with `nvcc --version`)
 
 > [!NOTE]
-> The CUDA version needs to be compatible with the GPU architecture and gcc/g++ version. An example version we used is `cuda_11.6` with `gcc_9.4.0` (tested on NVIDIA RTX 3070Ti & RTX A4000). If an older GPU (former to the GTX/RTX Turing) is used on your computer, the option `-arch=sm_70` in `Makefile` needs to be modified to a compatible one.
+> The CUDA version needs to be compatible with the GPU architecture and gcc/g++ version.
+> 
+> An example version we used is `cuda_11.6` with `gcc_9.4.0` (tested on NVIDIA RTX 3070Ti & RTX A4000). If an older GPU (former to the GTX/RTX Turing) is used on your computer, the option `-arch=sm_70` in `Makefile` needs to be modified to a compatible one.
 
 Clone this repository.
 
