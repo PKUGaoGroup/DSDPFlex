@@ -1,14 +1,15 @@
 # DSDPFlex: Flexible-Receptor Docking with GPU Acceleration
 
-DSDPFlex is a GPU-accelerated flexible-receptor docking program derived from [DSDP (**D**eep **S**ite and **D**ocking **P**ose)](https://github.com/PKUGaoGroup/DSDP). Similar to AutoDock Vina, it supports selective side-chain flexibility during docking. A flexible docking process can be done in ~1 s with DSDPFlex. Learn more in our [*preprint*](https://doi.org/10.26434/chemrxiv-2023-bcw0g-v2).
+DSDPFlex is a GPU-accelerated flexible-receptor docking program derived from [DSDP (**D**eep **S**ite and **D**ocking **P**ose)](https://github.com/PKUGaoGroup/DSDP). Similar to [AutoDock Vina](https://vina.scripps.edu/), it supports selective side-chain flexibility during docking. A flexible docking process is typically completed in ~1 s with DSDPFlex. Learn more in our paper (DOI: [10.1021/acs.jcim.4c01715](https://doi.org/10.1021/acs.jcim.4c01715) )
 
 ## Installation
 
 DSDPFlex runs on a Linux machine (tested on Ubuntu 22.04 and 20.04).
 
-A GPU with CUDA is required. NVCC is required for compilation, please install [Cuda Toolkit](https://developer.nvidia.com/cuda-toolkit) and make sure it is in the system path. (e.g. check using `nvcc --version`)
+A GPU with CUDA is required. NVCC is used for compilation. Please install [Cuda Toolkit](https://developer.nvidia.com/cuda-toolkit) and make sure it is in the system PATH variable. (check with `nvcc --version`)
 
-> NOTE: Cuda version would need to be compatible with the GPU architecture and gcc/g++ version. An example version we used is `cuda_11.6` with `gcc_9.4.0`. If an older GPU (former to the GTX/RTX Turing) was used on your computer, you might need to modify the `-arch=sm_70` in Makefile to a compatible one.
+> [!NOTE]
+> The CUDA version needs to be compatible with the GPU architecture and gcc/g++ version. An example version we used is `cuda_11.6` with `gcc_9.4.0` (tested on NVIDIA RTX 3070Ti & RTX A4000). If an older GPU (former to the GTX/RTX Turing) is used on your computer, the option `-arch=sm_70` in `Makefile` needs to be modified to a compatible one.
 
 Clone this repository.
 
@@ -17,7 +18,7 @@ git clone https://github.com/PKUGaoGroup/DSDPFlex.git
 cd DSDPFlex
 ```
 
-Install DSDPFlex. Suppose you are at the root of this repository.
+Install DSDPFlex. Suppose you are at the root of this repository,
 
 ```bash
 cd DSDPFlex_v0.2
@@ -26,19 +27,20 @@ cp DSDPflex ../bin
 cd ..
 ```
 
-A binary named `DSDPflex` will be compiled. You may add it to the system path by adding this line to `~/.bashrc`
+A binary named `DSDPflex` will be compiled. You can add it to the PATH variable by adding this line to `~/.bashrc` (if using Bash)
 ```bash
 export PATH=/path/to/DSDPFlex/bin:$PATH
 ```
 
-so that DSDPFlex can be called directly from the command line.
+so that `DSDPflex` can be directly called from the command line.
 
 ## Using DSDPFlex
 
 ### Flexible docking with DSDPFlex.
 
-(If the flexible receptor parts are not needed, [DSDP](https://github.com/PKUGaoGroup/DSDP) would work better.) For a ligand-receptor pair, run:
+(If the flexible receptor parts are not needed, [DSDP](https://github.com/PKUGaoGroup/DSDP) will work better.) 
 
+For a ligand-receptor pair:
 
 ```bash
 ./DSDPflex --ligand ligand.pdbqt \
@@ -64,14 +66,14 @@ so that DSDPFlex can be called directly from the command line.
 - `--log` the log file name (default=DSDP_out.log)
 - `--top_n` the top-N ranking results will be exported (defualt=10)
   
-**Search space:** The search space information needs to be provided by the user. The *search box* specifies the (known) binding site. The *ligand box* is used for restricting ligand translation, which can be a smaller box.
+**Search space:** The search space information needs to be provided. The *search box* specifies the (known) binding site. The *ligand box* is used for restricting ligand translation, which can be a smaller box. 
 
-- `--box_min` x y z minima of the search box
+- `--box_min` x y z minima of the search box (in Angstrom)
 - `--box_max` x y z maxima of the search box
 - `--ligbox_min` x y z minima of the ligand box 
 - `--ligbox_max` x y z maxima of the ligand box 
 
-**Search settings:** The user could manually adjust the following settings. The default settings would generally work well.
+**Search settings:** Can be manually adjusted. The default settings generally work well.
 
 - `--exhaustiveness` the number of sampling threads, default=384
 - `--search_depth` the number of sampling iterations of each thread, default=40
@@ -80,10 +82,10 @@ Use `--help` to see more details.
 
 ### Using the ligand batch mode
 
-For docking multiple ligands to a single receptor (e.g. in a virtual screening scenario), you can use the batch mode.
+A batch mode is designed for docking multiple ligands to a single receptor (e.g. in a virtual screening scenario).
 
 ```
-./DSDPflex --ligand_batch batch_list ...
+./DSDPflex --ligand_batch batch_list --protein receptor_rigid.pdbqt --flex receptor_flex.pdbqt ...
 ```
 
 The `batch_list` should be a text file, like
@@ -116,42 +118,49 @@ Then the command `DSDPflex-py` will be available in the current python environme
 
 ### Rescoring with GNINA
 
-Before using `DSDPflex-py`, make sure that `DSDPflex` is in your system path (see Installation). To use GNINA, please download GNINA and add it to the system path.
+Before using `DSDPflex-py`, make sure that `DSDPflex` is in your system path (see Installation). To use GNINA, please install [GNINA](https://github.com/gnina/gnina) and add it to the PATH variable.
 
 To use DSDPflex-py:
 ```bash
 DSDPflex-py --ligand ... --protein ... --rescore gnina
 ```
 
-(the other options are the same as `DSDPflex`.) DSDPflex-py will call `gnina` for rescoring after docking by `DSDPflex`. By default, top-20 poses are rescored, the output files will be named `*_rescored.pdbqt`
+(the other options are the same as `DSDPflex`.)  DSDPflex-py will call `gnina` for rescoring after docking by `DSDPflex`. By default, top-20 poses are rescored, and the output files will be named `*_rescored.pdbqt`
 
 Other rescoring methods might be implemented in the future.
 
-## Run DSDPFlex on APOBind
+## Run DSDPFlex on APOBind core
 
-The 211 systems within APOBind dataset, which was used for evaluation in the paper, are provided in `./test/apobind_prepared`. To run this test:
+The 229 systems within APOBind dataset, used for evaluation in the paper, are provided in `test/apobind_prepared`. 
+
+To run this test:
 
 ```bash
 cd ./test
 sh ./run_apobind.sh
 ```
 
-DSDPFlex will perform docking on each system.
+DSDPFlex will perform docking on all systems. We used [sPyRMSD](https://github.com/RMeli/spyrmsd) to calculate RMSDs in the paper.
 
 ## Advanced Options of DSDPFlex
 
-There are advanced options in DSDPflex that allow users to manually adjust or further develop the program.
+There are advanced options in DSDPflex that allow manual adjustment or further development of the program.
 
 - `--no_norm` let the program not normalize the intra-protein score (i.e. using the original Vina score, see more in the [paper](https://doi.org/10.26434/chemrxiv-2023-bcw0g-v2))
-- `--norm_param <float>` modify the normalization parameter $p$ 
-    the weight of intra-protein score ($\gamma$) will be
-    $$\gamma = p\times \min(f_\text{ligand} / f_\text{flex}, 1)$$
-    default $p = 1/2$
-- `--rand_init_flex` randomly initialize flexible side chain conformations. By default, DSDPflex keeps the initial side chain conformations.
+- `--norm_param <float>` modify the normalization parameter $c$ 
+    the re-weighting factor of the intra-protein score ($\gamma$) will be
+    $$\gamma = c\times \min(f_\text{ligand} / f_\text{flex}, 1)$$
+    default $c = 1/2$
+- `--rand_init_flex` randomly initialize flexible side-chain conformations. By default, DSDPflex keeps the initial side-chain conformations.
 - `--rank_ligand_only` consider only ligand-related scores when ranking (&output) the poses.
 
 ## Cite this work
-TBD
+
+**DSDPFlex: Flexible-Receptor Docking with GPU Acceleration.**   
+Chengwei Dong, Yu-Peng Huang, Xiaohan Lin, Hong Zhang, and Yi Qin Gao  
+*Journal of Chemical Information and Modeling* **Article ASAP**  
+DOI: [10.1021/acs.jcim.4c01715](https://doi.org/10.1021/acs.jcim.4c01715)
+
 
 ## LICENSE
 Licensed under GNU AFFERO GENERAL PUBLIC LICENSE (Version 3), you may not use this file except in compliance with the License. Any commercial use is not permitted.
