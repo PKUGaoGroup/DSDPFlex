@@ -62,13 +62,14 @@ For a ligand-receptor pair:
 - `--protein` protein rigid part (required)
 - `--flex` protein flexible part file (required for flexible docking)
 
-**Output:** 
+**Output:** (outputs will appear in the current work dir if path not specified)
+
 - `--out` the output file of ligand poses (default=DSDP_out.pdbqt)
 - `--out_flex` the output file of flexible side chain poses (default=DSDP_out_flex.pdbqt)
 - `--log` the log file name (default=DSDP_out.log)
 - `--top_n` the top-N ranking results will be exported (defualt=10)
   
-**Search space:** The search space information needs to be provided. The *search box* specifies the (known) binding site. The *ligand box* is used for restricting ligand translation, which can be a smaller box. 
+**Search space:** The search space information needs to be provided. The *search box* specifies the (known) binding site. The *ligand box* is used to restrict ligand translation, which can be a smaller box. 
 
 - `--box_min` x y z minima of the search box (in Angstrom)
 - `--box_max` x y z maxima of the search box
@@ -120,7 +121,7 @@ Then the command `DSDPflex-py` will be available in the current python environme
 
 ### Rescoring with GNINA
 
-Before using `DSDPflex-py`, make sure that `DSDPflex` is in your system path (see Installation). To use GNINA, please install [GNINA](https://github.com/gnina/gnina) and add it to the PATH variable.
+Before using `DSDPflex-py`, ensure that `DSDPflex` is in your system path (see Installation). To use GNINA, please install [GNINA](https://github.com/gnina/gnina) and add it to the PATH variable.
 
 To use DSDPflex-py:
 ```bash
@@ -150,8 +151,8 @@ There are advanced options in DSDPflex that allow manual adjustment or further d
 
 - `--no_norm` let the program not normalize the intra-protein score (i.e. using the original Vina score, see more in the [paper](https://doi.org/10.26434/chemrxiv-2023-bcw0g-v2))
 - `--norm_param <float>` modify the normalization parameter $c$ 
-    the re-weighting factor of the intra-protein score ($\gamma$) will be
-    $$\gamma = c\times \min(f_\text{ligand} / f_\text{flex}, 1)$$
+    the re-weighting factor of the intra-protein score ($\gamma$) will be  
+    $$\gamma = c\times \min(f_\text{ligand} / f_\text{flex}, 1)$$  
     default $c = 1/2$
 - `--rand_init_flex` randomly initialize flexible side-chain conformations. By default, DSDPflex keeps the initial side-chain conformations.
 - `--rank_ligand_only` consider only ligand-related scores when ranking (&output) the poses.
@@ -160,7 +161,7 @@ There are advanced options in DSDPflex that allow manual adjustment or further d
 
 **DSDPFlex: Flexible-Receptor Docking with GPU Acceleration.**   
 Chengwei Dong, Yu-Peng Huang, Xiaohan Lin, Hong Zhang, and Yi Qin Gao  
-*Journal of Chemical Information and Modeling* **Article ASAP**  
+*Journal of Chemical Information and Modeling* **2024** *64* (22), 8537-8548  
 DOI: [10.1021/acs.jcim.4c01715](https://doi.org/10.1021/acs.jcim.4c01715)
 
 
