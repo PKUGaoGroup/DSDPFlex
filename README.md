@@ -150,7 +150,7 @@ DSDPFlex will perform docking on all systems. We used [sPyRMSD](https://github.c
 There are advanced options in DSDPflex that allow manual adjustment or further development of the program.
 
 - `--no_norm` let the program not normalize the intra-protein score (i.e. using the original Vina score, see more in the [paper](https://doi.org/10.26434/chemrxiv-2023-bcw0g-v2))
-- `--norm_param <float>` modify the normalization parameter $c$ 
+- `--norm_param <float>` modify the normalization parameter $c$   
     the re-weighting factor of the intra-protein score ($\gamma$) will be  
     $$\gamma = c\times \min(f_\text{ligand} / f_\text{flex}, 1)$$  
     default $c = 1/2$
