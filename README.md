@@ -166,4 +166,4 @@ DOI: [10.1021/acs.jcim.4c01715](https://doi.org/10.1021/acs.jcim.4c01715)
 
 
 ## LICENSE
-Licensed under GNU AFFERO GENERAL PUBLIC LICENSE (Version 3), you may not use this file except in compliance with the License. Any commercial use is not permitted.
+Licensed under GNU AFFERO GENERAL PUBLIC LICENSE (Version 3), you may not use this file except in compliance with the License. Any commercial use is not permitted. The complete license of DSDPFlex includes the GNU AFFERO GENERAL PUBLIC LICENSE (Version 3) and the additional part in README.
