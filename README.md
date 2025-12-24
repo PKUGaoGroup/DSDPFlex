@@ -4,7 +4,7 @@ DSDPFlex is a GPU-accelerated flexible-receptor docking program derived from [DS
 
 ## Installation
 
-DSDPFlex runs on a Linux machine (tested on Ubuntu 22.04 and 20.04). A binary named `DSDPflex` was provided in the "bin" file.
+DSDPFlex runs on a Linux machine (tested on Ubuntu 22.04 and 20.04) with CUDA support. A binary named `DSDPflex` was provided in `bin/`.
 
 Clone this repository.
 
@@ -14,7 +14,7 @@ cd DSDPFlex
 ```
 
 
-A binary named `DSDPflex` was compiled in bin/ file. You can add it to the PATH variable by adding this line to `~/.bashrc` (if using Bash)
+A binary named `DSDPflex` was compiled at `bin/DSDPflex`. You can add it to the PATH variable by adding this line to `~/.bashrc` (if using Bash)
 ```bash
 export PATH=/path/to/DSDPFlex/bin:$PATH
 ```
@@ -49,10 +49,10 @@ For a ligand-receptor pair:
 
 **Output:** (outputs will appear in the current work dir if path not specified)
 
-- `--out` the output file of ligand poses (default=DSDP_out.pdbqt)
-- `--out_flex` the output file of flexible side chain poses (default=DSDP_out_flex.pdbqt)
-- `--log` the log file name (default=DSDP_out.log)
-- `--top_n` the top-N ranking results will be exported (defualt=10)
+- `--out` the output file of ligand poses (default=`DSDP_out.pdbqt`)
+- `--out_flex` the output file of flexible side chain poses (default=`DSDP_out_flex.pdbqt`)
+- `--log` the log file name (default=`DSDP_out.log`)
+- `--top_n` the top-N ranking results will be exported (defualt=`10`)
   
 **Search space:** The search space information needs to be provided. The *search box* specifies the (known) binding site. The *ligand box* is used to restrict ligand translation, which can be a smaller box. 
 
@@ -63,8 +63,8 @@ For a ligand-receptor pair:
 
 **Search settings:** Can be manually adjusted. The default settings generally work well.
 
-- `--exhaustiveness` the number of sampling threads, default=384
-- `--search_depth` the number of sampling iterations of each thread, default=40
+- `--exhaustiveness` the number of sampling threads, default=`384`
+- `--search_depth` the number of sampling iterations of each thread, default=`40`
 
 Use `--help` to see more details.
 
